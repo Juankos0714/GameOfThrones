@@ -8,6 +8,7 @@ export function useHouses() {
   const selectedId = computed(() => useHousesStore.getState().selectedId)
   const loading = computed(() => useHousesStore.getState().loading)
   const error = computed(() => useHousesStore.getState().error)
+  const source = computed(() => useHousesStore.getState().source)
   const selectedHouse = computed(() => {
     const state = useHousesStore.getState()
     return state.houses.find((h: House) => h.id === state.selectedId) ?? state.houses[0]
@@ -35,6 +36,7 @@ export function useHouses() {
     selectedHouse,
     loading,
     error,
+    source,
     selectHouse,
     fetchHouses,
     getHouseById,

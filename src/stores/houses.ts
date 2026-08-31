@@ -1,5 +1,6 @@
 import { create } from 'vue-zustand'
 import type { House } from '@/types'
+import { fetchHousesFromSupabase } from '@/services/data'
 
 const HOUSES_DATA: House[] = [
   {
@@ -167,6 +168,7 @@ interface HousesState {
   selectedId: string
   loading: boolean
   error: string | null
+  source: 'hardcoded' | 'supabase'
   setSelectedHouse: (id: string) => void
   fetchHouses: () => Promise<void>
 }
@@ -176,15 +178,23 @@ export const useHousesStore = create<HousesState>((set, _get) => ({
   selectedId: 'stark',
   loading: false,
   error: null,
+  source: 'hardcoded',
 
   setSelectedHouse: (id: string) => set({ selectedId: id }),
 
   fetchHouses: async () => {
     set({ loading: true, error: null })
     try {
-      set({ houses: HOUSES_DATA })
+      const supabaseHouses = await fetchHousesFromSupabase()
+      if (supabaseHouses && supabaseHouses.length > 0) {
+        set({ houses: supabaseHouses, source: 'supabase' })
+        console.log(`[data] Loaded ${supabaseHouses.length} houses from Supabase`)
+      } else {
+        set({ houses: HOUSES_DATA, source: 'hardcoded' })
+        console.log('[data] Using hardcoded house data (Supabase not available)')
+      }
     } catch (e: unknown) {
-      set({ error: e instanceof Error ? e.message : 'Error fetching houses' })
+      set({ houses: HOUSES_DATA, source: 'hardcoded', error: e instanceof Error ? e.message : 'Error fetching houses' })
     } finally {
       set({ loading: false })
     }

@@ -3,7 +3,8 @@ import { useTimeline } from '@/composables'
 import { queryRef, stringCodec } from 'vue-qs'
 import { computed, watch } from 'vue'
 
-const { events, years, filterByYear } = useTimeline()
+import Skeleton from '@/components/ui/Skeleton.vue'
+const { events, years, filterByYear, loading } = useTimeline()
 
 // Sync filter with URL — use string codec and convert
 const urlYearRaw = queryRef('year', { defaultValue: '', codec: stringCodec })
@@ -56,8 +57,18 @@ const filteredEvents = computed(() => {
         </button>
       </div>
 
+      <!-- Loading skeleton -->
+      <div v-if="loading" class="timeline-scroll" role="status" aria-label="Cargando cronología">
+        <article v-for="i in 6" :key="i">
+          <Skeleton width="80px" height="12px" />
+          <Skeleton width="7px" height="7px" rounded style="margin: 10px 0" />
+          <Skeleton width="220px" height="20px" style="margin-bottom: 10px" />
+          <Skeleton width="260px" height="12px" />
+        </article>
+      </div>
+
       <!-- Timeline -->
-      <div class="timeline-scroll">
+      <div v-else class="timeline-scroll">
         <article v-for="event in filteredEvents" :key="event.id">
           <time>{{ event.date }} d.C.</time>
           <i />

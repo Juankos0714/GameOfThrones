@@ -2,10 +2,12 @@
 import { ref, computed, onMounted } from 'vue'
 import { RouterLink, RouterView, useRoute, useRouter } from 'vue-router'
 import { useUiStore } from '@/stores/ui'
-import { useHouses } from '@/composables'
+import { useTimelineStore } from '@/stores/timeline'
+import { useHouses, useTimeline } from '@/composables'
 import { useTheme } from '@/composables'
 import { cn } from '@/utils'
 import HouseAtmosphere from '@/components/wiki/HouseAtmosphere.vue'
+import DataSourceBadge from '@/components/ui/DataSourceBadge.vue'
 import MotionProvider from '@/components/wiki/MotionProvider.vue'
 import { AnimatePresence, Motion } from 'motion-v'
 import {
@@ -17,7 +19,7 @@ import {
 
 const route = useRoute()
 const router = useRouter()
-const { selectedHouse } = useHouses()
+const { selectedHouse, fetchHouses, source } = useHouses()
 const { activeHouseClass } = useTheme()
 
 const menuOpen = useUiStore((s) => s.menuOpen)
@@ -47,8 +49,13 @@ function navigateTo(path: string) {
   closeMenu()
 }
 
-onMounted(() => {
+onMounted(async () => {
   document.documentElement.setAttribute('data-house', selectedHouse.value.id)
+  // Fetch data from Supabase (falls back to hardcoded if not configured)
+  await Promise.all([
+    fetchHouses(),
+    useTimelineStore.getState().fetchEvents(),
+  ])
 })
 </script>
 
@@ -114,7 +121,9 @@ onMounted(() => {
     <footer class="site-footer">
       <Shield />
       <p>Archivo de Poniente</p>
-      <span>La historia pertenece a quien conserva sus pruebas.</span>    </footer>
+      <span>La historia pertenece a quien conserva sus pruebas.</span>
+      <DataSourceBadge :source="source" />
+    </footer>
   </div>
   </MotionProvider>
 

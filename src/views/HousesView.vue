@@ -16,13 +16,14 @@ import {
 } from '@tanstack/vue-table'
 import { queryRef, stringCodec } from 'vue-qs'
 import { useHouses } from '@/composables'
+import Skeleton from '@/components/ui/Skeleton.vue'
 import { Motion } from 'motion-v'
 import {
   TreePine, Crown, Flame, Swords, Flower2, Anchor, Mountain, Waves, Shield,
   Search, ChevronUp, ChevronDown,
 } from 'lucide-vue-next'
 
-const { houses, selectHouse } = useHouses()
+const { houses, selectHouse, loading } = useHouses()
 
 // vue-qs: search and sort synced with URL
 const searchQuery = queryRef('q', { defaultValue: '', codec: stringCodec })
@@ -168,8 +169,35 @@ function selectAndScroll(id: string) {
         />
       </div>
 
+      <!-- Loading skeleton -->
+      <div v-if="loading" class="table-wrapper" role="status" aria-label="Cargando casas">
+        <table class="wiki-table">
+          <thead>
+            <tr>
+              <th style="width:50px">#</th>
+              <th style="width:32px"></th>
+              <th style="width:200px">Nombre</th>
+              <th style="width:160px">Región</th>
+              <th style="width:200px">Lema</th>
+              <th style="width:100px">Miembros</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="i in 6" :key="i" class="skeleton-row">
+              <td><Skeleton width="28px" height="14px" /></td>
+              <td><Skeleton width="18px" height="18px" rounded /></td>
+              <td><Skeleton width="140px" height="14px" /></td>
+              <td><Skeleton width="100px" height="14px" /></td>
+              <td><Skeleton width="160px" height="14px" /></td>
+              <td><Skeleton width="30px" height="14px" /></td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="table-count">Cargando casas...</p>
+      </div>
+
       <!-- Table -->
-      <div class="table-wrapper" role="region" aria-label="Tabla de casas nobles">
+      <div v-else class="table-wrapper" role="region" aria-label="Tabla de casas nobles">
         <table class="wiki-table">
           <thead>
             <tr v-for="headerGroup in table.getHeaderGroups()" :key="headerGroup.id">
@@ -344,6 +372,11 @@ function selectAndScroll(id: string) {
 
 .cell-link:hover {
   color: var(--house);
+}
+
+.skeleton-row td {
+  padding: 18px 16px;
+  border-bottom: 1px solid #8b8372;
 }
 
 .table-count {

@@ -19,7 +19,8 @@ import { useHouses } from '@/composables'
 import { Motion } from 'motion-v'
 import { Search, ChevronUp, ChevronDown } from 'lucide-vue-next'
 
-const { houses } = useHouses()
+import Skeleton from '@/components/ui/Skeleton.vue'
+const { houses, loading } = useHouses()
 
 // vue-qs: search and sort synced with URL
 const searchQuery = queryRef('q', { defaultValue: '', codec: stringCodec })
@@ -168,8 +169,31 @@ function getCharacterSlug(name: string) {
         />
       </div>
 
+      <!-- Loading skeleton -->
+      <div v-if="loading" class="table-wrapper" role="status" aria-label="Cargando personajes">
+        <table class="wiki-table">
+          <thead>
+            <tr>
+              <th style="width:220px">Nombre</th>
+              <th style="width:200px">Título</th>
+              <th style="width:140px">Casa</th>
+              <th style="width:120px">Estado</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="i in 8" :key="i" class="skeleton-row">
+              <td><Skeleton width="150px" height="14px" /></td>
+              <td><Skeleton width="130px" height="14px" /></td>
+              <td><Skeleton width="90px" height="14px" /></td>
+              <td><Skeleton width="80px" height="14px" /></td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="table-count">Cargando personajes...</p>
+      </div>
+
       <!-- Table -->
-      <div class="table-wrapper" role="region" aria-label="Tabla de personajes">
+      <div v-else class="table-wrapper" role="region" aria-label="Tabla de personajes">
         <table class="wiki-table">
           <thead>
             <tr v-for="headerGroup in table.getHeaderGroups()" :key="headerGroup.id">
@@ -352,6 +376,11 @@ function getCharacterSlug(name: string) {
 .status-unknown {
   color: #8a8a5a;
   border-color: #8a8a5a;
+}
+
+.skeleton-row td {
+  padding: 18px 16px;
+  border-bottom: 1px solid #8b8372;
 }
 
 .table-count {
