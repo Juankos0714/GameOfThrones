@@ -1,0 +1,457 @@
+[
+  {
+    "nombre": "Invernalia",
+    "region": "El Norte",
+    "descripcion": "La fortaleza ancestral de los Stark, tallada en la roca viva bajo el cielo de un bosque de pinos centenarios. Sus criptas guardan los secretos de siglos."
+  },
+  {
+    "nombre": "Desembarco del Rey",
+    "region": "Las Tierras de la Corona",
+    "descripcion": "La capital de los Siete Reinos, sede del Trono de Hierro y del poder absoluto. Una ciudad de contrastes donde la riqueza y la miseria conviven bajo los muros de la Fortaleza Roja."
+  },
+  {
+    "nombre": "Harrenhal",
+    "region": "Las Tierras de los Ríos",
+    "descripcion": "El castillo más grande de Poniente, construido por Harren el Rey Negro y destruido por los dragones de Aegon. Maldito según la leyenda, cambia de dueño con frecuencia."
+  },
+  {
+    "nombre": "Roca Casterly",
+    "region": "Tierras del Oeste",
+    "descripcion": "La sede de los Lannister, tallada en una montaña de oro y piedra que domina todo el oeste. Su riqueza mineral ha financiado imperios y guerras."
+  },
+  {
+    "nombre": "Altojardín",
+    "region": "Las Tierras del Dominio",
+    "descripcion": "La sede de los Tyrell, un castillo rodeado de jardines y campos fértiles que abastecen a medio Poniente. Su belleza oculta una política implacable."
+  },
+  {
+    "nombre": "Bastión de Tormentas",
+    "region": "Las Tierras de la Tormenta",
+    "descripcion": "La sede de los Baratheon, un castillo invulnerable situado en una roca que cae al mar. Su posesión ha sido disputada durante siglos."
+  },
+  {
+    "nombre": "Nido de Águilas",
+    "region": "El Valle de Arryn",
+    "descripcion": "La fortaleza de los Arryn, situada en la cima de una montaña inaccesible. Nunca ha sido tomada por la fuerza."
+  },
+  {
+    "nombre": "Pyke",
+    "region": "Islas de Hierro",
+    "descripcion": "La sede de los Greyjoy, un castillo de torres delgadas conectadas por puentes que se elevan sobre el mar. Su diseño refleja la mentalidad de sus habitantes."
+  },
+  {
+    "nombre": "Riverrun",
+    "region": "Las Tierras de los Ríos",
+    "descripcion": "La sede de los Tully, un castillo estratégicamente situado en la confluencia de dos ríos. Su posición ha sido clave en múltiples guerras."
+  },
+  {
+    "nombre": "Los Gemelos",
+    "region": "Las Tierras de los Ríos",
+    "descripcion": "La fortaleza de los Frey, construida sobre dos colinas unidas por puentes. Su posición estratégica les dio poder durante siglos."
+  },
+  {
+    "nombre": "Puerto Blanco",
+    "region": "El Norte",
+    "descripcion": "El puerto más importante del Norte, gobernado por los Manderly. Una ciudad próspera que conecta al Norte con el resto de Poniente."
+  },
+  {
+    "nombre": "El Último Aposento",
+    "region": "El Norte",
+    "descripcion": "La sede de los Umber, un castillo fronterizo que protege el norte de las incursiones salvajes."
+  },
+  {
+    "nombre": "Karhold",
+    "region": "El Norte",
+    "descripcion": "La sede de los Karstark, un castillo frío y austero en el extremo norte del Norte."
+  },
+  {
+    "nombre": "La Fortaleza Púrpura",
+    "region": "El Norte",
+    "descripcion": "La sede de los Bolton, un castillo conocido por su historia de crueldad y tortura."
+  },
+  {
+    "nombre": "Fuerte Terror",
+    "region": "La Isla del Oso",
+    "descripcion": "La sede de los Mormont, un castillo modesto pero fuerte en una isla remota."
+  },
+  {
+    "nombre": "Bosquespeso",
+    "region": "El Norte",
+    "descripcion": "La sede de los Glover, un castillo rodeado de bosques densos."
+  },
+  {
+    "nombre": "La Torre de la Alegría",
+    "region": "El Norte",
+    "descripcion": "Una torre remota donde murió Lyanna Stark y nació Jon Nieve."
+  },
+  {
+    "nombre": "El Muro",
+    "region": "El Norte",
+    "descripcion": "Una muralla de hielo de 200 metros de altura que separa los Siete Reinos del salvaje norte. Custodiada por la Guardia de la Noche."
+  },
+  {
+    "nombre": "Castillo Negro",
+    "region": "El Muro",
+    "descripcion": "La sede de la Guardia de la Noche, un castillo de piedra negra al pie del Muro."
+  },
+  {
+    "nombre": "Eastwatch",
+    "region": "El Muro",
+    "descripcion": "El castillo más oriental de la Guardia de la Noche, situado en la costa."
+  },
+  {
+    "nombre": "Moat Cailin",
+    "region": "El Norte",
+    "descripcion": "Una fortaleza estratégica que controla el acceso al Norte desde el sur. Sus ruinas son testigos de mil batallas."
+  },
+  {
+    "nombre": "La Fortaleza Roja",
+    "region": "Las Tierras de la Corona",
+    "descripcion": "La residencia real en Desembarco del Rey, hogar del Trono de Hierro."
+  },
+  {
+    "nombre": "Torreón de Maegor",
+    "region": "Las Tierras de la Corona",
+    "descripcion": "La torre privada del rey dentro de la Fortaleza Roja, construida por Maegor el Cruel."
+  },
+  {
+    "nombre": "Braavos",
+    "region": "Ciudades Libres",
+    "descripcion": "La más poderosa de las Ciudades Libres, fundada por refugiados valyrios. Su Banco de Hierro controla las finanzas de medio mundo."
+  },
+  {
+    "nombre": "Pentos",
+    "region": "Ciudades Libres",
+    "descripcion": "Una ciudad próspera gobernada por magísteres que comercian con todo el mundo. Daenerys pasó su infancia exiliada aquí."
+  },
+  {
+    "nombre": "Astapor",
+    "region": "Ciudades Libres",
+    "descripcion": "La ciudad de los Inmaculados, guerreros eunucos entrenados desde la infancia. Daenerys los compró y liberó."
+  },
+  {
+    "nombre": "Yunkai",
+    "region": "Ciudades Libres",
+    "descripcion": "Una ciudad amarilla que traficaba con esclavos. Daenerys la liberó."
+  },
+  {
+    "nombre": "Meereen",
+    "region": "Ciudades Libres",
+    "descripcion": "La mayor de las ciudades de esclavos, con pirámides que se alzan como dedos de piedra. Daenerys la conquistó y trató de gobernar."
+  },
+  {
+    "nombre": "Volantis",
+    "region": "Ciudades Libres",
+    "descripcion": "Una ciudad antigua dividida en dos por el río Rhoyne. Sus sacerdotes rojos adoran al Señor de la Luz."
+  },
+  {
+    "nombre": "Myr",
+    "region": "Ciudades Libres",
+    "descripcion": "Famosa por sus lentes y sus artesanos, Myr es una ciudad de comercio y espionaje."
+  },
+  {
+    "nombre": "Tyrosh",
+    "region": "Ciudades Libres",
+    "descripcion": "Una ciudad de piratas y mercenarios situada en la boca del Estrecho de Bruja."
+  },
+  {
+    "nombre": "Lys",
+    "region": "Ciudades Libres",
+    "descripcion": "Una isla de placeres y perfumes cuyas casas de placeres son famosas en todo el mundo."
+  },
+  {
+    "nombre": "Norvos",
+    "region": "Ciudades Libres",
+    "descripcion": "Una ciudad interior gobernada por sacerdotes que adoran al Gran Hombre."
+  },
+  {
+    "nombre": "Qohor",
+    "region": "Ciudades Libres",
+    "descripcion": "La ciudad del dios oscuro, famosa por sus herrerías y el trabajo de metales preciosos."
+  },
+  {
+    "nombre": "Asshai",
+    "region": "La Sombra",
+    "descripcion": "Una ciudad mágica situada en el extremo oriental del mundo. Melisandre proviene de aquí."
+  },
+  {
+    "nombre": "Vaes Dothrak",
+    "region": "Las Llanuras de la Sombra",
+    "descripcion": "La única ciudad de los dothraki, un lugar sagrado donde los khalasars se reúnen."
+  },
+  {
+    "nombre": "Antigua",
+    "region": "Westeros",
+    "descripcion": "Una ciudad portuaria en la costa occidental de Poniente."
+  },
+  {
+    "nombre": "Los Dedos",
+    "region": "Las Tierras de los Ríos",
+    "descripcion": "Una península empobrecida donde Petyr Baelish creció."
+  },
+  {
+    "nombre": "La Isla del Oso",
+    "region": "El Norte",
+    "descripcion": "Una isla remota del Norte, hogar de los Mormont."
+  },
+  {
+    "nombre": "Saltpans",
+    "region": "Las Tierras de los Ríos",
+    "descripcion": "Un puerto en las Tierras de los Ríos."
+  },
+  {
+    "nombre": "Fairmarket",
+    "region": "Las Tierras de los Ríos",
+    "descripcion": "Un mercado justo en las Tierras de los Ríos."
+  },
+  {
+    "nombre": "Pinkmaiden",
+    "region": "Las Tierras de los Ríos",
+    "descripcion": "Una fortaleza en las Tierras de los Ríos."
+  },
+  {
+    "nombre": "Seagard",
+    "region": "Las Tierras de los Ríos",
+    "descripcion": "Un puerto fortificado en las Tierras de los Ríos."
+  },
+  {
+    "nombre": "Stone Hedge",
+    "region": "Las Tierras de los Ríos",
+    "descripcion": "La sede de los Bracken."
+  },
+  {
+    "nombre": "Raventree Hall",
+    "region": "Las Tierras de los Ríos",
+    "descripcion": "La sede de los Blackwood."
+  },
+  {
+    "nombre": "Darry",
+    "region": "Las Tierras de los Ríos",
+    "descripcion": "Una fortaleza en las Tierras de los Ríos."
+  },
+  {
+    "nombre": "Stoney Sept",
+    "region": "Las Tierras de los Ríos",
+    "descripcion": "Una ciudad en las Tierras de los Ríos."
+  },
+  {
+    "nombre": "Bitterbridge",
+    "region": "Las Tierras del Dominio",
+    "descripcion": "Un puente estratégico en las Tierras del Dominio."
+  },
+  {
+    "nombre": "Ashford",
+    "region": "Las Tierras del Dominio",
+    "descripcion": "Una ciudad en las Tierras del Dominio."
+  },
+  {
+    "nombre": "Cuernos de Canaval",
+    "region": "Las Tierras del Dominio",
+    "descripcion": "La sede de los Tarly."
+  },
+  {
+    "nombre": "La Isla de las Uvas",
+    "region": "Las Tierras del Dominio",
+    "descripcion": "La sede de los Redwyne, famosa por sus viñedos."
+  },
+  {
+    "nombre": "Castillo Fuerte",
+    "region": "Las Tierras del Dominio",
+    "descripcion": "La sede de los Florent."
+  },
+  {
+    "nombre": "La Torre Blanca",
+    "region": "Las Tierras del Dominio",
+    "descripcion": "La sede de los Hightower en Antigua."
+  },
+  {
+    "nombre": "La Torre Morena",
+    "region": "Las Tierras de la Tormenta",
+    "descripcion": "La sede de los Dondarrion."
+  },
+  {
+    "nombre": "Marfil del Mar",
+    "region": "Las Tierras de la Corona",
+    "descripcion": "La sede de los Velaryon."
+  },
+  {
+    "nombre": "La Piedra Colgada",
+    "region": "Las Tierras de la Tormenta",
+    "descripcion": "La sede de los Swann."
+  },
+  {
+    "nombre": "Jardín Dorado",
+    "region": "Las Tierras del Dominio",
+    "descripcion": "La sede de los Rowan."
+  },
+  {
+    "nombre": "Castillo de los Tres Picos",
+    "region": "Las Tierras del Dominio",
+    "descripcion": "La sede de los Peake."
+  },
+  {
+    "nombre": "La Granja de la Desolación",
+    "region": "Las Tierras del Dominio",
+    "descripcion": "La sede de los Selmy."
+  },
+  {
+    "nombre": "Playa de la Claw",
+    "region": "Las Tierras de la Corona",
+    "descripcion": "La sede de los Celtigar."
+  },
+  {
+    "nombre": "Sunspear",
+    "region": "Dorne",
+    "descripcion": "La capital de Dorne, una ciudad de palacios y jardines."
+  },
+  {
+    "nombre": "Las Islas del Verano",
+    "region": "El Mar Angosto",
+    "descripcion": "Un archipiélago tropical en el Mar Angosto."
+  },
+  {
+    "nombre": "Ibben",
+    "region": "El Mar Angosto",
+    "descripcion": "Una isla del norte del Mar Angosto, hogar de hombres velludos."
+  },
+  {
+    "nombre": "El Estrecho de Bruja",
+    "region": "El Mar Angosto",
+    "descripcion": "El estrecho que separa Poniente de Essos."
+  },
+  {
+    "nombre": "Mar Angosto",
+    "region": "El Mar Angosto",
+    "descripcion": "El mar que separa Poniente de Essos."
+  },
+  {
+    "nombre": "Mar de Jade",
+    "region": "El Mar de Jade",
+    "descripcion": "Un mar lejano al este de Essos."
+  },
+  {
+    "nombre": "La Sombra",
+    "region": "Essos",
+    "descripcion": "Una región mítica al este de Asshai."
+  },
+  {
+    "nombre": "Valyria",
+    "region": "Essos",
+    "descripcion": "La antigua civilización de dragones y magia que fue destruida en la Perdición. Sus ruinas siguen siendo peligrosas."
+  },
+  {
+    "nombre": "La Forge del Dragón",
+    "region": "Rocadragón",
+    "descripcion": "La fortaleza donde los Targaryen forjaron sus armas de dragón."
+  },
+  {
+    "nombre": "Starfall",
+    "region": "Dorne",
+    "descripcion": "La sede de los Dayne, famosa por la espada La Estrella de la Mañana."
+  },
+  {
+    "nombre": "Yronwood",
+    "region": "Dorne",
+    "descripcion": "La sede de los Yronwood, rivales de los Martell."
+  },
+  {
+    "nombre": "Skyreach",
+    "region": "Dorne",
+    "descripcion": "La sede de los Fowler, que guardan los pasos montañosos."
+  },
+  {
+    "nombre": "Ghost Hill",
+    "region": "Dorne",
+    "descripcion": "La sede de los Toland, cuyo nombre es sugestivo."
+  },
+  {
+    "nombre": "Runestone",
+    "region": "El Valle",
+    "descripcion": "La sede de los Royce, una de las casas más antiguas del Valle."
+  },
+  {
+    "nombre": "Stone Hedge",
+    "region": "Las Tierras de los Ríos",
+    "descripcion": "La sede de los Bracken, rivales de los Blackwood."
+  },
+  {
+    "nombre": "Raventree Hall",
+    "region": "Las Tierras de los Ríos",
+    "descripcion": "La sede de los Blackwood, que mantienen la fe del Bosque."
+  },
+  {
+    "nombre": "La Granja de los Harlaw",
+    "region": "Islas de Hierro",
+    "descripcion": "La sede de los Harlaw, los más cultos de las Islas de Hierro."
+  },
+  {
+    "nombre": "Viejo Wyk",
+    "region": "Islas de Hierro",
+    "descripcion": "Una isla sagrada de los Greyjoy."
+  },
+  {
+    "nombre": "Gran Wyk",
+    "region": "Islas de Hierro",
+    "descripcion": "Una de las principales islas de los Greyjoy."
+  },
+  {
+    "nombre": "Antiguo Ghis",
+    "region": "Essos",
+    "descripcion": "La primera gran civilización del mundo conocido, basada en la trata de esclavos. Fundada por Grazdan el Grande, creó las primeras legiones disciplinadas antes de ser destruida por los dragones valyrios."
+  },
+  {
+    "nombre": "Oros",
+    "region": "Essos",
+    "descripcion": "Una ciudad valyria en las afueras de la península, ahora inhabitada y cursed por la Maldición de Valyria."
+  },
+  {
+    "nombre": "Tyria",
+    "region": "Essos",
+    "descripcion": "Una antigua ciudad valyria cuyos restos permanecen en las ruinas de la península maldita."
+  },
+  {
+    "nombre": "Mantarys",
+    "region": "Essos",
+    "descripcion": "Una ciudad en el camino del Demonio donde, según se dice, los hombres nacen retorcidos y monstruosos."
+  },
+  {
+    "nombre": "Tolos",
+    "region": "Essos",
+    "descripcion": "Una ciudad conocida por tener las mejores hondas del mundo, situada en la bahía de los Esclavos."
+  },
+  {
+    "nombre": "Elyria",
+    "region": "Essos",
+    "descripcion": "Una ciudad insular en la bahía de los Esclavos que estableció lazos con las ciudades ghiscarias."
+  },
+  {
+    "nombre": "Rhoynar",
+    "region": "Essos",
+    "descripcion": "Las tierras a lo largo del río Rhoyne, hogar de una civilización avanzada que fue destruida por la expansión valyria. Los supervivientes huyeron con Nymeria a Dorne."
+  },
+  {
+    "nombre": "Chroyane",
+    "region": "Essos",
+    "descripcion": "La Ciudad Festiva del río Rhoyne, destruida durante la Larga Noche cuando las aguas se congelaron."
+  },
+  {
+    "nombre": "Andalia",
+    "region": "Essos",
+    "descripcion": "El antiguo reino de los ándalos en las tierras del Hacha, desde donde partieron para conquistar Poniente."
+  },
+  {
+    "nombre": "Isla del Ojo de Dioses",
+    "region": "Westeros",
+    "descripcion": "Una isla sagrada donde los primeros hombres y los hijos del bosque sellaron el Pacto que puso fin a la Era del Amanecer."
+  },
+  {
+    "nombre": "Nuevo Ghis",
+    "region": "Essos",
+    "descripcion": "Una ciudad ghiscaria pujante pero pequeña que aspira a ser el Antiguo Ghis renacido, con legiones de hierro formadas por hombres libres."
+  },
+  {
+    "nombre": "Sarnor",
+    "region": "Essos",
+    "descripcion": "Una confederación de ciudades que sobrevivió a la expansión valyria gracias a su enorme llanura, pero cayó ante los dothrakis tras la Maldición."
+  }
+]

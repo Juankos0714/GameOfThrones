@@ -1,0 +1,482 @@
+[
+  {
+    "titulo": "La Perdición de Valyria",
+    "anio": "Desconocido",
+    "lugar": "Valyria",
+    "personajes_involucrados": [],
+    "descripcion": "La destrucción de la antigua Valyria, una civilización de dragones y magia. El evento dejó cicatrices en todo el mundo conocido y forzó la huida de los Targaryen."
+  },
+  {
+    "titulo": "La Conquista de los Siete Reinos",
+    "anio": "0 AC",
+    "lugar": "Desembarco del Rey",
+    "personajes_involucrados": [
+      "Aegon Targaryen"
+    ],
+    "descripcion": "Aegon Targaryen y sus dragones unificaron seis reinos bajo una sola corona. La Conquista alteró el calendario político de Poniente y estableció la dinastía que gobernaría durante siglos."
+  },
+  {
+    "titulo": "El Campo de Fuego",
+    "anio": "1 AC",
+    "lugar": "Las Tierras de la Tormenta",
+    "personajes_involucrados": [
+      "Aegon Targaryen"
+    ],
+    "descripcion": "La batalla donde los dragones de Aegon destruyeron los ejércitos de los Reyes de la Roca y de la Tormenta. Fue el fin de la resistencia a la Conquista."
+  },
+  {
+    "titulo": "La Conquista de Dorne",
+    "anio": "1-13 AC",
+    "lugar": "Sunspear",
+    "personajes_involucrados": [
+      "Aegon Targaryen"
+    ],
+    "descripcion": "Dorne fue la única región que resistió la conquista Targaryen mediante guerrilla. Finalmente se unió por matrimonio."
+  },
+  {
+    "titulo": "La Guerra de los Nuevepeniques",
+    "anio": "36-42 AC",
+    "lugar": "Desembarco del Rey",
+    "personajes_involucrados": [
+      "Maegor I Targaryen"
+    ],
+    "descripcion": "Maegor luchó contra los Señores de los Nuevepeniques que se rebelaron contra el dominio Targaryen. La guerra fue brutal y costosa."
+  },
+  {
+    "titulo": "La Danza de los Dragones",
+    "anio": "129-131 AC",
+    "lugar": "Desembarco del Rey",
+    "personajes_involucrados": [
+      "Aegon II Targaryen",
+      "Rhaenyra Targaryen"
+    ],
+    "descripcion": "La guerra civil que destruyó la dinastía Targaryen. Dos bandos de la misma familia se enfrentaron por el trono con dragones."
+  },
+  {
+    "titulo": "La Rebelión Blackfyre",
+    "anio": "196-260 AC",
+    "lugar": "Desembarco del Rey",
+    "personajes_involucrados": [
+      "Daemon Blackfyre",
+      "Aegor Rivers",
+      "Brynden Rivers"
+    ],
+    "descripcion": "Una serie de rebeliones lideradas por los bastardos de Aegon IV contra el trono legítimo. La guerra se prolongó durante décadas."
+  },
+  {
+    "titulo": "El Torneo de Harrenhal",
+    "anio": "281 AC",
+    "lugar": "Harrenhal",
+    "personajes_involucrados": [
+      "Rhaegar Targaryen",
+      "Lyanna Stark",
+      "Robert Baratheon",
+      "Brandon Stark"
+    ],
+    "descripcion": "El gran torneo donde Rhaegar coronó a Lyanna como reina del amor y la belleza en lugar de a su esposa. Este acto fue el inicio de la rebelión."
+  },
+  {
+    "titulo": "La Rebelión de Robert",
+    "anio": "282-283 AC",
+    "lugar": "Desembarco del Rey",
+    "personajes_involucrados": [
+      "Robert Baratheon",
+      "Eddard Stark",
+      "Lyanna Stark",
+      "Rhaegar Targaryen"
+    ],
+    "descripcion": "La fuga de Rhaegar con Lyanna Stark desencadenó una guerra que derrocó a la dinastía Targaryen. Robert Baratheon ascendió al trono tras la muerte del rey loco."
+  },
+  {
+    "titulo": "El Asedio de Bastión de Tormentas",
+    "anio": "282-283 AC",
+    "lugar": "Bastión de Tormentas",
+    "personajes_involucrados": [
+      "Stannis Baratheon",
+      "Mace Tyrell"
+    ],
+    "descripcion": "Stannis defendió Bastión de Tormentas durante un asedio largo y hambriento. La llegada de Ned Stark alivió el asedio."
+  },
+  {
+    "titulo": "La Batalla del Tridente",
+    "anio": "283 AC",
+    "lugar": "Desembarco del Rey",
+    "personajes_involucrados": [
+      "Robert Baratheon",
+      "Rhaegar Targaryen"
+    ],
+    "descripcion": "La batalla decisiva de la rebelión donde Robert mató a Rhaegar. Su martillo destrozó el pecho del príncipe y terminó con la esperanza Targaryen."
+  },
+  {
+    "titulo": "El Saqueo de Desembarco del Rey",
+    "anio": "283 AC",
+    "lugar": "Desembarco del Rey",
+    "personajes_involucrados": [
+      "Robert Baratheon",
+      "Tywin Lannister"
+    ],
+    "descripcion": "Las fuerzas Lannister entraron en la capital y saquearon la ciudad. La princesa Elia y sus hijos fueron asesinados."
+  },
+  {
+    "titulo": "La Rebelión Greyjoy",
+    "anio": "289 AC",
+    "lugar": "Pyke",
+    "personajes_involucrados": [
+      "Balon Greyjoy",
+      "Robert Baratheon",
+      "Eddard Stark",
+      "Jorah Mormont"
+    ],
+    "descripcion": "Balon Greyjoy se rebeló contra el trono y fue aplastado. Su hijo Theon fue enviado a Invernalia como rehén."
+  },
+  {
+    "titulo": "La Batalla de Fair Isle",
+    "anio": "289 AC",
+    "lugar": "Los Dedos",
+    "personajes_involucrados": [
+      "Robert Baratheon",
+      "Stannis Baratheon"
+    ],
+    "descripcion": "La batalla naval que destruyó la flota Greyjoy durante la rebelión."
+  },
+  {
+    "titulo": "La Guerra de los Cinco Reyes",
+    "anio": "298-300 AC",
+    "lugar": "Desembarco del Rey",
+    "personajes_involucrados": [
+      "Robb Stark",
+      "Stannis Baratheon",
+      "Renly Baratheon",
+      "Balon Greyjoy",
+      "Joffrey Baratheon"
+    ],
+    "descripcion": "La guerra civil que siguió a la muerte de Robert. Cinco reyes se disputaron el trono, pero solo uno sobrevivió."
+  },
+  {
+    "titulo": "La Batalla de los Campamentos",
+    "anio": "299 AC",
+    "lugar": "Las Tierras de los Ríos",
+    "personajes_involucrados": [
+      "Robb Stark",
+      "Jaime Lannister"
+    ],
+    "descripcion": "Robb Stark derrotó a las fuerzas Lannister y capturó a Jaime."
+  },
+  {
+    "titulo": "La Batalla de los Vados",
+    "anio": "299 AC",
+    "lugar": "Las Tierras de los Ríos",
+    "personajes_involucrados": [
+      "Edmure Tully",
+      "Tywin Lannister"
+    ],
+    "descripcion": "Edmure Tully intentó detener el avance Lannister pero fue derrotado."
+  },
+  {
+    "titulo": "La Boda Roja",
+    "anio": "299 AC",
+    "lugar": "Los Gemelos",
+    "personajes_involucrados": [
+      "Robb Stark",
+      "Catelyn Tully",
+      "Walder Frey",
+      "Roose Bolton"
+    ],
+    "descripcion": "La traición más famosa de Poniente. Walder Frey y Roose Bolton masacraron a Robb Stark, a su madre y a sus hombres durante una boda que debía ser de celebración."
+  },
+  {
+    "titulo": "La Batalla del Aguas Negras",
+    "anio": "299 AC",
+    "lugar": "Desembarco del Rey",
+    "personajes_involucrados": [
+      "Stannis Baratheon",
+      "Tyrion Lannister",
+      "Cersei Lannister"
+    ],
+    "descripcion": "Stannis atacó Desembarco del Rey por mar y tierra. Tyrion lideró la defensa con fuego griego y la llegada de los Tyrell cambió el curso de la batalla."
+  },
+  {
+    "titulo": "La Caída de Invernalia",
+    "anio": "300 AC",
+    "lugar": "Invernalia",
+    "personajes_involucrados": [
+      "Theon Greyjoy",
+      "Ramsay Bolton",
+      "Bran Stark",
+      "Rickon Stark"
+    ],
+    "descripcion": "Theon Greyjoy capturó Invernalia en nombre de su padre, pero Ramsay Bolton la recuperó y la destruyó."
+  },
+  {
+    "titulo": "La Destrucción del Septo de Baelor",
+    "anio": "300 AC",
+    "lugar": "Desembarco del Rey",
+    "personajes_involucrados": [
+      "Cersei Lannister",
+      "Margaery Tyrell",
+      "Loras Tyrell"
+    ],
+    "descripcion": "Cersei destruyó el Septo de Baelor con fuego valyrio para eliminar a sus enemigos. Margaery, Loras y miles de personas murieron."
+  },
+  {
+    "titulo": "La Batalla de los Bastardos",
+    "anio": "300 AC",
+    "lugar": "Invernalia",
+    "personajes_involucrados": [
+      "Jon Nieve",
+      "Ramsay Bolton",
+      "Sansa Stark"
+    ],
+    "descripcion": "Jon Nieve recuperó Invernalia de manos de Ramsay Bolton con la ayuda de los Vale. La batalla fue sangrienta pero decisiva."
+  },
+  {
+    "titulo": "La Batalla del Castillo Negro",
+    "anio": "300 AC",
+    "lugar": "Castillo Negro",
+    "personajes_involucrados": [
+      "Jon Nieve",
+      "Tormund Gigante",
+      "Stannis Baratheon"
+    ],
+    "descripcion": "Jon Nieve defendió el Castillo Negro contra las fuerzas salvajes mientras Stannis llegaba como refuerzo."
+  },
+  {
+    "titulo": "El Saqueo de Invernalia",
+    "anio": "300 AC",
+    "lugar": "Invernalia",
+    "personajes_involucrados": [
+      "Theon Greyjoy",
+      "Ramsay Bolton"
+    ],
+    "descripcion": "Las fuerzas Bolton saquearon Invernalia después de recuperarla de los Greyjoy."
+  },
+  {
+    "titulo": "La Era del Amanecer",
+    "anio": "-40000 AC",
+    "lugar": null,
+    "personajes_involucrados": [],
+    "descripcion": "La primera era del mundo, poblada por tribus bárbaras, gigantes y los hijos del bosque. Los hombres no conocían la escritura ni el metal."
+  },
+  {
+    "titulo": "La llegada de los Primeros Hombres",
+    "anio": "-8000 AC",
+    "lugar": "Brazo Roto",
+    "personajes_involucrados": [],
+    "descripcion": "Los Primeros Hombres cruzaron el mar Angosto por el Brazo Roto y comenzaron a establecerse en Poniente, entrando en guerra con los hijos del bosque."
+  },
+  {
+    "titulo": "El Pacto",
+    "anio": "-8000 AC",
+    "lugar": "Isla del Ojo de Dioses",
+    "personajes_involucrados": [],
+    "descripcion": "Los Primeros Hombres y los hijos del bosque sellaron la paz en la isla del Ojo de Dioses, poniendo fin a siglos de guerra. Los hijos renunciaron a todas las tierras salvo los bosques."
+  },
+  {
+    "titulo": "La Edad de los Héroes",
+    "anio": "-8000 AC",
+    "lugar": null,
+    "personajes_involucrados": [
+      "Brandon el Constructor",
+      "Garth Manoverde",
+      "Lann el Astuto",
+      "Durran Pesardedioses"
+    ],
+    "descripcion": "Una era de miles de años durante la cual surgieron y desaparecieron reinos, se fundaron casas nobles y se realizaron grandes hazañas. Los nombres de sus reyes están envueltos en leyendas."
+  },
+  {
+    "titulo": "La Larga Noche",
+    "anio": "-8000 AC",
+    "lugar": null,
+    "personajes_involucrados": [],
+    "descripcion": "Un invierno que duró toda una generación, oscuro y letal. Los Otros surgieron de las Tierras del Eterno Invierno y amenazaron con extinguir toda luz y calor."
+  },
+  {
+    "titulo": "La Batalla por el Amanecer",
+    "anio": "-8000 AC",
+    "lugar": null,
+    "personajes_involucrados": [],
+    "descripcion": "El combate decisivo en el que los Primeros Hombres y los hijos del bosque unieron fuerzas para derrotar a los Otros y acabar con la Larga Noche."
+  },
+  {
+    "titulo": "La llegada de los Ándalos",
+    "anio": "-6000 AC",
+    "lugar": "Brazo Roto",
+    "personajes_involucrados": [],
+    "descripcion": "Los ándalos cruzaron el mar Angosto desde Andalia y conquistaron gran parte de Poniente, traendo la Fe de los Siete y las armas de hierro."
+  },
+  {
+    "titulo": "La llegada de los Rhoynar",
+    "anio": "-700 AC",
+    "lugar": "Dorne",
+    "personajes_involucrados": [
+      "Nymeria de los Rhoynar",
+      "Mors Martell"
+    ],
+    "descripcion": "La princesa Nymeria huyó de Valyria con diez mil naves y se asentó en Dorne con los Martell, unificando la región."
+  },
+  {
+    "titulo": "La Maldición de Valyria",
+    "anio": "-114 AC",
+    "lugar": "Valyria",
+    "personajes_involucrados": [],
+    "descripcion": "Un cataclismo destruyó el Feudo Franco de Valyria y todo su imperio. Las Catorce Llamas erupcionaron simultáneamente, arrasando ciudades, palacios y dragones."
+  },
+  {
+    "titulo": "La Batalla de Campoestivo",
+    "anio": "-1 AC",
+    "lugar": null,
+    "personajes_involucrados": [
+      "Argilac el Arrogante",
+      "Garse VII Gardener"
+    ],
+    "descripcion": "Argilac el Arrogante derrotó y mató a Garse VII Gardener, eliminando la casa Gardener del Dominio."
+  },
+  {
+    "titulo": "El Siglo Sangriento",
+    "anio": "-100 AC",
+    "lugar": null,
+    "personajes_involucrados": [],
+    "descripcion": "El período de caos tras la Maldición de Valyria, cuando las ciudades libres luchaban entre sí y los señores dragón supervivientes eran asesinados."
+  },
+  {
+    "titulo": "La Batalla de Reposo del Grajo",
+    "anio": "130 AC",
+    "lugar": "Reposo del Grajo",
+    "personajes_involucrados": [
+      "Rhaenys Targaryen",
+      "Aegon II Targaryen",
+      "Aemond Targaryen"
+    ],
+    "descripcion": "La princesa Rhaenys montando a Meleys enfrentó sola a Aegon II y Aemond. Aunque murió, dejó al rey Aegon II gravemente herido y a Fuegosol tullido."
+  },
+  {
+    "titulo": "La Batalla sobre el Ojo de Dioses",
+    "anio": "130 AC",
+    "lugar": "Ojo de Dioses",
+    "personajes_involucrados": [
+      "Daemon Targaryen",
+      "Aemond Targaryen"
+    ],
+    "descripcion": "El famoso duelo entre Daemon y Aemond. Daemon saltó de Caraxes a Vhagar en pleno vuelo y mató a Aemond con Hermana Oscura mientras los dragones se precipitaban al agua."
+  },
+  {
+    "titulo": "La Primera Batalla de Ladera",
+    "anio": "130 AC",
+    "lugar": "Ladera",
+    "personajes_involucrados": [
+      "Hugh el Martillo",
+      "Ulf el Blanco"
+    ],
+    "descripcion": "Los Dos Traidores, Hugh el Martillo y Ulf el Blanco, cambiaron de bando con sus dragones. El saqueo de Ladera que siguió fue uno de los episodios más brutales de la guerra."
+  },
+  {
+    "titulo": "La Segunda Batalla de Ladera",
+    "anio": "130 AC",
+    "lugar": "Ladera",
+    "personajes_involucrados": [
+      "Daeron Targaryen",
+      "Addam Velaryon"
+    ],
+    "descripcion": "La batalla donde realmente bailaron los dragones. Murió el príncipe Daeron y Addam Velaryon demostró su lealtad con la vida. Se perdieron los dragones Bruma, Tessarion y Vermithor."
+  },
+  {
+    "titulo": "La Batalla del Camino Real",
+    "anio": "131 AC",
+    "lugar": null,
+    "personajes_involucrados": [],
+    "descripcion": "La última batalla de la Danza, también llamada la Matanza del Barro. Lord Borros Baratheon cayó a manos de los jóvenes señores de los Ríos."
+  },
+  {
+    "titulo": "El Asalto a Pozo Dragón",
+    "anio": "130 AC",
+    "lugar": "Desembarco del Rey",
+    "personajes_involucrados": [],
+    "descripcion": "La muchedumbre del Pastor irrumpió en Pozo Dragón para matar a los dragones encadenados. Murieron cinco dragones y el príncipe Joffrey Velaryon."
+  },
+  {
+    "titulo": "La Batalla del Gaznate",
+    "anio": "129 AC",
+    "lugar": "Gaznate",
+    "personajes_involucrados": [],
+    "descripcion": "Las naves de la Triarquía derrotaron a la flota de Corlys Velaryon. Perecieron Jacaerys Velaryon y su dragón Vermax."
+  },
+  {
+    "titulo": "La Caída de Rhaenyra",
+    "anio": "130 AC",
+    "lugar": "Rocadragón",
+    "personajes_involucrados": [
+      "Rhaenyra Targaryen",
+      "Aegon II Targaryen"
+    ],
+    "descripcion": "Rhaenyra huyó de Desembarco del Rey y llegó a Rocadragón, donde Aegon II la apresó y la devoró con el dragón Fuegosol ante los ojos de su hijo."
+  },
+  {
+    "titulo": "La Primera Rebelión Blackfyre",
+    "anio": "196 AC",
+    "lugar": "Prado Hierbarroja",
+    "personajes_involucrados": [
+      "Daemon Blackfyre",
+      "Aegor Rivers",
+      "Brynden Rivers",
+      "Daeron II Targaryen"
+    ],
+    "descripcion": "Daemon Blackfyre reclamó el trono contra Daeron II. La rebelión terminó en la Batalla del Prado Hierbarroja donde Daemon y sus hijos mayores cayeron bajo las flechas de Cuervo de Sangre."
+  },
+  {
+    "titulo": "La Segunda Rebelión Blackfyre",
+    "anio": "211 AC",
+    "lugar": "Murosblancos",
+    "personajes_involucrados": [
+      "Brynden Rivers"
+    ],
+    "descripcion": "Una conspiración para devolver a los Fuegoscuro que fue descubierta por Cuervo de Sangre antes de comenzar, en el torneo nupcial de Murosblancos."
+  },
+  {
+    "titulo": "La Tercera Rebelión Blackfyre",
+    "anio": "219 AC",
+    "lugar": null,
+    "personajes_involucrados": [
+      "Aegor Rivers",
+      "Brynden Rivers"
+    ],
+    "descripcion": "Haegon I Blackfyre y Aceroamargo acometieron la tercera rebelión. Haegon murió tras la batalla y Aceroamargo fue enviado al Muro pero liberado en el camino."
+  },
+  {
+    "titulo": "La Cuarta Rebelión Blackfyre",
+    "anio": "236 AC",
+    "lugar": "Puente del Aguastortas",
+    "personajes_involucrados": [
+      "Aegon V Targaryen",
+      "Aegor Rivers"
+    ],
+    "descripcion": "Daemon III Blackfyre y Aceroamargo desembarcaron en el Garfio de Massey pero fueron derrotados en la Batalla del Puente del Aguastortas. Aceroamargo murió poco después en las Tierras de la Discordia."
+  },
+  {
+    "titulo": "La Peste de la Gran Primavera",
+    "anio": "209 AC",
+    "lugar": "Desembarco del Rey",
+    "personajes_involucrados": [
+      "Daeron II Targaryen"
+    ],
+    "descripcion": "Una peste devastadora que mató al rey Daeron II, al septón supremo y a un tercio de la población de Desembarco del Rey."
+  },
+  {
+    "titulo": "El Gran Consejo del 101",
+    "anio": "101 AC",
+    "lugar": "Desembarco del Rey",
+    "personajes_involucrados": [
+      "Viserys I Targaryen",
+      "Rhaenys Targaryen"
+    ],
+    "descripcion": "El consejo que decidió que el trono pasaría a Viserys I en lugar de a Rhaenys, estableciendo el precedente de que el hombre tiene prioridad sobre la mujer."
+  },
+  {
+    "titulo": "La Conquista de Dorne por Daeron I",
+    "anio": "157-161 AC",
+    "lugar": "Dorne",
+    "personajes_involucrados": [
+      "Daeron I Targaryen"
+    ],
+    "descripcion": "Daeron I el Joven Dragón conquistó Dorne pero no pudo mantenerla. Murió emboscado al cruzar el Sendahuesos."
+  }
+]

@@ -1,0 +1,378 @@
+[
+  {
+    "nombre": "Stark",
+    "region": "El Norte",
+    "lema": "Se acerca el invierno",
+    "asiento": "Invernalia",
+    "colores": "gris, blanco",
+    "descripcion": "Una estirpe antigua que gobernó el Norte como Reyes del Invierno antes de inclinarse ante el dragón. Su autoridad nace de una continuidad casi geológica: criptas, arcianos y juramentos conservan una memoria que precede a los Siete Reinos."
+  },
+  {
+    "nombre": "Lannister",
+    "region": "Tierras del Oeste",
+    "lema": "Oye mi rugido",
+    "asiento": "Roca Casterly",
+    "colores": "dorado, carmesí",
+    "descripcion": "Una dinastía cuya riqueza mineral sostiene una maquinaria de alianzas, préstamos y silencios calculados. De Lann el Astuto a Tywin, la casa convirtió la reputación en moneda y el matrimonio en una extensión de la guerra."
+  },
+  {
+    "nombre": "Targaryen",
+    "region": "Rocadragón",
+    "lema": "Fuego y sangre",
+    "asiento": "Rocadragón",
+    "colores": "púrpura, negro",
+    "descripcion": "La última gran sangre de Valyria unificó seis reinos mediante dragones y dejó una corona marcada por profecía y ruina. La Conquista alteró el calendario político de Poniente."
+  },
+  {
+    "nombre": "Baratheon",
+    "region": "Tierras de la Tormenta",
+    "lema": "Nuestra es la furia",
+    "asiento": "Bastión de Tormentas",
+    "colores": "negro, dorado",
+    "descripcion": "Forjada entre la tormenta y la conquista, su línea convirtió una rebelión victoriosa en una dinastía fracturada. Orys Baratheon fundó la casa sobre la herencia Durrandon."
+  },
+  {
+    "nombre": "Tyrell",
+    "region": "Las Tierras del Dominio",
+    "lema": "Creciendo fuertes",
+    "asiento": "Altojardín",
+    "colores": "verde, dorado",
+    "descripcion": "Señores de las tierras más fértiles de Poniente, su poder nace del grano y del control de las rutas comerciales. Olenna y Margaery Tejieron la política como quien cultiva una rosa: con espinas invisibles."
+  },
+  {
+    "nombre": "Greyjoy",
+    "region": "Islas de Hierro",
+    "lema": "Nosotros no sembramos",
+    "asiento": "Pyke",
+    "colores": "negro, dorado",
+    "descripcion": "Los señores del hierro y el mar viven según el credo de la prise: lo que se toma se posee. Balon intentó restaurar la vieja gloria, pero la rebelión fue aplastada y sus hijos terminaron prisioneros."
+  },
+  {
+    "nombre": "Arryn",
+    "region": "El Valle de Arryn",
+    "lema": "Tan alto como el honor",
+    "asiento": "Nido de Águilas",
+    "colores": "azul, blanco",
+    "descripcion": "Su fortaleza invulnerable y sus tierras prósperas han mantenido a los Arryn a salvo de conquistas. Lysa mantuvo a su hijo bajo llave mientras el Valle permanecía neutral durante la guerra."
+  },
+  {
+    "nombre": "Tully",
+    "region": "Las Tierras de los Ríos",
+    "lema": "Familia, Honor, Deber",
+    "asiento": "Riverrun",
+    "colores": "rojo, azul",
+    "descripcion": "Señores del río que han sufrido más invasiones que casi nadie. Hoster unió sus tierras por matrimonio, pero la guerra de los Cinco Reyes las arrasó."
+  },
+  {
+    "nombre": "Frey",
+    "region": "Las Tierras de los Ríos",
+    "lema": "Desconocido",
+    "asiento": "Los Gemelos",
+    "colores": "gris, azul",
+    "descripcion": "Los señores del cruce acumularon poder gracias a sus puentes y a su prolificidad. Walder Frey vivió lo suficiente para ver a su casa en el centro de la guerra y de la infamia."
+  },
+  {
+    "nombre": "Bolton",
+    "region": "El Norte",
+    "lema": "Nuestros Aceros Son Afilados",
+    "asiento": "La Fortaleza Púrpura",
+    "colores": "rojo, blanco",
+    "descripcion": "Antiguos rivales de los Stark cuya reputación por la crueldad rivaliza con su ambición. Roose mantuvo un perfil bajo hasta que la oportunidad de traicionar se presentó."
+  },
+  {
+    "nombre": "Mormont",
+    "region": "La Isla del Oso",
+    "lema": "Desconocido",
+    "asiento": "Fuerte Terror",
+    "colores": "verde oscuro, negro",
+    "descripcion": "Una casa norteña cuyos miembros sirven con honor en la Guardia de la Noche. Jorah vendió esclavos y huyó, pero la casa siguió fiel al juramento."
+  },
+  {
+    "nombre": "Karstark",
+    "region": "El Norte",
+    "lema": "Desconocido",
+    "asiento": "Karhold",
+    "colores": "negro, gris",
+    "descripcion": "Descendientes de los Stark que perdieron su apellido tras una traición. Rickard buscó venganza tras la muerte de sus hijos en la guerra."
+  },
+  {
+    "nombre": "Umber",
+    "region": "El Norte",
+    "lema": "Desconocido",
+    "asiento": "El Último Aposento",
+    "colores": "rojo, negro",
+    "descripcion": "Guardianes del norte salvaje, su fuerza bruta los hace leales pero peligrosos. Greatjon fue el primero en proclamar a Robb como rey."
+  },
+  {
+    "nombre": "Manderly",
+    "region": "El Norte",
+    "lema": "Desconocido",
+    "asiento": "Puerto Blanco",
+    "colores": "blanco, verde",
+    "descripcion": "Los más ricos del Norte después de los Stark, su lealtad se pagó con la vida. Wyman mantuvo la fe mientras aparentaba obediencia."
+  },
+  {
+    "nombre": "Glover",
+    "region": "El Norte",
+    "lema": "Desconocido",
+    "asiento": "Bosquespeso",
+    "colores": "rojo, negro",
+    "descripcion": "Señores del bosque que perdieron su hogar en la guerra. Jorah Mormont se casó con una Glover antes de su desgracia."
+  },
+  {
+    "nombre": "Reed",
+    "region": "Las Tierras Pantanosas",
+    "lema": "Desconocido",
+    "asiento": "La Torre de la Alegría",
+    "colores": "verde, gris",
+    "descripcion": "Señores lacustres que viven en los pantanos y guardan los secretos de los niños del bosque. Howland fue el único sobreviviente de la Torre de la Alegría."
+  },
+  {
+    "nombre": "Hightower",
+    "region": "Las Tierras del Dominio",
+    "lema": "Desconocido",
+    "asiento": "La Torre Blanca",
+    "colores": "blanco, verde",
+    "descripcion": "Una de las casas más antiguas y ricas del Dominio, su poder se basa en el comercio y la fe. Samwell fue enviado a la Guardia de la Noche para no heredar."
+  },
+  {
+    "nombre": "Martell",
+    "region": "Dorne",
+    "lema": "Imperturbable",
+    "asiento": "Sunspear",
+    "colores": "naranja, rojo",
+    "descripcion": "Los príncipes de Dorne mantuvieron su independencia mediante matrimonio y no por la fuerza. Oberyn buscó venganza por la muerte de Elia."
+  },
+  {
+    "nombre": "Tarly",
+    "region": "Las Tierras del Dominio",
+    "lema": "Desconocido",
+    "asiento": "Cuernos de Canaval",
+    "colores": "verde, amarillo",
+    "descripcion": "Señores guerreros cuyo hijo menor fue enviado a la Guardia de la Noche. Randyll era el mejor estratega del Dominio, pero su orgullo lo cegó."
+  },
+  {
+    "nombre": "Redwyne",
+    "region": "Las Tierras del Dominio",
+    "lema": "Desconocido",
+    "asiento": "La Isla de las Uvas",
+    "colores": "rojo, verde",
+    "descripcion": "Señores de la isla más fértil del Dominio, su vino es famoso en todo Poniente. Paxter puso sitio a Bastión de Tormentas durante la rebelión."
+  },
+  {
+    "nombre": "Florent",
+    "region": "Las Tierras del Dominio",
+    "lema": "Desconocido",
+    "asiento": "Castillo Fuerte",
+    "colores": "azul, plateado",
+    "descripcion": "Parientes de la sangre Targaryen por línea femenina, su pretensión al trono causó más problemas que beneficios. Selyse creyó en el fuego."
+  },
+  {
+    "nombre": "Dondarrion",
+    "region": "Las Tierras de la Tormenta",
+    "lema": "Desconocido",
+    "asiento": "La Torre Morena",
+    "colores": "púrpura, negro",
+    "descripcion": "Señores menores que sirvieron en la Guardia Comarana. Beric fue resucitado seis veces por Melisandre."
+  },
+  {
+    "nombre": "Velaryon",
+    "region": "Las Tierras de la Corona",
+    "lema": "Desconocido",
+    "asiento": "Marfil del Mar",
+    "colores": "plateado, verde",
+    "descripcion": "Señores marinos de sangre valyria que apoyaron a Stannis en su reclamación del trono."
+  },
+  {
+    "nombre": "Swann",
+    "region": "Las Tierras de la Tormenta",
+    "lema": "Desconocido",
+    "asiento": "La Piedra Colgada",
+    "colores": "blanco, negro",
+    "descripcion": "Señores menores que navegaron entre bandos durante la guerra."
+  },
+  {
+    "nombre": "Rowan",
+    "region": "Las Tierras del Dominio",
+    "lema": "Desconocido",
+    "asiento": "Jardín Dorado",
+    "colores": "dorado, rojo",
+    "descripcion": "Señores del Dominio que apoyaron a Renly y luego a Stannis."
+  },
+  {
+    "nombre": "Peake",
+    "region": "Las Tierras del Dominio",
+    "lema": "Desconocido",
+    "asiento": "Castillo de los Tres Picos",
+    "colores": "negro, púrpura",
+    "descripcion": "Una casa que una vez tuvo tres castillos pero perdió dos por traición."
+  },
+  {
+    "nombre": "Connington",
+    "region": "Las Tierras de la Tormenta",
+    "lema": "Desconocido",
+    "asiento": "El Nido de Águilas",
+    "colores": "rojo, blanco",
+    "descripcion": "Señores que sirvieron como Manos del Rey. Jon Connington fue desterrado tras su fracaso."
+  },
+  {
+    "nombre": "Selmy",
+    "region": "Las Tierras del Dominio",
+    "lema": "Desconocido",
+    "asiento": "La Granja de la Desolación",
+    "colores": "amarillo, negro",
+    "descripcion": "Señores menores cuyo hijo Barristan sirvió en la Guardia Real durante cinco reinados."
+  },
+  {
+    "nombre": "Celtigar",
+    "region": "Las Tierras de la Corona",
+    "lema": "Desconocido",
+    "asiento": "Playa de la Claw",
+    "colores": "rojo, azul",
+    "descripcion": "Señores marinos de sangre valyria que apoyaron a Stannis."
+  },
+  {
+    "nombre": "Gardener",
+    "region": "Las Tierras del Dominio",
+    "lema": "Manos que alimentan",
+    "asiento": "Altojardín",
+    "colores": "verde, dorado",
+    "descripcion": "Los antiguos reyes del Dominio que gobernaron antes de la Conquista. Su linaje se remonta a los Primeros Hombres. Fueron destruidos en el Campo de Fuego."
+  },
+  {
+    "nombre": "Casterly",
+    "region": "Tierras del Oeste",
+    "lema": "Desconocido",
+    "asiento": "Roca Casterly",
+    "colores": "dorado, carmesí",
+    "descripcion": "Los antiguos reyes de la Roca que gobernaron el oeste antes de los Lannister. Lann el Astuto les arrebató el castillo mediante engaño."
+  },
+  {
+    "nombre": "Durrandon",
+    "region": "Tierras de la Tormenta",
+    "lema": "Ours is the Fury",
+    "asiento": "Bastión de Tormentas",
+    "colores": "negro, dorado",
+    "descripcion": "Los antiguos reyes de la Tormenta que gobernaron durante mil años. Fueron destruidos por Orys Baratheon, quien tomó su casa y su lema."
+  },
+  {
+    "nombre": "Hoare",
+    "region": "Islas de Hierro / Las Tierras de los Ríos",
+    "lema": "Desconocido",
+    "asiento": "Harrenhal",
+    "colores": "negro, gris",
+    "descripcion": "Los reyes de hierro que conquistaron las Tierras de los Ríos. Harren el Rey Negro construyó Harrenhal y fue destruido por los dragones de Aegon."
+  },
+  {
+    "nombre": "Mudd",
+    "region": "Las Tierras de los Ríos",
+    "lema": "Desconocido",
+    "asiento": "Antigua",
+    "colores": "verde, dorado",
+    "descripcion": "Los antiguos reyes de las Tierras de los Ríos que gobernaron desde Antigua. Su linaje se remonta a los Primeros Hombres."
+  },
+  {
+    "nombre": "Justman",
+    "region": "Las Tierras de los Ríos",
+    "lema": "Desconocido",
+    "asiento": "Desembarco del Rey",
+    "colores": "azul, plateado",
+    "descripcion": "Una dinastía de reyes que gobernó las Tierras de los Ríos después de los Mudd. Fueron destruidos por los Hoare."
+  },
+  {
+    "nombre": "Teague",
+    "region": "Las Tierras de los Ríos",
+    "lema": "Desconocido",
+    "asiento": "Stone Hedge",
+    "colores": "rojo, negro",
+    "descripcion": "Los últimos reyes de las Tierras de los Ríos antes de la conquista Hoare. Fueron destruidos por Harren."
+  },
+  {
+    "nombre": "Bracken",
+    "region": "Las Tierras de los Ríos",
+    "lema": "Desconocido",
+    "asiento": "Stone Hedge",
+    "colores": "rojo, negro",
+    "descripcion": "Señores de las Tierras de los Ríos enemistados con los Blackwood durante siglos. Su rivalidad es una de las más antiguas de Poniente."
+  },
+  {
+    "nombre": "Blackwood",
+    "region": "Las Tierras de los Ríos",
+    "lema": "Desconocido",
+    "asiento": "Raventree Hall",
+    "colores": "negro, púrpura",
+    "descripcion": "Señores de las Tierras de los Ríos que mantienen la fe del Bosque. Su rivalidad con los Bracken es legendaria."
+  },
+  {
+    "nombre": "Royce",
+    "region": "El Valle",
+    "lema": "Desconocido",
+    "asiento": "Runestone",
+    "colores": "bronce, negro",
+    "descripcion": "Señores del Valle cuya casa es una de las más antiguas y honorables. Bronze Yohn fue un aliado clave de los Stark."
+  },
+  {
+    "nombre": "Dayne",
+    "region": "Dorne",
+    "lema": "Desconocido",
+    "asiento": "Starfall",
+    "colores": "púrpura, plateado",
+    "descripcion": "Señores de Dorne cuya espada legendaria, La Estrella de la Mañana, es una de las más famosas del mundo. Arthur Dayne fue el caballero más honorable."
+  },
+  {
+    "nombre": "Yronwood",
+    "region": "Dorne",
+    "lema": "Desconocido",
+    "asiento": "Yronwood",
+    "colores": "amarillo, negro",
+    "descripcion": "Señores de Dorne rivales de los Martell. Fueron los últimos en someterse a su dominio."
+  },
+  {
+    "nombre": "Harlaw",
+    "region": "Islas de Hierro",
+    "lema": "Desconocido",
+    "asiento": "La Granja de los Harlaw",
+    "colores": "verde, negro",
+    "descripcion": "Señores de las Islas de Hierro más cultos y prósperos. Rodrik Harlaw era conocido como el Lector."
+  },
+  {
+    "nombre": "Drumm",
+    "region": "Islas de Hierro",
+    "lema": "Desconocido",
+    "asiento": "Viejo Wyk",
+    "colores": "rojo, negro",
+    "descripcion": "Señores de las Islas de Hierro cuya casa es una de las más antiguas y respetadas."
+  },
+  {
+    "nombre": "Goodbrother",
+    "region": "Islas de Hierro",
+    "lema": "Desconocido",
+    "asiento": "Gran Wyk",
+    "colores": "negro, rojo",
+    "descripcion": "Señores de las Islas de Hierro con numerosos miembros repartidos por las islas."
+  },
+  {
+    "nombre": "Botley",
+    "region": "Islas de Hierro",
+    "lema": "Desconocido",
+    "asiento": "Pyke",
+    "colores": "azul, plateado",
+    "descripcion": "Señores menores de las Islas de Hierro leales a los Greyjoy."
+  },
+  {
+    "nombre": "Toland",
+    "region": "Dorne",
+    "lema": "Desconocido",
+    "asiento": "Ghost Hill",
+    "colores": "verde, plateado",
+    "descripcion": "Señores de Dorne cuya fortaleza lleva un nombre sugestivo."
+  },
+  {
+    "nombre": "Fowler",
+    "region": "Dorne",
+    "lema": "Desconocido",
+    "asiento": "Skyreach",
+    "colores": "dorado, azul",
+    "descripcion": "Señores de Dorne que guardan los pasos montañosos."
+  }
+]

@@ -1,0 +1,4566 @@
+[
+  {
+    "nombre": "Eddard Stark",
+    "alias": [
+      "Ned"
+    ],
+    "casa": "Stark",
+    "cultura": "Norteño",
+    "estado": "muerto",
+    "nacimiento": "263 AC",
+    "muerte": "298 AC",
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Catelyn Tully"
+    ],
+    "hijos": [
+      "Robb Stark",
+      "Sansa Stark",
+      "Arya Stark",
+      "Bran Stark",
+      "Rickon Stark",
+      "Jon Nieve"
+    ],
+    "hermanos": [
+      "Brandon Stark",
+      "Benjen Stark",
+      "Lyanna Stark"
+    ],
+    "descripcion": "Señor de Invernalia y Guarda del Rey. Hombre de honor inquebrantable cuya rectitud le costó la vida en la corte de Desembarco del Rey. Descubrió el secreto de los Lannister y fue ejecutado por Joffrey."
+  },
+  {
+    "nombre": "Catelyn Tully",
+    "alias": [
+      "Cat"
+    ],
+    "casa": "Tully",
+    "cultura": "Riverlands",
+    "estado": "muerto",
+    "nacimiento": "264 AC",
+    "muerte": "299 AC",
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Eddard Stark"
+    ],
+    "hijos": [
+      "Robb Stark",
+      "Sansa Stark",
+      "Arya Stark",
+      "Bran Stark",
+      "Rickon Stark"
+    ],
+    "hermanos": [
+      "Edmure Tully",
+      "Lysa Arryn"
+    ],
+    "descripcion": "Señora de Invernalia y madre de cinco hijos. Viajó a Desembarco del Rey para advertir a su esposo y luego capturó a Tyrion Lannister. Murió en la Boda Roja."
+  },
+  {
+    "nombre": "Robb Stark",
+    "alias": [
+      "El Joven Lobo",
+      "Rey en el Norte"
+    ],
+    "casa": "Stark",
+    "cultura": "Norteño",
+    "estado": "muerto",
+    "nacimiento": "283 AC",
+    "muerte": "299 AC",
+    "padre": "Eddard Stark",
+    "madre": "Catelyn Tully",
+    "conyuges": [
+      "Jeyne Westerling"
+    ],
+    "hijos": [],
+    "hermanos": [
+      "Sansa Stark",
+      "Arya Stark",
+      "Bran Stark",
+      "Rickon Stark",
+      "Jon Nieve"
+    ],
+    "descripcion": "El Rey en el Norte que lideró la rebelión contra los Lannister. Ganó todas sus batallas pero perdió la guerra por romper su promesa de matrimonio. Murió en la Boda Roja."
+  },
+  {
+    "nombre": "Sansa Stark",
+    "alias": [
+      "Sansa del Invernadero"
+    ],
+    "casa": "Stark",
+    "cultura": "Norteño",
+    "estado": "vivo",
+    "nacimiento": "286 AC",
+    "muerte": null,
+    "padre": "Eddard Stark",
+    "madre": "Catelyn Tully",
+    "conyuges": [
+      "Tyrion Lannister",
+      "Ramsay Bolton"
+    ],
+    "hijos": [],
+    "hermanos": [
+      "Robb Stark",
+      "Arya Stark",
+      "Bran Stark",
+      "Rickon Stark",
+      "Jon Nieve"
+    ],
+    "descripcion": "Hija de Eddard y Catelyn. Reina del Norte, aprendió supervivencia y política en las cortes más peligrosas de Poniente. Fue rehén de los Lannister y luego esposa de Ramsay Bolton."
+  },
+  {
+    "nombre": "Arya Stark",
+    "alias": [
+      "Arya del Pie Descalzo",
+      "Aguja"
+    ],
+    "casa": "Stark",
+    "cultura": "Norteño",
+    "estado": "vivo",
+    "nacimiento": "289 AC",
+    "muerte": null,
+    "padre": "Eddard Stark",
+    "madre": "Catelyn Tully",
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Robb Stark",
+      "Sansa Stark",
+      "Bran Stark",
+      "Rickon Stark",
+      "Jon Nieve"
+    ],
+    "descripcion": "Hija menor de Ned Stark, cuyo viaje por los caminos más oscuros de Poniente la forjó en algo que ninguna escuela de asesinos podría haber anticipado. Entrenó con los Hombres sin Rostro en Braavos."
+  },
+  {
+    "nombre": "Bran Stark",
+    "alias": [
+      "Bran el Roto",
+      "El Cuervos de Tres Ojos"
+    ],
+    "casa": "Stark",
+    "cultura": "Norteño",
+    "estado": "vivo",
+    "nacimiento": "290 AC",
+    "muerte": null,
+    "padre": "Eddard Stark",
+    "madre": "Catelyn Tully",
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Robb Stark",
+      "Sansa Stark",
+      "Arya Stark",
+      "Rickon Stark",
+      "Jon Nieve"
+    ],
+    "descripcion": "El hijo que cayó y se levantó como el Cuervos de Tres Ojos, guardián de la memoria del mundo. Sus poderes greensight lo conectan con el pasado y el futuro."
+  },
+  {
+    "nombre": "Rickon Stark",
+    "alias": [],
+    "casa": "Stark",
+    "cultura": "Norteño",
+    "estado": "muerto",
+    "nacimiento": "295 AC",
+    "muerte": "300 AC",
+    "padre": "Eddard Stark",
+    "madre": "Catelyn Tully",
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Robb Stark",
+      "Sansa Stark",
+      "Arya Stark",
+      "Bran Stark",
+      "Jon Nieve"
+    ],
+    "descripcion": "El más joven de los hijos Stark. Huyó de Invernalia con su lobo Peludo y fue capturado por los Bolton. Murió ejecutado por Ramsay Bolton."
+  },
+  {
+    "nombre": "Jon Nieve",
+    "alias": [
+      "Aegon Targaryen",
+      "Alborada"
+    ],
+    "casa": "Stark",
+    "cultura": "Norteño",
+    "estado": "vivo",
+    "nacimiento": "283 AC",
+    "muerte": null,
+    "padre": "Rhaegar Targaryen",
+    "madre": "Lyanna Stark",
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Robb Stark",
+      "Sansa Stark",
+      "Arya Stark",
+      "Bran Stark",
+      "Rickon Stark"
+    ],
+    "descripcion": "Hijo secreto de Rhaegar Targaryen y Lyanna Stark, criado como bastardo en Invernalia. Lord Comandante de la Guardia de la Noche que fue asesinado por sus propios hermanos y luego resucitado."
+  },
+  {
+    "nombre": "Tyrion Lannister",
+    "alias": [
+      "El Duende",
+      "El Enano"
+    ],
+    "casa": "Lannister",
+    "cultura": "Occidental",
+    "estado": "vivo",
+    "nacimiento": "273 AC",
+    "muerte": null,
+    "padre": "Tywin Lannister",
+    "madre": "Joanna Lannister",
+    "conyuges": [
+      "Tysha",
+      "Sansa Stark"
+    ],
+    "hijos": [],
+    "hermanos": [
+      "Cersei Lannister",
+      "Jaime Lannister"
+    ],
+    "descripcion": "El menor de los Lannister, cuya agudeza mental y sentido del humor le permitieron sobrevivir donde la fuerza habría fracasado. Fue acusado del asesinato de Joffrey y huyó a Essos."
+  },
+  {
+    "nombre": "Cersei Lannister",
+    "alias": [
+      "La Reina Regente"
+    ],
+    "casa": "Lannister",
+    "cultura": "Occidental",
+    "estado": "muerto",
+    "nacimiento": "266 AC",
+    "muerte": "305 AC",
+    "padre": "Tywin Lannister",
+    "madre": "Joanna Lannister",
+    "conyuges": [
+      "Robert Baratheon"
+    ],
+    "hijos": [
+      "Joffrey Baratheon",
+      "Myrcella Baratheon",
+      "Tommen Baratheon"
+    ],
+    "hermanos": [
+      "Jaime Lannister",
+      "Tyrion Lannister"
+    ],
+    "descripcion": "Reina de los Siete Reinos, hija de Tywin. Mujer de voluntad férrea cuyo amor por sus hijos fue tanto su fortaleza como su ruina. Gobernó como regente y luego como reina."
+  },
+  {
+    "nombre": "Jaime Lannister",
+    "alias": [
+      "El Mattador de Reyes",
+      "El Amo de la Mano Dorada"
+    ],
+    "casa": "Lannister",
+    "cultura": "Occidental",
+    "estado": "muerto",
+    "nacimiento": "266 AC",
+    "muerte": null,
+    "padre": "Tywin Lannister",
+    "madre": "Joanna Lannister",
+    "conyuges": [
+      "Cersei Lannister"
+    ],
+    "hijos": [
+      "Joffrey Baratheon",
+      "Myrcella Baratheon",
+      "Tommen Baratheon"
+    ],
+    "hermanos": [
+      "Cersei Lannister",
+      "Tyrion Lannister"
+    ],
+    "descripcion": "El Guardia Real más joven en ser nombrado, célebre por haber matado al rey loco. Perdió la mano derecha y viajó con Brienne de Tarth. Su relación con Cersei fue su perdición."
+  },
+  {
+    "nombre": "Tywin Lannister",
+    "alias": [],
+    "casa": "Lannister",
+    "cultura": "Occidental",
+    "estado": "muerto",
+    "nacimiento": "242 AC",
+    "muerte": "300 AC",
+    "padre": "Tytos Lannister",
+    "madre": "Jeyne Marbrand",
+    "conyuges": [
+      "Joanna Lannister"
+    ],
+    "hijos": [
+      "Cersei Lannister",
+      "Jaime Lannister",
+      "Tyrion Lannister"
+    ],
+    "hermanos": [
+      "Kevan Lannister"
+    ],
+    "descripcion": "Señor de Roca Casterly y Mano del Rey. Estratega implacable cuya obsesión por la dinastía destruyó tanto a sus enemigos como a su propia familia. Murió asesinado por su propio hijo Tyrion."
+  },
+  {
+    "nombre": "Joffrey Baratheon",
+    "alias": [
+      "Joffrey el Malnacido"
+    ],
+    "casa": "Baratheon",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": "286 AC",
+    "muerte": "300 AC",
+    "padre": "Robert Baratheon",
+    "madre": "Cersei Lannister",
+    "conyuges": [
+      "Margaery Tyrell"
+    ],
+    "hijos": [],
+    "hermanos": [
+      "Myrcella Baratheon",
+      "Tommen Baratheon"
+    ],
+    "descripcion": "El cruel rey que gobernó tras la muerte de Robert. Su temperamento sádico y su legitimidad cuestionada lo convirtieron en un tirano temido por todos. Murió envenenado en su propia boda."
+  },
+  {
+    "nombre": "Stannis Baratheon",
+    "alias": [
+      "El Rey Justo"
+    ],
+    "casa": "Baratheon",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": "264 AC",
+    "muerte": "300 AC",
+    "padre": "Steffon Baratheon",
+    "madre": "Cassana Estermont",
+    "conyuges": [
+      "Selyse Florent"
+    ],
+    "hijos": [
+      "Shireen Baratheon"
+    ],
+    "hermanos": [
+      "Robert Baratheon",
+      "Renly Baratheon"
+    ],
+    "descripcion": "El menor de los hermanos Baratheon que reclamó el trono por derecho de sangre. Su estricto sentido del deber y su alianza con Melisandre lo llevaron a cometer actos terribles."
+  },
+  {
+    "nombre": "Renly Baratheon",
+    "alias": [],
+    "casa": "Baratheon",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": "277 AC",
+    "muerte": "299 AC",
+    "padre": "Steffon Baratheon",
+    "madre": "Cassana Estermont",
+    "conyuges": [
+      "Margaery Tyrell"
+    ],
+    "hijos": [],
+    "hermanos": [
+      "Robert Baratheon",
+      "Stannis Baratheon"
+    ],
+    "descripcion": "El más joven de los Baratheon, carismático y querido por el pueblo. Se proclamó rey con el apoyo de los Tyrell, pero fue asesinado por la sombra de Melisandre."
+  },
+  {
+    "nombre": "Robert Baratheon",
+    "alias": [
+      "El Usurpador"
+    ],
+    "casa": "Baratheon",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": "262 AC",
+    "muerte": "298 AC",
+    "padre": "Steffon Baratheon",
+    "madre": "Cassana Estermont",
+    "conyuges": [
+      "Cersei Lannister"
+    ],
+    "hijos": [
+      "Joffrey Baratheon",
+      "Myrcella Baratheon",
+      "Tommen Baratheon"
+    ],
+    "hermanos": [
+      "Stannis Baratheon",
+      "Renly Baratheon"
+    ],
+    "descripcion": "Rey de los Siete Reinos, cuya rebelión contra los Targaryen cambió el destino de Poniente. Cazador y guerrero, pero pobre administrador de reinos. Murió por una herida de jabalí."
+  },
+  {
+    "nombre": "Daenerys Targaryen",
+    "alias": [
+      "Madre de Dragones",
+      "Daenerys Florentina",
+      "La No Marchitada"
+    ],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": "284 AC",
+    "muerte": null,
+    "padre": "Aerys II Targaryen",
+    "madre": "Rhaella Targaryen",
+    "conyuges": [
+      "Khal Drogo"
+    ],
+    "hijos": [
+      "Rhaego"
+    ],
+    "hermanos": [
+      "Viserys Targaryen"
+    ],
+    "descripcion": "La última Targaryen, que nació en la tormenta, conquistó ciudades y murió en la luz de su propio dragón. Nació en Rocadragón y fue criada en el exilio."
+  },
+  {
+    "nombre": "Viserys Targaryen",
+    "alias": [
+      "El Rey Mendigo"
+    ],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": "277 AC",
+    "muerte": "298 AC",
+    "padre": "Aerys II Targaryen",
+    "madre": "Rhaella Targaryen",
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Daenerys Targaryen"
+    ],
+    "descripcion": "El hermano mayor de Daenerys que soñó con recuperar el trono. Vendió a su hermana a Khal Drogo a cambio de un ejército y murió con corona de oro derretido."
+  },
+  {
+    "nombre": "Aegon Targaryen",
+    "alias": [
+      "Aegon el Conquistador"
+    ],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": "27 AC AC",
+    "muerte": "37 AC",
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Rhaenys Targaryen",
+      "Visenya Targaryen"
+    ],
+    "hijos": [
+      "Aenys I Targaryen",
+      "Maegor I Targaryen"
+    ],
+    "hermanos": [
+      "Rhaenys Targaryen",
+      "Visenya Targaryen"
+    ],
+    "descripcion": "El primer rey de los Siete Reinos que unificó seis reinos mediante dragones. Su Conquista alteró el calendario político de Poniente."
+  },
+  {
+    "nombre": "Rhaegar Targaryen",
+    "alias": [
+      "El Príncipe Encantador"
+    ],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": "259 AC",
+    "muerte": "283 AC",
+    "padre": "Aerys II Targaryen",
+    "madre": "Rhaella Targaryen",
+    "conyuges": [
+      "Elia Martell"
+    ],
+    "hijos": [
+      "Rhaenys Targaryen",
+      "Aegon Targaryen",
+      "Jon Nieve"
+    ],
+    "hermanos": [
+      "Viserys Targaryen"
+    ],
+    "descripcion": "El príncipe heredero que huyó con Lyanna Stark y murió en la Batalla del Tridente. Su amor prohibido desencadenó la rebelión que acabó con su dinastía."
+  },
+  {
+    "nombre": "Brandon Stark",
+    "alias": [
+      "Brandon el constructor"
+    ],
+    "casa": "Stark",
+    "cultura": "Norteño",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El hermano mayor de Ned que fue ejecutado por Aerys II. Su muerte fue el detonante de la rebelión de Robert."
+  },
+  {
+    "nombre": "Benjen Stark",
+    "alias": [
+      "El Hermano Perdido"
+    ],
+    "casa": "Stark",
+    "cultura": "Norteño",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Eddard Stark",
+      "Brandon Stark",
+      "Lyanna Stark"
+    ],
+    "descripcion": "El hermano menor de Ned que se unió a la Guardia de la Noche. Desapareció en una patrulla y fue encontrado como caminante blanco."
+  },
+  {
+    "nombre": "Lyanna Stark",
+    "alias": [],
+    "casa": "Stark",
+    "cultura": "Norteño",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": "283 AC",
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Rhaegar Targaryen"
+    ],
+    "hijos": [
+      "Jon Nieve"
+    ],
+    "hermanos": [
+      "Eddard Stark",
+      "Brandon Stark",
+      "Benjen Stark"
+    ],
+    "descripcion": "La hermana de Ned que huyó con Rhaegar Targaryen. Su desaparición desencadenó la rebelión de Robert. Murió en la Torre de la Alegría."
+  },
+  {
+    "nombre": "Brienne de Tarth",
+    "alias": [
+      "La Bella"
+    ],
+    "casa": "Tarth",
+    "cultura": "Andal",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Selwyn Tarth",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Una guerrera cuya apariencia no se ajusta a los cánones de belleza, pero cuyo honor y destreza con la espada superan a la mayoría de los caballeros. Juró lealtad a Catelyn y luego a Jaime."
+  },
+  {
+    "nombre": "Davos Seaworth",
+    "alias": [
+      "El Caballero de las Cebollas"
+    ],
+    "casa": "Seaworth",
+    "cultura": "Norteño",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Marya Seaworth"
+    ],
+    "hijos": [
+      "Davos Seaworth"
+    ],
+    "hermanos": [],
+    "descripcion": "Un contrabandista que se convirtió en caballero gracias a su lealtad a Stannis. Su sentido común y honestidad lo convirtieron en el consejero más confiable del rey."
+  },
+  {
+    "nombre": "Melisandre",
+    "alias": [
+      "La Mujer Roja"
+    ],
+    "casa": null,
+    "cultura": "Ashai",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Una sacerdota del Señor de la Luz cuyas profecías en las llamas guiaron a Stannis. Su magia era real, pero sus interpretaciones a menudo estaban equivocadas."
+  },
+  {
+    "nombre": "Gendry",
+    "alias": [
+      "Gendry el Herrero"
+    ],
+    "casa": "Baratheon",
+    "cultura": "Desconocido",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Robert Baratheon",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un herrero bastardo de Robert Baratheon que viajó con Arya. Su fuerza y habilidad con el martillo lo convirtieron en un guerrero valioso."
+  },
+  {
+    "nombre": "Samwell Tarly",
+    "alias": [
+      "Sam"
+    ],
+    "casa": "Tarly",
+    "cultura": "Andal",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Randyll Tarly",
+    "madre": null,
+    "conyuges": [
+      "Gilly"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un joven cobarde que se convirtió en el maestre más importante de Poniente. Descubrió la debilidad de los Caminantes Blancos y encontró la cura para el dragón de piedra."
+  },
+  {
+    "nombre": "Tormund Gigante",
+    "alias": [
+      "Tormund Muñetas de Trueno"
+    ],
+    "casa": null,
+    "cultura": "Salvaje",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Dalla"
+    ],
+    "hijos": [
+      "Tormenta"
+    ],
+    "hermanos": [],
+    "descripcion": "Un líder salvaje que se convirtió en aliado de Jon Nieve. Su fuerza y sentido del humor lo hicieron popular entre los hermanos de la Guardia de la Noche."
+  },
+  {
+    "nombre": "Theon Greyjoy",
+    "alias": [
+      "El Traidor",
+      "Reek"
+    ],
+    "casa": "Greyjoy",
+    "cultura": "Islas de Hierro",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Balon Greyjoy",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Asha Greyjoy",
+      "Rodrik Greyjoy",
+      "Maron Greyjoy"
+    ],
+    "descripcion": "Un rehén de los Stark que traicionó a sus amos para ganar el favor de su padre. Fue capturado por Ramsay Bolton y torturado hasta convertirse en Reek."
+  },
+  {
+    "nombre": "Varys",
+    "alias": [
+      "La Araña"
+    ],
+    "casa": null,
+    "cultura": "Desconocido",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un eunuco que sirvió como maestre de los secretos. Su red de espías era la más extensa de Poniente. Trabajó por el bien del reino, no por un rey específico."
+  },
+  {
+    "nombre": "Petyr Baelish",
+    "alias": [
+      "Meñique"
+    ],
+    "casa": null,
+    "cultura": "Desconocido",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": "305 AC",
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Lysa Arryn"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un hombre ambicioso que ascendió de la nada a Señor de Harrenhal y Consejero de los reyes. Su amor no correspondido por Catelyn lo llevó a manipular eventos durante toda la guerra."
+  },
+  {
+    "nombre": "Bronn",
+    "alias": [
+      "El Amo de la Mano Negra"
+    ],
+    "casa": null,
+    "cultura": "Desconocido",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Lollys Stokeworth"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un mercenario que se convirtió en el más cercano amigo de Tyrion. Su lealtad se compró con oro y títulos, pero su sentido práctico lo mantuvo con vida."
+  },
+  {
+    "nombre": "Khal Drogo",
+    "alias": [],
+    "casa": null,
+    "cultura": "Dothraki",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": "298 AC",
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Daenerys Targaryen"
+    ],
+    "hijos": [
+      "Rhaego"
+    ],
+    "hermanos": [],
+    "descripcion": "El mayor khal del khalasar más grande. Su fuerza y ferocidad lo hicieron temido, pero su amor por Daenerys mostró su lado humano. Murió por una herida infectada."
+  },
+  {
+    "nombre": "Balon Greyjoy",
+    "alias": [
+      "El León de Hierro"
+    ],
+    "casa": "Greyjoy",
+    "cultura": "Islas de Hierro",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": "299 AC",
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Alannys Harlaw"
+    ],
+    "hijos": [
+      "Theon Greyjoy",
+      "Asha Greyjoy",
+      "Rodrik Greyjoy",
+      "Maron Greyjoy"
+    ],
+    "hermanos": [
+      "Euron Greyjoy",
+      "Victarion Greyjoy",
+      "Aeron Greyjoy"
+    ],
+    "descripcion": "El Señor de las Islas de Hierro que intentó restaurar la vieja gloria mediante rebeliones fallidas. Murió asesinado por su hermano Euron."
+  },
+  {
+    "nombre": "Asha Greyjoy",
+    "alias": [
+      "Yara Greyjoy"
+    ],
+    "casa": "Greyjoy",
+    "cultura": "Islas de Hierro",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Balon Greyjoy",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Theon Greyjoy",
+      "Rodrik Greyjoy",
+      "Maron Greyjoy"
+    ],
+    "descripcion": "La hija de Balon que compitió por el trono de hierro. Más pragmática que su padre, buscó alianzas en vez de guerra."
+  },
+  {
+    "nombre": "Euron Greyjoy",
+    "alias": [
+      "Euron el Cuervo Ojo"
+    ],
+    "casa": "Greyjoy",
+    "cultura": "Islas de Hierro",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Volaris"
+    ],
+    "hijos": [],
+    "hermanos": [
+      "Balon Greyjoy",
+      "Victarion Greyjoy",
+      "Aeron Greyjoy"
+    ],
+    "descripcion": "Un pirata loco que asesinó a su hermano Balon y reclamó el trono de hierro. Su ambición lo llevó a buscar el Cuerno de la Abundancia."
+  },
+  {
+    "nombre": "Victarion Greyjoy",
+    "alias": [],
+    "casa": "Greyjoy",
+    "cultura": "Islas de Hierro",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Balon Greyjoy",
+      "Euron Greyjoy",
+      "Aeron Greyjoy"
+    ],
+    "descripcion": "El hermano guerrero de Balon que zarpó hacia Meereen para rescatar a Daenerys. Su sentido del honor lo hace peligroso."
+  },
+  {
+    "nombre": "Aeron Greyjoy",
+    "alias": [
+      "El Profeta",
+      "Humedad"
+    ],
+    "casa": "Greyjoy",
+    "cultura": "Islas de Hierro",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Balon Greyjoy",
+      "Euron Greyjoy",
+      "Victarion Greyjoy"
+    ],
+    "descripcion": "Un sacerdote del Drowned God que se opuso a la ambición de Euron. Su fe lo mantuvo firme mientras sus hermanos luchaban por el trono."
+  },
+  {
+    "nombre": "Margaery Tyrell",
+    "alias": [
+      "La Reina de las Rosas"
+    ],
+    "casa": "Tyrell",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": "300 AC",
+    "padre": "Mace Tyrell",
+    "madre": "Alerie Hightower",
+    "conyuges": [
+      "Renly Baratheon",
+      "Joffrey Baratheon",
+      "Tommen Baratheon"
+    ],
+    "hijos": [],
+    "hermanos": [
+      "Loras Tyrell"
+    ],
+    "descripcion": "Una mujer astuta y carismática que se casó con tres reyes. Su abuela Olenna la entrenó para la política, pero la destrucción del Septo de Baelor acabó con ella."
+  },
+  {
+    "nombre": "Loras Tyrell",
+    "alias": [
+      "El Caballero de las Flores"
+    ],
+    "casa": "Tyrell",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": "300 AC",
+    "padre": "Mace Tyrell",
+    "madre": "Alerie Hightower",
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Margaery Tyrell"
+    ],
+    "descripcion": "El caballero más bello de Poniente y hermano de Margaery. Su amor por Renly lo llevó a unirse a su causa. Murió en la destrucción del Septo de Baelor."
+  },
+  {
+    "nombre": "Olenna Tyrell",
+    "alias": [
+      "La Reina de las Espinas"
+    ],
+    "casa": "Tyrell",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Luthor Tyrell"
+    ],
+    "hijos": [
+      "Mace Tyrell"
+    ],
+    "hermanos": [],
+    "descripcion": "La abuela de Margaery cuya astucia política superaba a la de cualquier hombre. Envenenó a Joffrey para proteger a su nieta."
+  },
+  {
+    "nombre": "Mace Tyrell",
+    "alias": [],
+    "casa": "Tyrell",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": "300 AC",
+    "padre": "Luthor Tyrell",
+    "madre": null,
+    "conyuges": [
+      "Alerie Hightower"
+    ],
+    "hijos": [
+      "Margaery Tyrell",
+      "Loras Tyrell"
+    ],
+    "hermanos": [],
+    "descripcion": "El patriarca de los Tyrell que ambicionaba ser Mano del Rey. Su orgullo y su hambre de poder lo llevaron a apoyar a diferentes bandos durante la guerra."
+  },
+  {
+    "nombre": "Oberyn Martell",
+    "alias": [
+      "La Víbora Roja"
+    ],
+    "casa": "Martell",
+    "cultura": "Dorniense",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": "300 AC",
+    "padre": "Lewyn Martell",
+    "madre": null,
+    "conyuges": [
+      "Ellaria Sand"
+    ],
+    "hijos": [
+      "Obara Sand",
+      "Nymeria Sand",
+      "Tyene Sand",
+      "Sarella Sand",
+      "Elia Sand",
+      "Dorea Sand",
+      "Loreza Sand"
+    ],
+    "hermanos": [
+      "Doran Martell",
+      "Elia Martell"
+    ],
+    "descripcion": "El príncipe guerrero de Dorne que viajó a Desembarco del Rey para vengar a su hermana Elia. Su duelo con The Mountain terminó en su muerte."
+  },
+  {
+    "nombre": "Doran Martell",
+    "alias": [
+      "El Príncipe Paciente"
+    ],
+    "casa": "Martell",
+    "cultura": "Dorniense",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Meria Martell"
+    ],
+    "hijos": [
+      "Arianne Martell",
+      "Quentyn Martell",
+      "Trystane Martell"
+    ],
+    "hermanos": [
+      "Oberyn Martell",
+      "Elia Martell"
+    ],
+    "descripcion": "El príncipe de Dorne cuya enfermedad no impidió que tejiera alianzas complejas. Su paciencia ocultaba una mente estratégica implacable."
+  },
+  {
+    "nombre": "Arianne Martell",
+    "alias": [],
+    "casa": "Martell",
+    "cultura": "Dorniense",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Doran Martell",
+    "madre": "Meria Martell",
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Quentyn Martell",
+      "Trystane Martell"
+    ],
+    "descripcion": "La hija mayor de Doran que heredaría Sunspear. Su ambición y su inteligencia la convierten en una jugadora política formidable."
+  },
+  {
+    "nombre": "Barristan Selmy",
+    "alias": [
+      "Barristan el Temerario"
+    ],
+    "casa": "Selmy",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": "300 AC",
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El caballero más honorable de Poniente que sirvió en la Guardia Real durante cinco reinados. Tras ser desterrado por Joffrey, se unió a Daenerys."
+  },
+  {
+    "nombre": "Podrick Payne",
+    "alias": [
+      "Pod"
+    ],
+    "casa": "Payne",
+    "cultura": "Andal",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un escudero leal que acompañó a Tyrion y luego a Brienne. Su devoción y su crecimiento como guerrero lo convirtieron en un héroe silencioso."
+  },
+  {
+    "nombre": "Jorah Mormont",
+    "alias": [],
+    "casa": "Mormont",
+    "cultura": "Norteño",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Jeor Mormont",
+    "madre": null,
+    "conyuges": [
+      "Lynesse Hightower"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un caballero norteño que vendió esclavos y huyó de Poniente. Sirvió a Daenerys con lealtad inquebrantable hasta su muerte."
+  },
+  {
+    "nombre": "Roose Bolton",
+    "alias": [
+      "El Señor de la Piel de Hombre"
+    ],
+    "casa": "Bolton",
+    "cultura": "Norteño",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": "300 AC",
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Bethany Ryswell",
+      "Walda Frey"
+    ],
+    "hijos": [
+      "Ramsay Bolton"
+    ],
+    "hermanos": [],
+    "descripcion": "Un señor norteño cuya crueldad era tan fría como su voz. Traicionó a Robb Stark en la Boda Roja y pagó con su vida."
+  },
+  {
+    "nombre": "Ramsay Bolton",
+    "alias": [
+      "Ramsay el Bastardo",
+      "Ramsay Snow"
+    ],
+    "casa": "Bolton",
+    "cultura": "Norteño",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": "300 AC",
+    "padre": "Roose Bolton",
+    "madre": null,
+    "conyuges": [
+      "Jeyne Poole"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El bastardo legítimado de Roose Bolton cuya crueldad superaba la de su padre. Su obsesión por la destrucción lo convirtió en uno de los villanos más odiados."
+  },
+  {
+    "nombre": "Walder Frey",
+    "alias": [
+      "El Viejo Lobo del Río"
+    ],
+    "casa": "Frey",
+    "cultura": "Riverlands",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": "305 AC",
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Marna Vance",
+      "Bethany Rosby",
+      "Shiera Crakehall",
+      "Annara Farring",
+      "Joyeuse Erenford"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El patriarca de los Frey cuya longevidad y prolificidad aseguraron la supervivencia de su casa. Orquestó la Boda Roja y pagó con su vida."
+  },
+  {
+    "nombre": "Howland Reed",
+    "alias": [],
+    "casa": "Reed",
+    "cultura": "Lacustre",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Jyana Reed"
+    ],
+    "hijos": [
+      "Jojen Reed",
+      "Meera Reed"
+    ],
+    "hermanos": [],
+    "descripcion": "El señor de los pantanos que fue el único testigo de la Torre de la Alegría. Su conocimiento de los niños del bosque es invaluable."
+  },
+  {
+    "nombre": "Jojen Reed",
+    "alias": [],
+    "casa": "Reed",
+    "cultura": "Lacustre",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Howland Reed",
+    "madre": "Jyana Reed",
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Meera Reed"
+    ],
+    "descripcion": "El hijo de Howland con poderes de greensight que guió a Bran hacia el Cuervos de Tres Ojos. Sus sueños proféticos lo hicieron invaluable."
+  },
+  {
+    "nombre": "Meera Reed",
+    "alias": [],
+    "casa": "Reed",
+    "cultura": "Lacustre",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Howland Reed",
+    "madre": "Jyana Reed",
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Jojen Reed"
+    ],
+    "descripcion": "La hermana de Jojen que protegió a Bran durante su viaje. Una guerrera ágil y leal que lo guió a través de los pantanos."
+  },
+  {
+    "nombre": "Ser Rodrik Cassel",
+    "alias": [],
+    "casa": "Cassel",
+    "cultura": "Norteño",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El castellano de Invernalia y maestro de armas. Un hombre leal que entrenó a los hijos Stark. Murió intentando recuperar Invernalia."
+  },
+  {
+    "nombre": "Maester Luwin",
+    "alias": [],
+    "casa": null,
+    "cultura": "Desconocido",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El maestre de Invernalia que sirvió a la casa Stark. Un hombre sabio y compasivo que cuidó de los niños después de la muerte de Ned."
+  },
+  {
+    "nombre": "Osha",
+    "alias": [],
+    "casa": null,
+    "cultura": "Salvaje",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Una salvaje que protegió a Rickon y Bran después de la caída de Invernalia. Su instinto de supervivencia la hizo una aliada valiosa."
+  },
+  {
+    "nombre": "Hodor",
+    "alias": [
+      "Wylis"
+    ],
+    "casa": null,
+    "cultura": "Norteño",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un gigante bondadoso cuya única palabra era 'Hodor'. Sirvió como portador de Bran Stark durante años. Su verdadero nombre era Wylis."
+  },
+  {
+    "nombre": "Yoren",
+    "alias": [],
+    "casa": null,
+    "cultura": "Desconocido",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un hermano de la Guardia de la Noche que intentó llevar a Arya a Invernalia. Murió protegiendo a los jóvenes reclutas."
+  },
+  {
+    "nombre": "Syrio Forel",
+    "alias": [
+      "El Primer Espada de Braavos"
+    ],
+    "casa": null,
+    "cultura": "Braavosi",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un maestro espadachín braavosi que entrenó a Arya Stark. Sus enseñanzas de supervivencia y combate la salvaron la vida."
+  },
+  {
+    "nombre": "Hot Pie",
+    "alias": [],
+    "casa": null,
+    "cultura": "Desconocido",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un joven cocinero que viajó con Arya y Gendry. Su habilidad para hacer pasteles lo hizo memorable entre los viajeros."
+  },
+  {
+    "nombre": "Lommy Manosverdes",
+    "alias": [],
+    "casa": null,
+    "cultura": "Desconocido",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un joven herido que viajó con Arya y Gendry. Murió asesinado por los Lannister."
+  },
+  {
+    "nombre": "Shae",
+    "alias": [],
+    "casa": null,
+    "cultura": "Desconocido",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Una cortesana que se convirtió en la amante de Tyrion. Su traición lo llevó a asesinarla."
+  },
+  {
+    "nombre": "Ros",
+    "alias": [],
+    "casa": null,
+    "cultura": "Desconocido",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Una prostituta del Norte que se convirtió en informante de Varys. Su inteligencia la hizo valiosa, pero su destino fue trágico."
+  },
+  {
+    "nombre": "Illyrio Mopatis",
+    "alias": [],
+    "casa": null,
+    "cultura": "Braavosi",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un magíster de Pentos que alojó a Daenerys y Viserys. Su apoyo a los Targaryen tenía motivos ocultos."
+  },
+  {
+    "nombre": "Xaro Xhoan Daxos",
+    "alias": [],
+    "casa": null,
+    "cultura": "Qartheño",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un rico mercader de Qarth que ofreció su ayuda a Daenerys. Su traición lo llevó a ser encerrado en su propia cámara del tesoro."
+  },
+  {
+    "nombre": "Daario Naharis",
+    "alias": [],
+    "casa": null,
+    "cultura": "Tyroshi",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un mercenario tyroshi que se convirtió en el amante de Daenerys. Su carisma y habilidad con las dagas lo hicieron invaluable."
+  },
+  {
+    "nombre": "Grey Worm",
+    "alias": [
+      "Torgo Nudho"
+    ],
+    "casa": null,
+    "cultura": "Ghiscari",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Missandei"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El comandante de los Inmaculados que sirvió a Daenerys con lealtad absoluta. Su nombre fue elegido el día de su liberación."
+  },
+  {
+    "nombre": "Missandei",
+    "alias": [],
+    "casa": null,
+    "cultura": "Naathi",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Grey Worm"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Una esclava liberada que se convirtió en consejera y traductora de Daenerys. Su muerte fue el detonante de la caída de Desembarco del Rey."
+  },
+  {
+    "nombre": "Edmure Tully",
+    "alias": [],
+    "casa": "Tully",
+    "cultura": "Riverlands",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Hoster Tully",
+    "madre": null,
+    "conyuges": [
+      "Roslin Frey"
+    ],
+    "hijos": [],
+    "hermanos": [
+      "Catelyn Tully",
+      "Lysa Arryn"
+    ],
+    "descripcion": "El hermano menor de Catelyn que heredó Riverrun. Su impulsividad le causó problemas durante la guerra."
+  },
+  {
+    "nombre": "Hoster Tully",
+    "alias": [],
+    "casa": "Tully",
+    "cultura": "Riverlands",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [
+      "Edmure Tully",
+      "Catelyn Tully",
+      "Lysa Arryn"
+    ],
+    "hermanos": [],
+    "descripcion": "El patriarca de los Tully que unió sus tierras por matrimonio. Murió durante la guerra."
+  },
+  {
+    "nombre": "Lysa Arryn",
+    "alias": [],
+    "casa": "Tully",
+    "cultura": "Riverlands",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": "305 AC",
+    "padre": "Hoster Tully",
+    "madre": null,
+    "conyuges": [
+      "Jon Arryn",
+      "Petyr Baelish"
+    ],
+    "hijos": [
+      "Robert Arryn"
+    ],
+    "hermanos": [
+      "Catelyn Tully",
+      "Edmure Tully"
+    ],
+    "descripcion": "La hermana de Catelyn que mantuvo al Valle neutral durante la guerra. Su amor por Petyr Baelish la llevó a la locura."
+  },
+  {
+    "nombre": "Robert Arryn",
+    "alias": [
+      "Sweetrobin"
+    ],
+    "casa": "Arryn",
+    "cultura": "Andal",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Jon Arryn",
+    "madre": "Lysa Arryn",
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El hijo de Jon Arryn y Lysa, un niño enfermizo que fue el señor del Nido de Águilas."
+  },
+  {
+    "nombre": "Brynden Tully",
+    "alias": [
+      "El Pez Negro"
+    ],
+    "casa": "Tully",
+    "cultura": "Riverlands",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El hermano menor de Hoster Tully, un guerrero legendario que sirvió en la Guardia de la Noche."
+  },
+  {
+    "nombre": "Janos Slynt",
+    "alias": [],
+    "casa": null,
+    "cultura": "Desconocido",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un soldado corrupto que ascendió a Lord de Harrenhal. Jon Nieve lo ejecutó por insubordinación."
+  },
+  {
+    "nombre": "Sandor Clegane",
+    "alias": [
+      "El Perro",
+      "El Perro de Guerra"
+    ],
+    "casa": "Clegane",
+    "cultura": "Andal",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Gregor Clegane"
+    ],
+    "descripcion": "El hermano menor de Gregor, un guerrero temible que protegió a Sansa y luego a Arya. Su rostro quemado reflejaba su interior."
+  },
+  {
+    "nombre": "Gregor Clegane",
+    "alias": [
+      "The Mountain",
+      "La Montaña"
+    ],
+    "casa": "Clegane",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Sandor Clegane"
+    ],
+    "descripcion": "Un gigante cruel y sin escrúpulos que sirvió a los Lannister. Su fuerza brutal lo hizo legendario."
+  },
+  {
+    "nombre": "Ilyn Payne",
+    "alias": [],
+    "casa": "Payne",
+    "cultura": "Andal",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El verdugo del rey que ejecutó a Eddard Stark. Un hombre mudo que sirvió como instrumento de la justicia real."
+  },
+  {
+    "nombre": "Ygritte",
+    "alias": [],
+    "casa": null,
+    "cultura": "Salvaje",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Una salvaje de pelo rojo que se enamoró de Jon Nieve. Su frase 'No sabes nada, Jon Nieve' se hizo legendaria."
+  },
+  {
+    "nombre": "Craster",
+    "alias": [],
+    "casa": null,
+    "cultura": "Salvaje",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un salvaje que mantenía a sus hijas como esposas y ofrecía sus hijos varones a los Caminantes Blancos. Murió asesinado por sus propios hombres."
+  },
+  {
+    "nombre": "Gilly",
+    "alias": [],
+    "casa": null,
+    "cultura": "Salvaje",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Craster",
+    "madre": null,
+    "conyuges": [
+      "Samwell Tarly"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Una de las hijas de Craster que escapó con Samwell Tarly. Su fuerza y determinación la convirtieron en una sobreviviente."
+  },
+  {
+    "nombre": "Qhorin Halfhand",
+    "alias": [],
+    "casa": null,
+    "cultura": "Desconocido",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un veterano de la Guardia de la Noche que ordenó a Jon infiltrarse entre los salvajes. Murió en combate para cubrir la fuga de Jon."
+  },
+  {
+    "nombre": "Maester Aemon",
+    "alias": [
+      "Aemon Targaryen"
+    ],
+    "casa": "Targaryen",
+    "cultura": "Desconocido",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un maestre ciego de la Guardia de la Noche que era un Targaryen. Su sabiduría guió a Jon Nieve en momentos difíciles."
+  },
+  {
+    "nombre": "Paxter Redwyne",
+    "alias": [],
+    "casa": "Redwyne",
+    "cultura": "Andal",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El señor de la Isla de las Uvas que puso sitio a Bastión de Tormentas durante la rebelión."
+  },
+  {
+    "nombre": "Rickard Karstark",
+    "alias": [],
+    "casa": "Karstark",
+    "cultura": "Norteño",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un señor norteño que buscó venganza por la muerte de sus hijos. Robb lo ejecutó por insubordinación."
+  },
+  {
+    "nombre": "Greatjon Umber",
+    "alias": [],
+    "casa": "Umber",
+    "cultura": "Norteño",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El primer señor norteño en proclamar a Robb como rey. Un guerrero gigantesco cuya lealtad era inquebrantable."
+  },
+  {
+    "nombre": "Wyman Manderly",
+    "alias": [],
+    "casa": "Manderly",
+    "cultura": "Norteño",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El señor de Puerto Blanco, un hombre obeso pero inteligente que mantuvo la lealtad a los Stark en secreto."
+  },
+  {
+    "nombre": "Galbart Glover",
+    "alias": [],
+    "casa": "Glover",
+    "cultura": "Norteño",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un señor norteño que perdió su castillo en la guerra. Su lealtad a los Stark nunca se tambaleó."
+  },
+  {
+    "nombre": "Jason Mallister",
+    "alias": [],
+    "casa": "Mallister",
+    "cultura": "Riverlands",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un caballero de los Ríos que luchó en la rebelión de Robert."
+  },
+  {
+    "nombre": "Kevan Lannister",
+    "alias": [],
+    "casa": "Lannister",
+    "cultura": "Occidental",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [
+      "Lancel Lannister"
+    ],
+    "hermanos": [
+      "Tywin Lannister"
+    ],
+    "descripcion": "El hermano menor de Tywin, un hombre competente que intentó restaurar el orden después de la muerte de Cersei."
+  },
+  {
+    "nombre": "Lancel Lannister",
+    "alias": [],
+    "casa": "Lannister",
+    "cultura": "Occidental",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Kevan Lannister",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un joven Lannister que sirvió como escudero de Robert y luego se unió a la Guardia de la Rey."
+  },
+  {
+    "nombre": "Arthur Dayne",
+    "alias": [
+      "La Espada de la Mañana"
+    ],
+    "casa": "Dayne",
+    "cultura": "Dorniense",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El caballero más legendario de Poniente, guardia personal de Rhaegar Targaryen. Murió en la Torre de la Alegría."
+  },
+  {
+    "nombre": "Elia Martell",
+    "alias": [],
+    "casa": "Martell",
+    "cultura": "Dorniense",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Rhaegar Targaryen"
+    ],
+    "hijos": [
+      "Rhaenys Targaryen",
+      "Aegon Targaryen"
+    ],
+    "hermanos": [
+      "Doran Martell",
+      "Oberyn Martell"
+    ],
+    "descripcion": "La esposa de Rhaegar que fue asesinada durante el Saqueo de Desembarco del Rey. Su muerte fue vengada por Oberyn."
+  },
+  {
+    "nombre": "Aenys I Targaryen",
+    "alias": [],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Aegon Targaryen",
+    "madre": "Rhaenys Targaryen",
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El hijo de Aegon el Conquistador, un rey débil que luchó contra los Fétidos y los Púrpura."
+  },
+  {
+    "nombre": "Maegor I Targaryen",
+    "alias": [],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Aegon Targaryen",
+    "madre": "Visenya Targaryen",
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Aenys I Targaryen"
+    ],
+    "descripcion": "El hermano cruel de Aenys que construyó Harrenhal y gobernó con mano de hierro."
+  },
+  {
+    "nombre": "Jaehaerys I Targaryen",
+    "alias": [
+      "El Rey Conciliador"
+    ],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Aenys I Targaryen",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El rey más longevo y sabio de la dinastía Targaryen, que gobernó durante cincuenta y cinco años."
+  },
+  {
+    "nombre": "Viserys I Targaryen",
+    "alias": [],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El rey cuya muerte desencadenó la Danza de los Dragones."
+  },
+  {
+    "nombre": "Aegon II Targaryen",
+    "alias": [],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Viserys I Targaryen",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El rey usurpador durante la Danza de los Dragones."
+  },
+  {
+    "nombre": "Rhaenyra Targaryen",
+    "alias": [],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Viserys I Targaryen",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "La primera reina de los Siete Reinos, cuyo reinado fue efímero y trágico."
+  },
+  {
+    "nombre": "Aegon III Targaryen",
+    "alias": [
+      "El Desconsolado"
+    ],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": "Rhaenyra Targaryen",
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El rey que gobernó después de la Danza de los Dragones, marcado por la tragedia."
+  },
+  {
+    "nombre": "Daeron I Targaryen",
+    "alias": [
+      "El Joven Dragón"
+    ],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El rey que conquistó Dorne, pero no pudo mantenerla."
+  },
+  {
+    "nombre": "Baelor I Targaryen",
+    "alias": [
+      "El Bendito"
+    ],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El rey santo que construyó el Septo de Baelor y gobernó con piedad."
+  },
+  {
+    "nombre": "Aegon IV Targaryen",
+    "alias": [
+      "El Indigno"
+    ],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El rey cuya corrupción y bastardos desencadenaron las Rebeliones Blackfyre."
+  },
+  {
+    "nombre": "Daeron II Targaryen",
+    "alias": [
+      "El Bueno"
+    ],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Aegon IV Targaryen",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El rey que unió Dorne a los Siete Reinos mediante matrimonio."
+  },
+  {
+    "nombre": "Aegon V Targaryen",
+    "alias": [
+      "Egg",
+      "El Improvisado"
+    ],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El rey que intentó devolver los dragones al mundo y murió en el Desastre de Sothoros."
+  },
+  {
+    "nombre": "Daemon Blackfyre",
+    "alias": [],
+    "casa": "Blackfyre",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Aegon IV Targaryen",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El bastardo legítimo de Aegon IV que reclamó el trono y desencadenó las Rebeliones Blackfyre."
+  },
+  {
+    "nombre": "Brynden Rivers",
+    "alias": [
+      "Bloodraven",
+      "El Cuervos de Tres Ojos"
+    ],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Aegon IV Targaryen",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El bastard que sirvió como Mano del Rey y luego se convirtió en el Cuervos de Tres Ojos."
+  },
+  {
+    "nombre": "Aegor Rivers",
+    "alias": [
+      "Bittersteel"
+    ],
+    "casa": "Rivers",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Aegon IV Targaryen",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El bastardo que fundó la Compañía Dorada para luchar por la causa Blackfyre."
+  },
+  {
+    "nombre": "Shiera Seastar",
+    "alias": [],
+    "casa": "Seastar",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Aegon IV Targaryen",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "La hermana bastard de Bloodraven, una mujer de extraordinaria belleza y poder mágico."
+  },
+  {
+    "nombre": "Aerys II Targaryen",
+    "alias": [
+      "El Rey Loco"
+    ],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Jaehaerys II Targaryen",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [
+      "Rhaegar Targaryen",
+      "Viserys Targaryen",
+      "Daenerys Targaryen"
+    ],
+    "hermanos": [],
+    "descripcion": "El último rey Targaryen, cuya locura llevó a su derrocamiento."
+  },
+  {
+    "nombre": "Myrcella Baratheon",
+    "alias": [],
+    "casa": "Baratheon",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Robert Baratheon",
+    "madre": "Cersei Lannister",
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Joffrey Baratheon",
+      "Tommen Baratheon"
+    ],
+    "descripcion": "La hija de Cersei y Robert, una joven dulce que fue enviada a Dorne como promesa de paz. Fue envenenada por el príncipe Doran."
+  },
+  {
+    "nombre": "Tommen Baratheon",
+    "alias": [],
+    "casa": "Baratheon",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Robert Baratheon",
+    "madre": "Cersei Lannister",
+    "conyuges": [
+      "Margaery Tyrell"
+    ],
+    "hijos": [],
+    "hermanos": [
+      "Joffrey Baratheon",
+      "Myrcella Baratheon"
+    ],
+    "descripcion": "El hijo menor de Cersei, un niño bondadoso que fue rey tras la muerte de Joffrey. Se suicidó tras la destrucción del Septo de Baelor."
+  },
+  {
+    "nombre": "Shireen Baratheon",
+    "alias": [],
+    "casa": "Baratheon",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Stannis Baratheon",
+    "madre": "Selyse Florent",
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "La hija de Stannis, una niña amable que sobrevivió a la escamadura. Fue quemada viva por su padre como sacrificio al Señor de la Luz."
+  },
+  {
+    "nombre": "Selyse Florent",
+    "alias": [],
+    "casa": "Florent",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Stannis Baratheon"
+    ],
+    "hijos": [
+      "Shireen Baratheon"
+    ],
+    "hermanos": [],
+    "descripcion": "La esposa de Stannis, una mujer orgullosa de su sangre florent que abrazó la fe del Señor de la Luz."
+  },
+  {
+    "nombre": "Amory Lorch",
+    "alias": [],
+    "casa": "Lorch",
+    "cultura": "Occidental",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un caballero leal a los Lannister que asesinó a los niños de Rhaegar con Elia Martell. Participó en la Guerra de los Cinco Reyes."
+  },
+  {
+    "nombre": "Vargo Hoat",
+    "alias": [],
+    "casa": null,
+    "cultura": "Qohorik",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un mercenario qohorik que comandó la Compañía Maldita. Traicionó a los Lannister y mutiló a Jaime Lannister."
+  },
+  {
+    "nombre": "Arys Oakheart",
+    "alias": [],
+    "casa": "Oakheart",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un Guardia Real que fue enviado a proteger a Myrcella en Dorne. Murió en un intento de fuga con Arianne Martell."
+  },
+  {
+    "nombre": "Balon Swann",
+    "alias": [],
+    "casa": "Swann",
+    "cultura": "Andal",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un caballero leal de la Guardia Real, enviado a Dorne tras la muerte de Arys Oakheart."
+  },
+  {
+    "nombre": "Meryn Trant",
+    "alias": [],
+    "casa": null,
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un Guardia Real sin escrúpulos que sirvió lealmente a Joffrey. Murió asesinado por Arya Stark en Braavos."
+  },
+  {
+    "nombre": "Boros Blount",
+    "alias": [],
+    "casa": null,
+    "cultura": "Andal",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un Guardia Real cobarde que fue despojado de su rango por cobardería."
+  },
+  {
+    "nombre": "Preston Greenfield",
+    "alias": [],
+    "casa": null,
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un Guardia Real que murió en la destrucción del Septo de Baelor."
+  },
+  {
+    "nombre": "Mandon Moore",
+    "alias": [],
+    "casa": null,
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un Guardia Real que intentó asesinar a Tyrion en la Batalla del Aguas Negras. Fue muerto por Podrick Payne."
+  },
+  {
+    "nombre": "Alliser Thorne",
+    "alias": [],
+    "casa": null,
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un veterano de la Guardia de la Noche que se opuso a Jon Nieve. Lideró el motín que asesinó a Jon."
+  },
+  {
+    "nombre": "Bowen Marsh",
+    "alias": [],
+    "casa": null,
+    "cultura": "Norteño",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El Lord Interno de la Guardia de la Noche que apuñaló a Jon Nieve durante el motín."
+  },
+  {
+    "nombre": "Qyburn",
+    "alias": [],
+    "casa": null,
+    "cultura": "Andal",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un maestre despojado de sus cadenas por experimentos prohibidos. Se convirtió en el consejero de Cersei y creó a Ser Robert Strong."
+  },
+  {
+    "nombre": "Septa Unella",
+    "alias": [
+      "La Campana"
+    ],
+    "casa": null,
+    "cultura": "Andal",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Una septa que torturó a Cersei durante su penitencia. Fue capturada por The Mountain como venganza."
+  },
+  {
+    "nombre": "Marwyn",
+    "alias": [
+      "El Puño"
+    ],
+    "casa": null,
+    "cultura": "Desconocido",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un Archimaestre de la Ciudadela que creía en la magia. Viajó a Essos para buscar respuestas."
+  },
+  {
+    "nombre": "Edric Storm",
+    "alias": [],
+    "casa": "Baratheon",
+    "cultura": "Andal",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Robert Baratheon",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El bastardо más reconocido de Robert Baratheon, criado en Stokeworth. Fue liberado por Davos para evitar que Stannis lo sacrificara."
+  },
+  {
+    "nombre": "Mya Stone",
+    "alias": [],
+    "casa": "Baratheon",
+    "cultura": "Desconocido",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Robert Baratheon",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Una bastardа de Robert que trabaja como guía en el Nido de Águilas."
+  },
+  {
+    "nombre": "Barra",
+    "alias": [],
+    "casa": "Baratheon",
+    "cultura": "Desconocido",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Robert Baratheon",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Una bebé bastardа de Robert que fue asesinada por orden de Joffrey."
+  },
+  {
+    "nombre": "Bella",
+    "alias": [],
+    "casa": "Baratheon",
+    "cultura": "Desconocido",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Robert Baratheon",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Una bastardа de Robert que trabaja en un burdel de Desembarco del Rey."
+  },
+  {
+    "nombre": "Edric Dayne",
+    "alias": [],
+    "casa": "Dayne",
+    "cultura": "Dorniense",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El joven señor de Starfall que se encontró con Arya en el camino. Le contó sobre Wylla, la ama de leche de Jon Nieve."
+  },
+  {
+    "nombre": "Gerold Dayne",
+    "alias": [
+      "Darkstar"
+    ],
+    "casa": "Dayne",
+    "cultura": "Dorniense",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un caballero dorniense oscuro y peligroso. Intentó asesinar a Myrcella para provocar una guerra."
+  },
+  {
+    "nombre": "Quentyn Martell",
+    "alias": [],
+    "casa": "Martell",
+    "cultura": "Dorniense",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Doran Martell",
+    "madre": "Meria Martell",
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Arianne Martell",
+      "Trystane Martell"
+    ],
+    "descripcion": "El hijo de Doran que viajó a Meereen para casarse con Daenerys. Murió intentando liberar dragones."
+  },
+  {
+    "nombre": "Trystane Martell",
+    "alias": [],
+    "casa": "Martell",
+    "cultura": "Dorniense",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Doran Martell",
+    "madre": "Meria Martell",
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Arianne Martell",
+      "Quentyn Martell"
+    ],
+    "descripcion": "El hijo menor de Doran, prometido a Myrcella Baratheon. Murió cuando ella fue asesinada."
+  },
+  {
+    "nombre": "Garlan Tyrell",
+    "alias": [
+      "Garlan el Brillante"
+    ],
+    "casa": "Tyrell",
+    "cultura": "Andal",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Mace Tyrell",
+    "madre": "Alerie Hightower",
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Loras Tyrell",
+      "Margaery Tyrell"
+    ],
+    "descripcion": "El segundo hijo de Mace, un guerrero más talentoso que su hermano Loras. Luchó en la Batalla del Aguas Negras."
+  },
+  {
+    "nombre": "Willas Tyrell",
+    "alias": [],
+    "casa": "Tyrell",
+    "cultura": "Andal",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Mace Tyrell",
+    "madre": "Alerie Hightower",
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Loras Tyrell",
+      "Margaery Tyrell",
+      "Garlan Tyrell"
+    ],
+    "descripcion": "El hijo mayor de Mace, cojo por un accidente con un caballo. Un erudito que cría halcones."
+  },
+  {
+    "nombre": "Robar Royce",
+    "alias": [],
+    "casa": "Royce",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un caballero del Valle que sirvió a Renly. Fue ejecutado por ejecutar la justicia por su cuenta."
+  },
+  {
+    "nombre": "Emmon Frey",
+    "alias": [],
+    "casa": "Frey",
+    "cultura": "Riverlands",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Walder Frey",
+    "madre": null,
+    "conyuges": [
+      "Genna Lannister"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un hijo de Walder Frey que se casó con una Lannister. Fue nombrado Señor de Riverrun."
+  },
+  {
+    "nombre": "Hosteen Frey",
+    "alias": [],
+    "casa": "Frey",
+    "cultura": "Riverlands",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Walder Frey",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un hijo guerrero de Walder Frey, uno de los más agresivos de su familia."
+  },
+  {
+    "nombre": "Lothar Frey",
+    "alias": [
+      "Lame Lothar"
+    ],
+    "casa": "Frey",
+    "cultura": "Riverlands",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Walder Frey",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un hijo cojo de Walder Frey, el estratega detrás de la Boda Roja."
+  },
+  {
+    "nombre": "Lyonel Strong",
+    "alias": [],
+    "casa": "Strong",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [
+      "Larys Strong"
+    ],
+    "hermanos": [],
+    "descripcion": "El Señor de Harrenhal durante la era Targaryen, un hombre sabio y justo."
+  },
+  {
+    "nombre": "Larys Strong",
+    "alias": [
+      "El Pie Cojo"
+    ],
+    "casa": "Strong",
+    "cultura": "Andal",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Lyonel Strong",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El hijo de Lyonel que heredó Harrenhal. Un hombre astuto y peligroso que sirvió como confidente de Cersei."
+  },
+  {
+    "nombre": "Tygett Lannister",
+    "alias": [],
+    "casa": "Lannister",
+    "cultura": "Occidental",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Tytos Lannister",
+    "madre": "Jeyne Marbrand",
+    "conyuges": [],
+    "hijos": [
+      "Tyrek Lannister"
+    ],
+    "hermanos": [
+      "Tywin Lannister",
+      "Kevan Lannister",
+      "Genna Lannister"
+    ],
+    "descripcion": "El hermano menor de Tywin, un guerrero competente que murió en la rebelión de Robert."
+  },
+  {
+    "nombre": "Genna Lannister",
+    "alias": [],
+    "casa": "Lannister",
+    "cultura": "Occidental",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Tytos Lannister",
+    "madre": "Jeyne Marbrand",
+    "conyuges": [
+      "Emmon Frey"
+    ],
+    "hijos": [],
+    "hermanos": [
+      "Tywin Lannister",
+      "Kevan Lannister",
+      "Tygett Lannister"
+    ],
+    "descripcion": "La hermana mayor de Tywin, la más fuerte de los Lannister. Se casó con Emmon Frey."
+  },
+  {
+    "nombre": "Gerion Lannister",
+    "alias": [],
+    "casa": "Lannister",
+    "cultura": "Occidental",
+    "estado": "desconocido",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Tytos Lannister",
+    "madre": "Jeyne Marbrand",
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Tywin Lannister",
+      "Kevan Lannister",
+      "Genna Lannister",
+      "Tygett Lannister"
+    ],
+    "descripcion": "El hermano menor de Tywin, un aventurero que desapareció en un viaje a Valyria."
+  },
+  {
+    "nombre": "Jeyne Westerling",
+    "alias": [],
+    "casa": "Westerling",
+    "cultura": "Occidental",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Robb Stark"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "La joven que sedujo a Robb Stark y se casó con él, rompiendo su compromiso con los Frey."
+  },
+  {
+    "nombre": "Roslin Frey",
+    "alias": [],
+    "casa": "Frey",
+    "cultura": "Riverlands",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Walder Frey",
+    "madre": null,
+    "conyuges": [
+      "Edmure Tully"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "La hija de Walder Frey que se casó con Edmure Tully en la Boda Roja. Una joven inocente en una familia brutal."
+  },
+  {
+    "nombre": "Jeyne Poole",
+    "alias": [
+      "Arya Stark"
+    ],
+    "casa": null,
+    "cultura": "Norteño",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Ramsay Bolton"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "La hija del mayordomo de Invernalia, forzada a hacerse pasar por Arya Stark para legitimar el dominio Bolton sobre el Norte."
+  },
+  {
+    "nombre": "Irri",
+    "alias": [],
+    "casa": null,
+    "cultura": "Dothraki",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Una esclava dothraki que sirvió a Daenerys. Le enseñó a montar y fue leal hasta su muerte."
+  },
+  {
+    "nombre": "Jhiqui",
+    "alias": [],
+    "casa": null,
+    "cultura": "Dothraki",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Una esclava dothraki que sirvió a Daenerys junto con Irri."
+  },
+  {
+    "nombre": "Hizdahr zo Loraq",
+    "alias": [],
+    "casa": null,
+    "cultura": "Ghiscari",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Daenerys Targaryen"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un noble de Meereen que se casó con Daenerys para traer la paz. Fue acusado de envenenar a sus esposas."
+  },
+  {
+    "nombre": "Skahaz mo Kandaq",
+    "alias": [
+      "La Mano Pálida"
+    ],
+    "casa": null,
+    "cultura": "Ghiscari",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un noble ghiscari que se unió a Daenerys y comandó la Policía de Huesos en Meereen."
+  },
+  {
+    "nombre": "Dalla",
+    "alias": [],
+    "casa": null,
+    "cultura": "Salvaje",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Tormund Gigante"
+    ],
+    "hijos": [
+      "Tormenta"
+    ],
+    "hermanos": [],
+    "descripcion": "La esposa de Tormund que murió dando a luz a su hijo Tormenta."
+  },
+  {
+    "nombre": "Lynesse Hightower",
+    "alias": [],
+    "casa": "Hightower",
+    "cultura": "Andal",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Jorah Mormont"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "La primera esposa de Jorah Mormont, una joven de la Alta Torre que lo dejó por no ser suficientemente rico."
+  },
+  {
+    "nombre": "Randyll Tarly",
+    "alias": [],
+    "casa": "Tarly",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [
+      "Samwell Tarly",
+      "Dickon Tarly"
+    ],
+    "hermanos": [],
+    "descripcion": "El padre de Samwell, un guerrero implacable que despreciaba a su hijo mayor por su cobardía."
+  },
+  {
+    "nombre": "Dickon Tarly",
+    "alias": [],
+    "casa": "Tarly",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Randyll Tarly",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Samwell Tarly"
+    ],
+    "descripcion": "El hijo menor de Randyll, un joven guerrero que murió junto a su padre resistiendo a Daenerys."
+  },
+  {
+    "nombre": "Talisa Maegyr",
+    "alias": [],
+    "casa": null,
+    "cultura": "Volantena",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": "299 AC",
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Robb Stark"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Una curandera volantena que se casó con Robb Stark. Murió asesinada en la Boda Roja junto con su esposo."
+  },
+  {
+    "nombre": "Lollys Stokeworth",
+    "alias": [],
+    "casa": "Stokeworth",
+    "cultura": "Andal",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Bronn"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Una mujer simple que se casó con Bronn después de que él la rescatara."
+  },
+  {
+    "nombre": "The Night King",
+    "alias": [
+      "El Rey de la Noche",
+      "Primer Caminante Blanco"
+    ],
+    "casa": null,
+    "cultura": "Primordial",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El primer Caminante Blanco, creado por los Niños del Bosque. Lideró la amenaza del invierno eterno desde más allá del Muro."
+  },
+  {
+    "nombre": "Walgrave",
+    "alias": [],
+    "casa": null,
+    "cultura": "Desconocido",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un Archimaestre anciano de la Ciudadela, conocido por su memoria defectuosa."
+  },
+  {
+    "nombre": "Stonesnake",
+    "alias": [],
+    "casa": null,
+    "cultura": "Desconocido",
+    "estado": "desconocido",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un hermano de la Guardia de la Noche, experto escalador que participó en una patrulla más allá del Muro."
+  },
+  {
+    "nombre": "Dolorous Edd",
+    "alias": [
+      "Eddison Tollett"
+    ],
+    "casa": "Tollett",
+    "cultura": "Norteño",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un hermano de la Guardia de la Noche conocido por su perpetuo pesimismo. Fue amigo cercano de Jon Nieve."
+  },
+  {
+    "nombre": "Orell",
+    "alias": [],
+    "casa": null,
+    "cultura": "Salvaje",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un salvaje que hablaba con las águilas y se enamoró de Ygritte. Murió en combate con Jon Nieve."
+  },
+  {
+    "nombre": "Jafer Flowers",
+    "alias": [],
+    "casa": null,
+    "cultura": "Desconocido",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un hermano de la Guardia de la Noche que fue asesinado y se convirtió en caminante blanco."
+  },
+  {
+    "nombre": "Arryk",
+    "alias": [],
+    "casa": null,
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Erryk"
+    ],
+    "descripcion": "Uno de los gemelos de la Guardia Real que sirvió durante la era Targaryen."
+  },
+  {
+    "nombre": "Erryk",
+    "alias": [],
+    "casa": null,
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Arryk"
+    ],
+    "descripcion": "Uno de los gemelos de la Guardia Real que sirvió durante la era Targaryen."
+  },
+  {
+    "nombre": "Hugh el Fuerte",
+    "alias": [],
+    "casa": null,
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un caballero que fue nombrado Guardia Real por Joffrey y murió en la Batalla del Aguas Negras."
+  },
+  {
+    "nombre": "Galazza Galare",
+    "alias": [],
+    "casa": null,
+    "cultura": "Ghiscari",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "La Alta Sacerdotisa de Meereen, una de las manses ancianas de la ciudad."
+  },
+  {
+    "nombre": "Reznak mo Haqlo",
+    "alias": [],
+    "casa": null,
+    "cultura": "Ghiscari",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El Alguacil de Meereen que sirvió bajo Daenerys. Un hombre astuto que jugó con varias bandas."
+  },
+  {
+    "nombre": "Joanna Lannister",
+    "alias": [],
+    "casa": "Lannister",
+    "cultura": "Occidental",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": "273 AC",
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Tywin Lannister"
+    ],
+    "hijos": [
+      "Cersei Lannister",
+      "Jaime Lannister",
+      "Tyrion Lannister"
+    ],
+    "hermanos": [],
+    "descripcion": "La esposa de Tywin y madre de los tres Lannister principales. Su muerte al dar a luz a Tyrion fue el origen del odio de Tywin hacia su hijo menor."
+  },
+  {
+    "nombre": "Tytos Lannister",
+    "alias": [],
+    "casa": "Lannister",
+    "cultura": "Occidental",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Jeyne Marbrand"
+    ],
+    "hijos": [
+      "Tywin Lannister",
+      "Kevan Lannister",
+      "Genna Lannister",
+      "Tygett Lannister",
+      "Gerion Lannister"
+    ],
+    "hermanos": [],
+    "descripcion": "El padre de Tywin, un hombre débil cuya generosidad fue explotada por sus vasallos. Su debilidad forjó la obsesión de Tywin por la fortaleza."
+  },
+  {
+    "nombre": "Jeyne Marbrand",
+    "alias": [],
+    "casa": "Marbrand",
+    "cultura": "Occidental",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Tytos Lannister"
+    ],
+    "hijos": [
+      "Tywin Lannister",
+      "Kevan Lannister",
+      "Genna Lannister",
+      "Tygett Lannister",
+      "Gerion Lannister"
+    ],
+    "hermanos": [],
+    "descripcion": "La esposa de Tytos Lannister y madre de Tywin."
+  },
+  {
+    "nombre": "Tysha",
+    "alias": [],
+    "casa": null,
+    "cultura": "Desconocido",
+    "estado": "desconocido",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Tyrion Lannister"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Una campesina que Tyrion se casó en secreto. Tywin la obligó a acostarse con sus guardias y le hizo creer a Tyrion que era una prostituta."
+  },
+  {
+    "nombre": "Steffon Baratheon",
+    "alias": [],
+    "casa": "Baratheon",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Cassana Estermont"
+    ],
+    "hijos": [
+      "Robert Baratheon",
+      "Stannis Baratheon",
+      "Renly Baratheon"
+    ],
+    "hermanos": [],
+    "descripcion": "El padre de los tres Baratheon, un señor orgulloso que murió en un naufragio frente a los Muros de Storm's End."
+  },
+  {
+    "nombre": "Cassana Estermont",
+    "alias": [],
+    "casa": "Estermont",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Steffon Baratheon"
+    ],
+    "hijos": [
+      "Robert Baratheon",
+      "Stannis Baratheon",
+      "Renly Baratheon"
+    ],
+    "hermanos": [],
+    "descripcion": "La madre de los Baratheon, de la casa Estermont."
+  },
+  {
+    "nombre": "Rhaella Targaryen",
+    "alias": [],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Aerys II Targaryen"
+    ],
+    "hijos": [
+      "Rhaegar Targaryen",
+      "Viserys Targaryen",
+      "Daenerys Targaryen"
+    ],
+    "hermanos": [],
+    "descripcion": "La esposa de Aerys II y madre de Daenerys. Murió dando a luz a Daenerys en una tormenta en Rocadragón."
+  },
+  {
+    "nombre": "Rhaenys Targaryen",
+    "alias": [],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Aegon Targaryen",
+    "madre": null,
+    "conyuges": [
+      "Aegon Targaryen"
+    ],
+    "hijos": [
+      "Aenys I Targaryen"
+    ],
+    "hermanos": [
+      "Visenya Targaryen"
+    ],
+    "descripcion": "La hermana y esposa de Aegon el Conquistador. Compartió su trono y montó al dragón Meraxes."
+  },
+  {
+    "nombre": "Visenya Targaryen",
+    "alias": [],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Aegon Targaryen",
+    "madre": null,
+    "conyuges": [
+      "Aegon Targaryen"
+    ],
+    "hijos": [
+      "Maegor I Targaryen"
+    ],
+    "hermanos": [
+      "Rhaenys Targaryen"
+    ],
+    "descripcion": "La hermana y esposa de Aegon el Conquistador, conocida por su temperamento feroz. Montó al dragón Vhagar."
+  },
+  {
+    "nombre": "Jaehaerys II Targaryen",
+    "alias": [],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [
+      "Aerys II Targaryen"
+    ],
+    "hermanos": [],
+    "descripcion": "El padre de Aerys II, un rey de corto reinado cuyo mandato quedó eclipsado por el de su padre y su hijo."
+  },
+  {
+    "nombre": "Rhaego",
+    "alias": [],
+    "casa": "Targaryen",
+    "cultura": "Dothraki",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": "298 AC",
+    "padre": "Khal Drogo",
+    "madre": "Daenerys Targaryen",
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El hijo no nacido de Daenerys y Drogo, cuya muerte fue el precio del pacto con la magia roja."
+  },
+  {
+    "nombre": "Rodrik Greyjoy",
+    "alias": [],
+    "casa": "Greyjoy",
+    "cultura": "Islas de Hierro",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Balon Greyjoy",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Theon Greyjoy",
+      "Asha Greyjoy",
+      "Maron Greyjoy"
+    ],
+    "descripcion": "El hijo de Balon que murió en la rebelión contra los Stark."
+  },
+  {
+    "nombre": "Maron Greyjoy",
+    "alias": [],
+    "casa": "Greyjoy",
+    "cultura": "Islas de Hierro",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Balon Greyjoy",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Theon Greyjoy",
+      "Asha Greyjoy",
+      "Rodrik Greyjoy"
+    ],
+    "descripcion": "El hijo de Balon que murió en la rebelión contra los Stark."
+  },
+  {
+    "nombre": "Alannys Harlaw",
+    "alias": [],
+    "casa": "Harlaw",
+    "cultura": "Islas de Hierro",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Balon Greyjoy"
+    ],
+    "hijos": [
+      "Theon Greyjoy",
+      "Asha Greyjoy",
+      "Rodrik Greyjoy",
+      "Maron Greyjoy"
+    ],
+    "hermanos": [],
+    "descripcion": "La esposa de Balon Greyjoy y madre de sus hijos."
+  },
+  {
+    "nombre": "Obara Sand",
+    "alias": [],
+    "casa": "Martell",
+    "cultura": "Dorniense",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Oberyn Martell",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Nymeria Sand",
+      "Tyene Sand",
+      "Sarella Sand",
+      "Elia Sand",
+      "Dorea Sand",
+      "Loreza Sand"
+    ],
+    "descripcion": "La hija mayor de Oberyn Martell, una guerrera feroz que juró venganza por la muerte de su padre."
+  },
+  {
+    "nombre": "Nymeria Sand",
+    "alias": [],
+    "casa": "Martell",
+    "cultura": "Dorniense",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Oberyn Martell",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Obara Sand",
+      "Tyene Sand",
+      "Sarella Sand",
+      "Elia Sand",
+      "Dorea Sand",
+      "Loreza Sand"
+    ],
+    "descripcion": "La segunda hija de Oberyn, elegante y letal con agujas venenosas."
+  },
+  {
+    "nombre": "Tyene Sand",
+    "alias": [],
+    "casa": "Martell",
+    "cultura": "Dorniense",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Oberyn Martell",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Obara Sand",
+      "Nymeria Sand",
+      "Sarella Sand",
+      "Elia Sand",
+      "Dorea Sand",
+      "Loreza Sand"
+    ],
+    "descripcion": "Una hija de Oberyn experta en venenos, con una apariencia inocente que esconde su peligrosidad."
+  },
+  {
+    "nombre": "Sarella Sand",
+    "alias": [],
+    "casa": "Martell",
+    "cultura": "Dorniense",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Oberyn Martell",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Obara Sand",
+      "Nymeria Sand",
+      "Tyene Sand",
+      "Elia Sand",
+      "Dorea Sand",
+      "Loreza Sand"
+    ],
+    "descripcion": "Una hija de Oberyn con mente curiosa. Se dice que viajó disfrazada a la Ciudadela para estudiar."
+  },
+  {
+    "nombre": "Elia Sand",
+    "alias": [],
+    "casa": "Martell",
+    "cultura": "Dorniense",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Oberyn Martell",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Obara Sand",
+      "Nymeria Sand",
+      "Tyene Sand",
+      "Sarella Sand",
+      "Dorea Sand",
+      "Loreza Sand"
+    ],
+    "descripcion": "Una de las hijas de Oberyn, llamada así en honor a su tía Elia Martell."
+  },
+  {
+    "nombre": "Dorea Sand",
+    "alias": [],
+    "casa": "Martell",
+    "cultura": "Dorniense",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Oberyn Martell",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Obara Sand",
+      "Nymeria Sand",
+      "Tyene Sand",
+      "Sarella Sand",
+      "Elia Sand",
+      "Loreza Sand"
+    ],
+    "descripcion": "Una de las hijas de Oberyn."
+  },
+  {
+    "nombre": "Loreza Sand",
+    "alias": [],
+    "casa": "Martell",
+    "cultura": "Dorniense",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Oberyn Martell",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Obara Sand",
+      "Nymeria Sand",
+      "Tyene Sand",
+      "Sarella Sand",
+      "Elia Sand",
+      "Dorea Sand"
+    ],
+    "descripcion": "La más joven de las hijas de Oberyn."
+  },
+  {
+    "nombre": "Ellaria Sand",
+    "alias": [],
+    "casa": null,
+    "cultura": "Dorniense",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Oberyn Martell"
+    ],
+    "hijos": [
+      "Elia Sand",
+      "Dorea Sand",
+      "Loreza Sand"
+    ],
+    "hermanos": [],
+    "descripcion": "La amante de Oberyn Martell y madre de tres de sus hijas. Abogó por la paz en vez de la venganza."
+  },
+  {
+    "nombre": "Meria Martell",
+    "alias": [],
+    "casa": "Martell",
+    "cultura": "Dorniense",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Doran Martell"
+    ],
+    "hijos": [
+      "Arianne Martell",
+      "Quentyn Martell",
+      "Trystane Martell"
+    ],
+    "hermanos": [],
+    "descripcion": "La esposa de Doran Martell y princesa consorte de Dorne."
+  },
+  {
+    "nombre": "Lewyn Martell",
+    "alias": [],
+    "casa": "Martell",
+    "cultura": "Dorniense",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Oberyn Martell",
+      "Doran Martell",
+      "Elia Martell"
+    ],
+    "descripcion": "El tío de Oberyn, un Guardia Real que murió en la Batalla del Tridente."
+  },
+  {
+    "nombre": "Jeor Mormont",
+    "alias": [
+      "El Oso Viejo"
+    ],
+    "casa": "Mormont",
+    "cultura": "Norteño",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [
+      "Jorah Mormont"
+    ],
+    "hermanos": [],
+    "descripcion": "El Lord Comandante de la Guardia de la Noche que tomó a Jon Nieve como su personal. Fue asesinado en el motín."
+  },
+  {
+    "nombre": "Alys Karstark",
+    "alias": [],
+    "casa": "Karstark",
+    "cultura": "Norteño",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Rickard Karstark",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "La hija de Rickard Karstark que huyó de su casa y buscó refugio con Jon Nieve."
+  },
+  {
+    "nombre": "Selwyn Tarth",
+    "alias": [],
+    "casa": "Tarth",
+    "cultura": "Andal",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [
+      "Brienne de Tarth"
+    ],
+    "hermanos": [],
+    "descripcion": "El padre de Brienne, Señor de Tarth."
+  },
+  {
+    "nombre": "Jon Arryn",
+    "alias": [],
+    "casa": "Arryn",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": "298 AC",
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Lysa Arryn"
+    ],
+    "hijos": [
+      "Robert Arryn"
+    ],
+    "hermanos": [],
+    "descripcion": "Señor del Nido de Águilas y Mano del Rey. Su muerte misteriosa desencadenó los eventos de la saga."
+  },
+  {
+    "nombre": "Alerie Hightower",
+    "alias": [],
+    "casa": "Hightower",
+    "cultura": "Andal",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Mace Tyrell"
+    ],
+    "hijos": [
+      "Willas Tyrell",
+      "Garlan Tyrell",
+      "Loras Tyrell",
+      "Margaery Tyrell"
+    ],
+    "hermanos": [],
+    "descripcion": "La esposa de Mace Tyrell, de la casa Hightower."
+  },
+  {
+    "nombre": "Luthor Tyrell",
+    "alias": [],
+    "casa": "Tyrell",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Olenna Tyrell"
+    ],
+    "hijos": [
+      "Mace Tyrell"
+    ],
+    "hermanos": [],
+    "descripcion": "El padre de Mace Tyrell, Señor de Altojardín. Murió en un accidente de caza."
+  },
+  {
+    "nombre": "Bethany Ryswell",
+    "alias": [],
+    "casa": "Ryswell",
+    "cultura": "Norteño",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Roose Bolton"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "La primera esposa de Roose Bolton."
+  },
+  {
+    "nombre": "Walda Frey",
+    "alias": [],
+    "casa": "Frey",
+    "cultura": "Riverlands",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Walder Frey",
+    "madre": null,
+    "conyuges": [
+      "Roose Bolton"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Una hija de Walder Frey que se casó con Roose Bolton. Murió en la caída de Invernalia."
+  },
+  {
+    "nombre": "Jyana Reed",
+    "alias": [],
+    "casa": "Reed",
+    "cultura": "Lacustre",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Howland Reed"
+    ],
+    "hijos": [
+      "Jojen Reed",
+      "Meera Reed"
+    ],
+    "hermanos": [],
+    "descripcion": "La esposa de Howland Reed y madre de Jojen y Meera."
+  },
+  {
+    "nombre": "Marya Seaworth",
+    "alias": [],
+    "casa": "Seaworth",
+    "cultura": "Desconocido",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Davos Seaworth"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "La esposa de Davos Seaworth."
+  },
+  {
+    "nombre": "Tormenta",
+    "alias": [],
+    "casa": null,
+    "cultura": "Salvaje",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Tormund Gigante",
+    "madre": "Dalla",
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El hijo de Tormund y Dalla, nacido en las tormentas."
+  },
+  {
+    "nombre": "Tyrek Lannister",
+    "alias": [],
+    "casa": "Lannister",
+    "cultura": "Occidental",
+    "estado": "desconocido",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Tygett Lannister",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El hijo de Tygett Lannister, conocido como 'el Avestruz'. Desapareció durante el saqueo de Desembarco del Rey."
+  },
+  {
+    "nombre": "Volaris",
+    "alias": [],
+    "casa": null,
+    "cultura": "Desconocido",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Euron Greyjoy"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Una mujer misteriosa asociada con Euron Greyjoy."
+  },
+  {
+    "nombre": "Marna Vance",
+    "alias": [],
+    "casa": "Vance",
+    "cultura": "Riverlands",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Walder Frey"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Una de las esposas de Walder Frey."
+  },
+  {
+    "nombre": "Bethany Rosby",
+    "alias": [],
+    "casa": "Rosby",
+    "cultura": "Riverlands",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Walder Frey"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Una de las esposas de Walder Frey."
+  },
+  {
+    "nombre": "Shiera Crakehall",
+    "alias": [],
+    "casa": "Crakehall",
+    "cultura": "Occidental",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Walder Frey"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Una de las esposas de Walder Frey."
+  },
+  {
+    "nombre": "Annara Farring",
+    "alias": [],
+    "casa": "Farring",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Walder Frey"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Una de las esposas de Walder Frey."
+  },
+  {
+    "nombre": "Joyeuse Erenford",
+    "alias": [],
+    "casa": "Erenford",
+    "cultura": "Riverlands",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Walder Frey"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "La última esposa de Walder Frey."
+  },
+  {
+    "nombre": "Brandon el Constructor",
+    "alias": [
+      "Brandon the Builder"
+    ],
+    "casa": "Stark",
+    "cultura": "Primeros Hombres",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El legendario fundador de Invernalia y constructor del Muro. Se dice que tuvo ayuda de los hijos del bosque y los gigantes para levantar las fortificaciones más impresionantes de Poniente."
+  },
+  {
+    "nombre": "Garth Manoverde",
+    "alias": [
+      "Garth Mano Verde",
+      "Garth el Verde"
+    ],
+    "casa": "Gardener",
+    "cultura": "Primeros Hombres",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El legendario antepasado de la casa Gardener y de todas las grandes casas del Dominio. Se le atribuye haber enseñado a los hombres a cultivar la tierra. Su bolsa de semillas nunca se agotaba."
+  },
+  {
+    "nombre": "Lann el Astuto",
+    "alias": [
+      "Lann the Clever"
+    ],
+    "casa": "Lannister",
+    "cultura": "Primeros Hombres",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El legendario fundador de la casa Lannister que engañó a los Casterly para hacerse con Roca Casterly. Se decía que podía colarse por cualquier cerradura."
+  },
+  {
+    "nombre": "Durran Pesardedioses",
+    "alias": [
+      "Durran Godsgrief"
+    ],
+    "casa": null,
+    "cultura": "Primeros Hombres",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El legendario fundador de las Tierras de la Tormenta que luchó contra los dioses del mar para construir Bastión de Tormentas."
+  },
+  {
+    "nombre": "Aenar Targaryen",
+    "alias": [
+      "Aenar el Exiliado"
+    ],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El patriarca que huyó de Valyria con toda su familia doce años antes de la Maldición, siguiendo las profecías de su hija Daenys la Soñadora."
+  },
+  {
+    "nombre": "Daenys la Soñadora",
+    "alias": [
+      "Daenys the Dreamer"
+    ],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Aenar Targaryen",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "La hija de Aenar Targaryen cuyas visiones proféticas salvaron a su familia de la destrucción de Valyria."
+  },
+  {
+    "nombre": "Gaemon Targaryen",
+    "alias": [
+      "Gaemon el Glorioso"
+    ],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Daenys la Soñadora"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Hermano y esposo de Daenys la Soñadora, sucedió a Aenar como señor de Rocadragón y fue conocido por su gloria."
+  },
+  {
+    "nombre": "Aerion Targaryen",
+    "alias": [],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [
+      "Aegon Targaryen"
+    ],
+    "hermanos": [],
+    "descripcion": "El padre de Aegon el Conquistador, señor de Rocadragón."
+  },
+  {
+    "nombre": "Torrhen Stark",
+    "alias": [
+      "Torrhen el Suplicante"
+    ],
+    "casa": "Stark",
+    "cultura": "Norteño",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El último Rey del Invierno que se arrodilló ante Aegon el Conquistador en lugar de luchar, ganándose el apodo de El Suplicante."
+  },
+  {
+    "nombre": "Theon Stark",
+    "alias": [
+      "Theon el Hambriento"
+    ],
+    "casa": "Stark",
+    "cultura": "Norteño",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un Rey del Invierno conocido por su crueldad y su campaña contra los ándalos que invadían el Norte."
+  },
+  {
+    "nombre": "Cregan Stark",
+    "alias": [],
+    "casa": "Stark",
+    "cultura": "Norteño",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un Rey del Invierno de larguísimo reinado durante el cual se escribieron importantes crónicas sobre los túmulos del Norte."
+  },
+  {
+    "nombre": "Brandon el Rompehielo",
+    "alias": [
+      "Brandon the Breaker"
+    ],
+    "casa": "Stark",
+    "cultura": "Norteño",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un Rey del Invierno que derrotó a los Caminantes Blancos y selló la paz con los hijos del bosque."
+  },
+  {
+    "nombre": "Argilac el Arrogante",
+    "alias": [
+      "Argilac Durrandon"
+    ],
+    "casa": "Durrandon",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El último Rey de la Tormenta de la casa Durrandon. Su rechazo a la oferta de matrimonio de Aegon y el envío de las manos cortadas a Orys Baratheon provocó la Conquista."
+  },
+  {
+    "nombre": "Harren el Negro",
+    "alias": [
+      "Harrenhal"
+    ],
+    "casa": "Hoare",
+    "cultura": "Islas de Hierro",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El último Rey de las Islas y los Ríos de la casa Hoare. Construyó Harrenhal, el castillo más grande de Poniente, y fue destruido por los dragones de Aegon."
+  },
+  {
+    "nombre": "Orys Baratheon",
+    "alias": [],
+    "casa": "Baratheon",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Campeón y amigo de Aegon el Conquistador, posiblemente su hermano ilegítimo. Fundó la casa Baratheon tras conquistar Bastión de Tormentas."
+  },
+  {
+    "nombre": "Harwyn Manodura",
+    "alias": [
+      "Harwyn Hardhand"
+    ],
+    "casa": "Hoare",
+    "cultura": "Islas de Hierro",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El abuelo de Harren el Negro que arrebató el Tridente a los Ríos con la fuerza de su mano."
+  },
+  {
+    "nombre": "Tristifer IV Mudd",
+    "alias": [
+      "Tristifer el Martillo"
+    ],
+    "casa": "Mudd",
+    "cultura": "Primeros Hombres",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El último gran rey de los Ríos de la casa Mudd que defendió sus tierras contra los ándalos."
+  },
+  {
+    "nombre": "Qhored I",
+    "alias": [
+      "Qhored el Grande"
+    ],
+    "casa": "Hoare",
+    "cultura": "Islas de Hierro",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El más legendario de los Reyes del Hierro que gobernó desde Old Wyk y extendió el poder de las Islas por todo Poniente."
+  },
+  {
+    "nombre": "Qhorwyn el Bueno",
+    "alias": [
+      "Qhorwyn the Good"
+    ],
+    "casa": "Hoare",
+    "cultura": "Islas de Hierro",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un Rey del Hierro conocido por su prudencia y por acumular riquezas en lugar de lanzar conquistas."
+  },
+  {
+    "nombre": "Gendel",
+    "alias": [],
+    "casa": null,
+    "cultura": "Salvaje",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Gorne"
+    ],
+    "descripcion": "Un héroe salvaje legendario que junto a su hermano Gorne medió en una disputa entre los hijos del bosque y los gigantes."
+  },
+  {
+    "nombre": "Gorne",
+    "alias": [],
+    "casa": null,
+    "cultura": "Salvaje",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [
+      "Gendel"
+    ],
+    "descripcion": "El hermano de Gendel, un héroe salvaje que descubrió un sistema de cuevas que pasaba bajo el Muro."
+  },
+  {
+    "nombre": "Nymeria de los Rhoynar",
+    "alias": [
+      "Nymeria"
+    ],
+    "casa": "Martell",
+    "cultura": "Rhoynar",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Mors Martell"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "La princesa guerrera rhoynar que huyó de Valyria con diez mil naves y se asentó en Dorne con los Martell. Gobernó Dorne durante veintisiete años."
+  },
+  {
+    "nombre": "Mors Martell",
+    "alias": [],
+    "casa": "Martell",
+    "cultura": "Dorniense",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Nymeria de los Rhoynar"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El señor dorniense que se casó con Nymeria y unificó Dorne mediante la fuerza y la diplomacia."
+  },
+  {
+    "nombre": "Arrec Durrandon",
+    "alias": [],
+    "casa": "Durrandon",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El abuelo de Argilac, un Rey de la Tormenta cuyos antepasados habían derrocado al último rey de los Ríos."
+  },
+  {
+    "nombre": "Garse VII Gardener",
+    "alias": [],
+    "casa": "Gardener",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El último Rey del Dominio de la casa Gardener, asesinado por Argilac en la Batalla de Campoestivo."
+  },
+  {
+    "nombre": "Alicent Hightower",
+    "alias": [
+      "La Reina Verde"
+    ],
+    "casa": "Hightower",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Otto Hightower",
+    "madre": null,
+    "conyuges": [
+      "Viserys I Targaryen"
+    ],
+    "hijos": [
+      "Aegon II Targaryen",
+      "Helaena Targaryen"
+    ],
+    "hermanos": [],
+    "descripcion": "La segunda esposa de Viserys I y madre de Aegon II. Su disputa con Rhaenyra por la sucesión desencadenó la Danza de los Dragones."
+  },
+  {
+    "nombre": "Daemon Targaryen",
+    "alias": [
+      "El Príncipe de la Ciudad",
+      "Rey del Mar Angosto"
+    ],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Rhaenyra Targaryen"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El hermano menor de Viserys I, un príncipe audaz y tempestuoso. Luchó en la Danza de los Dragones montando a Caraxes y murió en duelo contra Aemond sobre el Ojo de Dioses."
+  },
+  {
+    "nombre": "Aemond Targaryen",
+    "alias": [
+      "Aemond el Tuerto"
+    ],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Viserys I Targaryen",
+    "madre": "Alicent Hightower",
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El hermano de Aegon II que montaba a Vhagar, el mayor de los dragones. Murió en duelo contra Daemon sobre el Ojo de Dioses."
+  },
+  {
+    "nombre": "Helaena Targaryen",
+    "alias": [],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Viserys I Targaryen",
+    "madre": "Alicent Hightower",
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "La hija de Viserys I y hermana de Aegon II. Su muerte cayendo desde los muros de la Fortaleza Roja fue uno de los momentos más trágicos de la Danza."
+  },
+  {
+    "nombre": "Baela Targaryen",
+    "alias": [],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "vivo",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Daemon Targaryen",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "La hija de Daemon Targaryen que montaba a Danzarina Lunar. Enfrentó a Aegon II en Rocadragón y sobrevivió a la batalla."
+  },
+  {
+    "nombre": "Corlys Velaryon",
+    "alias": [
+      "La Serpiente Marina"
+    ],
+    "casa": "Velaryon",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [
+      "Rhaenys Targaryen"
+    ],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El mayor explorador de Poniente que navegó los mares más lejanos. Sirvió como mano del rey durante la Danza de los Dragones."
+  },
+  {
+    "nombre": "Daeron Targaryen",
+    "alias": [
+      "Daeron el Osado"
+    ],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Viserys I Targaryen",
+    "madre": "Alicent Hightower",
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "El hermano menor de Aegon II que destacó en la batalla. Montaba a Tessarion, la Reina Azul. Murió en la Segunda Batalla de Ladera."
+  },
+  {
+    "nombre": "Addam Velaryon",
+    "alias": [
+      "Addam de Casco"
+    ],
+    "casa": "Velaryon",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Corlys Velaryon",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un joven que montaba a Bruma y fue adoptado por lord Corlys. Murió con valentía en la Segunda Batalla de Ladera. Su epitafio fue simplemente: Leal."
+  },
+  {
+    "nombre": "Hugh el Martillo",
+    "alias": [
+      "Hugh Martillo"
+    ],
+    "casa": null,
+    "cultura": "Desconocido",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un herrero que montaba a Vermithor. Cambió de bando en la Primera Batalla de Ladera y fue asesinado posteriormente."
+  },
+  {
+    "nombre": "Ulf el Blanco",
+    "alias": [
+      "Ulf el Beodo"
+    ],
+    "casa": null,
+    "cultura": "Desconocido",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [],
+    "hermanos": [],
+    "descripcion": "Un borracho que montaba a Ala de Plata. Cambió de bando junto con Hugh el Martillo y fue envenenado."
+  },
+  {
+    "nombre": "Daena Targaryen",
+    "alias": [
+      "Daena la Rebelde"
+    ],
+    "casa": "Targaryen",
+    "cultura": "Valyrio",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": "Daeron II Targaryen",
+    "madre": null,
+    "conyuges": [],
+    "hijos": [
+      "Daemon Blackfyre"
+    ],
+    "hermanos": [],
+    "descripcion": "La hija de Daeron II que fue encerrada en la Bóveda de las Doncellas. Dio a luz a Daemon Blackfyre, cuyo padre nunca fue revelado oficialmente."
+  },
+  {
+    "nombre": "Otto Hightower",
+    "alias": [],
+    "casa": "Hightower",
+    "cultura": "Andal",
+    "estado": "muerto",
+    "nacimiento": null,
+    "muerte": null,
+    "padre": null,
+    "madre": null,
+    "conyuges": [],
+    "hijos": [
+      "Alicent Hightower"
+    ],
+    "hermanos": [],
+    "descripcion": "Mano del rey que manipuló la sucesión a favor de su hija Alicent. Fue ejecutado durante la Danza de los Dragones."
+  }
+]
