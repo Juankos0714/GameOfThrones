@@ -2,6 +2,7 @@
 import { ref } from 'vue'
 import { Motion } from 'motion-v'
 import { Swords } from 'lucide-vue-next'
+import SectionReveal from '@/components/ui/SectionReveal.vue'
 
 const battles = ref([
   {
@@ -50,42 +51,47 @@ const battles = ref([
 <template>
   <div class="battles-page">
     <section class="chronology" style="min-height: 60vh">
-      <p class="label">Batallas</p>
-      <h2>
-        Sangre y<br />
-        consecuencias
-      </h2>
+      <SectionReveal>
+        <p class="label">Batallas</p>
+        <h2>
+          Sangre y<br />
+          consecuencias
+        </h2>
+      </SectionReveal>
 
       <div class="battles-grid">
-        <Motion
-          v-for="battle in battles"
+        <SectionReveal
+          v-for="(battle, i) in battles"
           :key="battle.id"
-          as="article"
-          class="battle-card"
-          :initial="{ opacity: 0, y: 20 }"
-          :whileInView="{ opacity: 1, y: 0 }"
-          :whileHover="{ y: -3 }"
-          :transition="{ duration: 0.5 }"
-          :viewport="{ once: true, margin: '-50px' }"
+          :delay="i * 0.08"
         >
-          <div class="battle-header">
-            <Swords />
-            <div>
-              <h3>{{ battle.name }}</h3>
-              <time>{{ battle.date }}</time>
+          <Motion
+            as="article"
+            class="battle-card"
+            :whileHover="{ y: -3 }"
+            :transition="{ duration: 0.25, ease: [0.25, 0.1, 0.25, 1] }"
+          >
+            <div class="battle-header">
+              <div class="battle-icon">
+                <Swords :size="24" />
+              </div>
+              <div>
+                <h3>{{ battle.name }}</h3>
+                <time>{{ battle.date }}</time>
+              </div>
             </div>
-          </div>
-          <p class="battle-desc">{{ battle.description }}</p>
-          <div class="battle-combatants">
-            <span v-for="c in battle.combatants" :key="c" class="combatant-tag">
-              {{ c }}
-            </span>
-          </div>
-          <div class="battle-outcome">
-            <span class="outcome-label">Resultado:</span>
-            <span>{{ battle.outcome }}</span>
-          </div>
-        </Motion>
+            <p class="battle-desc">{{ battle.description }}</p>
+            <div class="battle-combatants">
+              <span v-for="c in battle.combatants" :key="c" class="combatant-tag">
+                {{ c }}
+              </span>
+            </div>
+            <div class="battle-outcome">
+              <span class="outcome-label">Resultado:</span>
+              <span>{{ battle.outcome }}</span>
+            </div>
+          </Motion>
+        </SectionReveal>
       </div>
     </section>
   </div>
@@ -95,17 +101,18 @@ const battles = ref([
 .battles-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
-  gap: 24px;
+  gap: 20px;
 }
 
 .battle-card {
   border: 1px solid var(--border);
-  padding: 30px;
-  transition: background 0.2s;
+  padding: 28px;
+  transition: border-color 0.25s ease;
 }
 
 .battle-card:hover {
-  background: color-mix(in srgb, var(--house) 5%, transparent);
+  border-color: var(--house-border);
+  background: var(--house-surface);
 }
 
 .battle-header {
@@ -115,10 +122,20 @@ const battles = ref([
   margin-bottom: 16px;
 }
 
-.battle-header svg {
-  width: 28px;
+.battle-icon {
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--border);
+  display: grid;
+  place-items: center;
   color: var(--house);
   flex-shrink: 0;
+  transition: border-color 0.25s ease, transform 0.25s ease;
+}
+
+.battle-card:hover .battle-icon {
+  border-color: var(--house-border);
+  transform: scale(1.05);
 }
 
 .battle-header h3 {
@@ -127,7 +144,7 @@ const battles = ref([
 }
 
 .battle-header time {
-  font-size: 9px;
+  font: 600 8px/1 var(--font-sans);
   color: var(--house);
 }
 
@@ -142,15 +159,21 @@ const battles = ref([
   display: flex;
   gap: 6px;
   margin-bottom: 16px;
+  flex-wrap: wrap;
 }
 
 .combatant-tag {
-  font-size: 7px;
+  font: 500 7px/1 var(--font-sans);
   text-transform: uppercase;
   letter-spacing: 0.12em;
   padding: 5px 10px;
   border: 1px solid var(--border);
   color: var(--color-muted-foreground);
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.battle-card:hover .combatant-tag {
+  border-color: var(--house-border);
 }
 
 .battle-outcome {

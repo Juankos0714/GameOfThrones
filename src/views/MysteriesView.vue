@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { Motion } from 'motion-v'
+import SectionReveal from '@/components/ui/SectionReveal.vue'
 
 const mysteries = ref([
   {
@@ -46,10 +47,10 @@ const mysteries = ref([
 ])
 
 const statusColors: Record<string, string> = {
-  canon: '#5a8a5e',
-  evidence: '#8a8a5a',
-  interpretation: '#5a7a8a',
-  theory: '#8a5a5a',
+  canon: 'var(--color-success)',
+  evidence: 'var(--color-warning)',
+  interpretation: 'var(--color-info)',
+  theory: 'var(--color-danger)',
   unresolved: '#8a5a8a',
 }
 
@@ -87,39 +88,40 @@ const statusLabels: Record<string, string> = {
     </section>
 
     <section class="mysteries-list">
-      <Motion
-        v-for="mystery in mysteries"
+      <SectionReveal
+        v-for="(mystery, i) in mysteries"
         :key="mystery.id"
-        as="article"
-        class="mystery-card"
-        :initial="{ opacity: 0, y: 20 }"
-        :whileInView="{ opacity: 1, y: 0 }"
-        :whileHover="{ y: -2 }"
-        :transition="{ duration: 0.5 }"
-        :viewport="{ once: true, margin: '-50px' }"
+        :delay="i * 0.08"
       >
-        <div class="mystery-header">
-          <h3>{{ mystery.title }}</h3>
-          <span
-            class="mystery-status"
-            :style="{
-              color: statusColors[mystery.status],
-              borderColor: statusColors[mystery.status],
-            }"
-          >
-            {{ statusLabels[mystery.status] }}
-          </span>
-        </div>
-        <p class="mystery-desc">{{ mystery.description }}</p>
-        <div class="mystery-section">
-          <h4>Evidencia</h4>
-          <p>{{ mystery.evidence }}</p>
-        </div>
-        <div class="mystery-section">
-          <h4>Interpretación</h4>
-          <p>{{ mystery.interpretation }}</p>
-        </div>
-      </Motion>
+        <Motion
+          as="article"
+          class="mystery-card"
+          :whileHover="{ y: -2 }"
+          :transition="{ duration: 0.25, ease: [0.25, 0.1, 0.25, 1] }"
+        >
+          <div class="mystery-header">
+            <h3>{{ mystery.title }}</h3>
+            <span
+              class="mystery-status"
+              :style="{
+                color: statusColors[mystery.status],
+                borderColor: statusColors[mystery.status],
+              }"
+            >
+              {{ statusLabels[mystery.status] }}
+            </span>
+          </div>
+          <p class="mystery-desc">{{ mystery.description }}</p>
+          <div class="mystery-section">
+            <h4>Evidencia</h4>
+            <p>{{ mystery.evidence }}</p>
+          </div>
+          <div class="mystery-section">
+            <h4>Interpretación</h4>
+            <p>{{ mystery.interpretation }}</p>
+          </div>
+        </Motion>
+      </SectionReveal>
     </section>
   </div>
 </template>
@@ -128,47 +130,53 @@ const statusLabels: Record<string, string> = {
 .mysteries-list {
   padding: 0 clamp(24px, 7vw, 110px) 140px;
   display: grid;
-  gap: 30px;
+  gap: 20px;
 }
 
 .mystery-card {
   border: 1px solid var(--border);
-  padding: 40px;
-  background: color-mix(in srgb, var(--house-deep) 40%, var(--color-background));
+  padding: 36px;
+  background: color-mix(in srgb, var(--house-deep) 35%, var(--color-background));
+  transition: border-color 0.25s ease;
+}
+
+.mystery-card:hover {
+  border-color: var(--house-border);
 }
 
 .mystery-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 .mystery-header h3 {
-  font: 500 28px var(--font-serif);
+  font: 500 26px var(--font-serif);
   margin: 0;
 }
 
 .mystery-status {
-  font-size: 7px;
+  font: 500 7px/1 var(--font-sans);
   text-transform: uppercase;
   letter-spacing: 0.12em;
   padding: 6px 12px;
   border: 1px solid;
+  flex-shrink: 0;
 }
 
 .mystery-desc {
-  font: italic 16px var(--font-serif);
+  font: italic 15px var(--font-serif);
   color: var(--color-muted-foreground);
-  margin: 0 0 24px;
+  margin: 0 0 22px;
 }
 
 .mystery-section {
-  margin-top: 16px;
+  margin-top: 14px;
 }
 
 .mystery-section h4 {
-  font-size: 8px;
+  font: 600 8px/1 var(--font-sans);
   text-transform: uppercase;
   letter-spacing: 0.15em;
   color: var(--house);
@@ -184,7 +192,7 @@ const statusLabels: Record<string, string> = {
 
 @media (max-width: 600px) {
   .mystery-card {
-    padding: 24px;
+    padding: 22px;
   }
 
   .mystery-header {

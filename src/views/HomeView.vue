@@ -4,6 +4,8 @@ import { useUiStore } from '@/stores/ui'
 import { cn, padNumber } from '@/utils'
 import { ref, computed } from 'vue'
 import { Motion } from 'motion-v'
+import HouseCard from '@/components/wiki/HouseCard.vue'
+import SectionReveal from '@/components/ui/SectionReveal.vue'
 import {
   Shield,
   Crown,
@@ -25,25 +27,12 @@ const { events: timelineEvents } = useTimeline()
 const uiStore = useUiStore()
 
 const chapters = [
-  'Identidad',
-  'Historia',
-  'Sangre',
-  'Miembros',
-  'Política',
-  'Territorios',
-  'Acontecimientos',
-  'Referencias',
+  'Identidad', 'Historia', 'Sangre', 'Miembros',
+  'Política', 'Territorios', 'Acontecimientos', 'Referencias',
 ]
 
 const iconMap: Record<string, any> = {
-  TreePine,
-  Crown,
-  Flame,
-  Swords,
-  Flower2,
-  Anchor,
-  Mountain,
-  Waves,
+  TreePine, Crown, Flame, Swords, Flower2, Anchor, Mountain, Waves,
 }
 
 function getIcon(sigil: string) {
@@ -59,14 +48,6 @@ const memberCount = computed(() => {
 })
 
 const activeIcon = computed(() => getIcon(selectedHouse.value.sigil))
-
-const houseIndex = computed(() =>
-  houses.value.map((h, i) => ({
-    ...h,
-    index: String(i + 1).padStart(2, '0'),
-    Icon: getIcon(h.sigil),
-  }))
-)
 </script>
 
 <template>
@@ -131,46 +112,29 @@ const houseIndex = computed(() =>
 
     <!-- CATALOGUE / HOUSES -->
     <section id="casas" class="catalogue">
-      <Motion
-        as="header"
-        class="editorial-head"
-        :initial="{ opacity: 0, y: 25 }"
-        :whileInView="{ opacity: 1, y: 0 }"
-        :transition="{ duration: 0.6 }"
-        :viewport="{ once: true, margin: '-80px' }"
-      >
-        <span>01 / Los grandes linajes</span>
-        <h2>
-          Casas de<br />
-          Poniente
-        </h2>
-        <p>
-          Nueve archivos dinásticos. Seleccione un nombre para alterar la
-          materia del códice y consultar su monografía.
-        </p>
-      </Motion>
+      <SectionReveal>
+        <header class="editorial-head">
+          <span>01 / Los grandes linajes</span>
+          <h2>
+            Casas de<br />
+            Poniente
+          </h2>
+          <p>
+            Nueve archivos dinásticos. Seleccione un nombre para alterar la
+            materia del códice y consultar su monografía.
+          </p>
+        </header>
+      </SectionReveal>
 
       <div class="house-index" role="list">
-        <Motion
-          v-for="house in houseIndex"
+        <HouseCard
+          v-for="(house, i) in houses"
           :key="house.id"
-          as="button"
-          role="listitem"
-          layout
-          :class="cn(house.id === selectedHouse.id && 'active')"
-          :aria-pressed="house.id === selectedHouse.id"
-          :whileHover="{ x: 14 }"
-          :whileTap="{ scale: 0.995 }"
-          :transition="{ layout: { type: 'tween', duration: 0.3 }, default: { type: 'tween', duration: 0.2 } }"
-          @click="selectHouse(house.id)"
-        >
-          <span class="index-no">{{ house.index }}</span>
-          <component :is="house.Icon" />
-          <span class="index-name">{{ house.name }}</span>
-          <span class="index-region">{{ house.region }}</span>
-          <span class="index-words">"{{ house.motto }}"</span>
-          <span class="arrow" aria-hidden="true">→</span>
-        </Motion>
+          :house="house"
+          :index="i"
+          :is-active="house.id === selectedHouse.id"
+          @select="selectHouse"
+        />
       </div>
     </section>
 
@@ -301,9 +265,7 @@ const houseIndex = computed(() =>
           <li v-for="(member, i) in selectedHouse.members" :key="member.name">
             <b>{{ padNumber(i + 1) }}</b>
             <span>{{ member.name }}</span>
-            <small>{{
-              i === 0 ? 'Cabeza o figura histórica' : member.title
-            }}</small>
+            <small>{{ i === 0 ? 'Cabeza o figura histórica' : member.title }}</small>
           </li>
         </ol>
       </section>
@@ -377,67 +339,60 @@ const houseIndex = computed(() =>
 
     <!-- ATLAS -->
     <section id="atlas" class="atlas">
-      <Motion
-        as="header"
-        class="editorial-head inverse"
-        :initial="{ opacity: 0, y: 25 }"
-        :whileInView="{ opacity: 1, y: 0 }"
-        :transition="{ duration: 0.6 }"
-        :viewport="{ once: true, margin: '-80px' }"
-      >
-        <span>02 / Atlas del reino</span>
-        <h2>
-          Todo está<br />
-          conectado
-        </h2>
-        <p>Personas, lugares y sangre forman una sola cartografía política.</p>
-      </Motion>
+      <SectionReveal>
+        <header class="editorial-head inverse">
+          <span>02 / Atlas del reino</span>
+          <h2>
+            Todo está<br />
+            conectado
+          </h2>
+          <p>Personas, lugares y sangre forman una sola cartografía política.</p>
+        </header>
+      </SectionReveal>
 
       <div class="atlas-grid">
-        <article>
-          <Crown />
-          <p>Personajes</p>
-          <h3>Vidas bajo escrutinio</h3>
-          <span>{{ memberCount * 10 + 6 }} expedientes indexados</span>
-        </article>
-        <article>
-          <Mountain />
-          <p>Cartografía</p>
-          <h3>El reino medido</h3>
-          <span>9 regiones · 34 fortalezas</span>
-        </article>
-        <article>
-          <Waves />
-          <p>Genealogías</p>
-          <h3>La sangre recuerda</h3>
-          <span>17 líneas de sucesión</span>
-        </article>
+        <Motion
+          v-for="(item, i) in [
+            { icon: Crown, title: 'Vidas bajo escrutinio', subtitle: 'Personajes', count: `${memberCount * 10 + 6} expedientes indexados` },
+            { icon: Mountain, title: 'El reino medido', subtitle: 'Cartografía', count: '9 regiones · 34 fortalezas' },
+            { icon: Waves, title: 'La sangre recuerda', subtitle: 'Genealogías', count: '17 líneas de sucesión' },
+          ]"
+          :key="item.subtitle"
+          as="article"
+          :initial="{ opacity: 0, y: 20 }"
+          :whileInView="{ opacity: 1, y: 0 }"
+          :transition="{ duration: 0.5, delay: i * 0.1 }"
+          :viewport="{ once: true, margin: '-50px' }"
+        >
+          <component :is="item.icon" />
+          <p>{{ item.subtitle }}</p>
+          <h3>{{ item.title }}</h3>
+          <span>{{ item.count }}</span>
+        </Motion>
       </div>
     </section>
 
     <!-- CHRONOLOGY -->
-    <Motion
-      as="section"
-      id="cronologia"
-      class="chronology"
-      :initial="{ opacity: 0, y: 25 }"
-      :whileInView="{ opacity: 1, y: 0 }"
-      :transition="{ duration: 0.6 }"
-      :viewport="{ once: true, margin: '-80px' }"
-    >
-      <p class="label">03 / Cronología comparada</p>
-      <h2>
-        Antes y después<br />
-        de la corona
-      </h2>
-      <div class="timeline-scroll">
-        <article v-for="event in timelineEvents" :key="event.id">
-          <time>{{ event.date }} d.C.</time>
-          <i />
-          <p>{{ event.title }}</p>
-        </article>
-      </div>
-    </Motion>
+    <SectionReveal>
+      <Motion
+        as="section"
+        id="cronologia"
+        class="chronology"
+      >
+        <p class="label">03 / Cronología comparada</p>
+        <h2>
+          Antes y después<br />
+          de la corona
+        </h2>
+        <div class="timeline-scroll">
+          <article v-for="event in timelineEvents" :key="event.id">
+            <time>{{ event.date }} d.C.</time>
+            <i />
+            <p>{{ event.title }}</p>
+          </article>
+        </div>
+      </Motion>
+    </SectionReveal>
 
     <!-- MYSTERIES / FORBIDDEN -->
     <section id="misterios" class="forbidden">
@@ -463,19 +418,21 @@ const houseIndex = computed(() =>
     </section>
 
     <!-- VOLUMES / BOOKS -->
-    <section id="libros" class="volumes">
-      <header>
-        <p class="label">05 / Fuentes primarias</p>
-        <h2>Los cinco volúmenes</h2>
-      </header>
-      <div>
-        <article v-for="(book, i) in sortedBooks" :key="book.id">
-          <span>{{ padNumber(i + 1) }}</span>
-          <BookOpen />
-          <h3>{{ book.title }}</h3>
-          <p>Capítulos · POV · lugares · hechos</p>
-        </article>
-      </div>
-    </section>
+    <SectionReveal>
+      <section id="libros" class="volumes">
+        <header>
+          <p class="label">05 / Fuentes primarias</p>
+          <h2>Los cinco volúmenes</h2>
+        </header>
+        <div>
+          <article v-for="(book, i) in sortedBooks" :key="book.id">
+            <span>{{ padNumber(i + 1) }}</span>
+            <BookOpen />
+            <h3>{{ book.title }}</h3>
+            <p>Capítulos · POV · lugares · hechos</p>
+          </article>
+        </div>
+      </section>
+    </SectionReveal>
   </div>
 </template>

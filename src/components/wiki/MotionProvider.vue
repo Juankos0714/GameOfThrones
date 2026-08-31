@@ -1,7 +1,7 @@
 <script setup lang="ts">
 /**
  * MotionProvider — wraps the app with MotionConfig.
- * Defines global motion tokens: duration, easing, reduced motion.
+ * Uses design system transition tokens for consistent motion.
  */
 import { MotionConfig } from 'motion-v'
 </script>

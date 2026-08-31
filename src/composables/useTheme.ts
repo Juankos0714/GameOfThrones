@@ -16,10 +16,16 @@ export function useTheme() {
     useUiStore.getState().setActiveHouse(house)
   }
 
-  function updateCssVariables(palette: { primary: string; deep: string }) {
+  function updateCssVariables(palette: { primary: string; deep: string; secondary?: string; accent?: string; glow?: string }) {
     const root = document.documentElement
     root.style.setProperty('--house', palette.primary)
     root.style.setProperty('--house-deep', palette.deep)
+    if (palette.glow) {
+      root.style.setProperty('--house-glow', palette.glow)
+    }
+    if (palette.secondary) {
+      root.style.setProperty('--house-text', palette.secondary)
+    }
   }
 
   watch(

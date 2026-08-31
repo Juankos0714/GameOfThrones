@@ -6,6 +6,8 @@ import { useTheme } from '@/composables'
 import { padNumber } from '@/utils'
 import InfoBox from '@/components/wiki/InfoBox.vue'
 import CrossLink from '@/components/wiki/CrossLink.vue'
+import SectionReveal from '@/components/ui/SectionReveal.vue'
+import { Motion } from 'motion-v'
 import {
   TreePine, Crown, Flame, Swords, Flower2, Anchor, Mountain, Waves, Shield,
 } from 'lucide-vue-next'
@@ -40,7 +42,7 @@ const infoboxRows = computed(() => {
     { label: 'Región', value: house.value.region },
     { label: 'Sede', value: house.value.seat },
     { label: 'Fundación', value: house.value.founded },
-    { label: 'Lema', value: `"${house.value.motto}"` },
+    { label: 'Lema', value: `\"${house.value.motto}\"` },
     { label: 'Materia', value: house.value.material },
     { label: 'Miembros', value: house.value.members.length },
   ]
@@ -66,13 +68,36 @@ function goToChapter(id: string) {
   <div v-if="house" class="monograph">
     <!-- Hero -->
     <header class="monograph-hero">
-      <div class="giant-mark">
+      <Motion
+        class="giant-mark"
+        :initial="{ opacity: 0, scale: 0.85 }"
+        :animate="{ opacity: 1, scale: 1 }"
+        :transition="{ duration: 0.8, delay: 0.2, ease: [0.25, 0.1, 0.25, 1] }"
+      >
         <component :is="houseIcon" />
-      </div>
+      </Motion>
       <div>
-        <p>Archivo dinástico · {{ house.region }}</p>
-        <h2>Casa<br />{{ house.name }}</h2>
-        <blockquote>"{{ house.motto }}"</blockquote>
+        <Motion
+          :initial="{ opacity: 0, y: 15 }"
+          :animate="{ opacity: 1, y: 0 }"
+          :transition="{ duration: 0.6, delay: 0.3 }"
+        >
+          <p>Archivo dinástico · {{ house.region }}</p>
+        </Motion>
+        <Motion
+          :initial="{ opacity: 0, y: 20 }"
+          :animate="{ opacity: 1, y: 0 }"
+          :transition="{ duration: 0.7, delay: 0.45 }"
+        >
+          <h2>Casa<br />{{ house.name }}</h2>
+        </Motion>
+        <Motion
+          :initial="{ opacity: 0 }"
+          :animate="{ opacity: 1 }"
+          :transition="{ duration: 0.6, delay: 0.65 }"
+        >
+          <blockquote>"{{ house.motto }}"</blockquote>
+        </Motion>
       </div>
       <dl>
         <div><dt>Sede</dt><dd>{{ house.seat }}</dd></div>
@@ -82,7 +107,7 @@ function goToChapter(id: string) {
     </header>
 
     <!-- Chapter Nav -->
-    <nav class="chapter-nav">
+    <nav class="chapter-nav" aria-label="Capítulos del monográfico">
       <a
         v-for="(chapter, i) in chapters"
         :key="chapter"
@@ -98,110 +123,124 @@ function goToChapter(id: string) {
       <!-- Main content -->
       <div class="chapter-main">
         <!-- Chapter 01: Identidad -->
-        <section id="chapter-1" class="chapter statement">
-          <span>01</span>
-          <div>
-            <p class="label">Identidad</p>
-            <h3>{{ house.summary }}</h3>
-          </div>
-        </section>
+        <SectionReveal>
+          <section id="chapter-1" class="chapter statement">
+            <span>01</span>
+            <div>
+              <p class="label">Identidad</p>
+              <h3>{{ house.summary }}</h3>
+            </div>
+          </section>
+        </SectionReveal>
 
         <!-- Chapter 02: Historia -->
-        <section id="chapter-2" class="chapter history">
-          <aside>
-            <p>Nota del archivero</p>
-            <span>Las crónicas de una casa son también la versión que esa casa consiguió preservar.</span>
-          </aside>
-          <div>
-            <p class="label">02 / Historia</p>
-            <h3>Una soberanía escrita sobre piedra y sangre.</h3>
-            <p><CrossLink :text="house.history" /></p>
-            <p>Su lema actúa como doctrina pública: resume una promesa a vasallos y una advertencia a rivales.</p>
-          </div>
-        </section>
+        <SectionReveal>
+          <section id="chapter-2" class="chapter history">
+            <aside>
+              <p>Nota del archivero</p>
+              <span>Las crónicas de una casa son también la versión que esa casa consiguió preservar.</span>
+            </aside>
+            <div>
+              <p class="label">02 / Historia</p>
+              <h3>Una soberanía escrita sobre piedra y sangre.</h3>
+              <p><CrossLink :text="house.history" /></p>
+              <p>Su lema actúa como doctrina pública: resume una promesa a vasallos y una advertencia a rivales.</p>
+            </div>
+          </section>
+        </SectionReveal>
 
         <!-- Chapter 03: Sangre y sucesión -->
-        <section id="chapter-3" class="chapter lineage">
-          <div class="chapter-title">
-            <p class="label">03 / Sangre y sucesión</p>
-            <h3>Árbol del linaje</h3>
-          </div>
-          <div class="lineage-scroll">
-            <div class="tree">
-              <span>{{ house.members[0]?.name }}</span>
-              <i />
-              <div>
-                <span v-for="member in house.members.slice(1)" :key="member.name">
-                  {{ member.name }}
-                </span>
+        <SectionReveal>
+          <section id="chapter-3" class="chapter lineage">
+            <div class="chapter-title">
+              <p class="label">03 / Sangre y sucesión</p>
+              <h3>Árbol del linaje</h3>
+            </div>
+            <div class="lineage-scroll">
+              <div class="tree">
+                <span>{{ house.members[0]?.name }}</span>
+                <i />
+                <div>
+                  <span v-for="member in house.members.slice(1)" :key="member.name">
+                    {{ member.name }}
+                  </span>
+                </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
+        </SectionReveal>
 
         <!-- Chapter 04: Miembros -->
-        <section id="chapter-4" class="chapter registry">
-          <div class="chapter-title">
-            <p class="label">04 / Miembros</p>
-            <h3>Figuras registradas</h3>
-          </div>
-          <ol>
-            <li v-for="(member, i) in house.members" :key="member.name">
-              <b>{{ padNumber(i + 1) }}</b>
-              <RouterLink :to="`/characters/${member.name.toLowerCase().replace(/\s+/g, '-')}`">
-                {{ member.name }}
-              </RouterLink>
-              <small>{{ i === 0 ? 'Cabeza o figura histórica' : member.title }}</small>
-            </li>
-          </ol>
-        </section>
+        <SectionReveal>
+          <section id="chapter-4" class="chapter registry">
+            <div class="chapter-title">
+              <p class="label">04 / Miembros</p>
+              <h3>Figuras registradas</h3>
+            </div>
+            <ol>
+              <li v-for="(member, i) in house.members" :key="member.name">
+                <b>{{ padNumber(i + 1) }}</b>
+                <RouterLink :to="`/characters/${member.name.toLowerCase().replace(/\s+/g, '-')}`">
+                  {{ member.name }}
+                </RouterLink>
+                <small>{{ i === 0 ? 'Cabeza o figura histórica' : member.title }}</small>
+              </li>
+            </ol>
+          </section>
+        </SectionReveal>
 
         <!-- Chapter 05: Política -->
-        <section id="chapter-5" class="chapter politics">
-          <div>
-            <p class="label">05 / Red política</p>
-            <h3>Juramentos y enemistades</h3>
-          </div>
-          <div class="political-list">
-            <p>Aliados</p>
-            <span v-for="ally in house.allies" :key="ally">+ {{ ally }}</span>
-          </div>
-          <div class="political-list rivals">
-            <p>Rivales</p>
-            <span v-for="rival in house.rivals" :key="rival">— {{ rival }}</span>
-          </div>
-        </section>
+        <SectionReveal>
+          <section id="chapter-5" class="chapter politics">
+            <div>
+              <p class="label">05 / Red política</p>
+              <h3>Juramentos y enemistades</h3>
+            </div>
+            <div class="political-list">
+              <p>Aliados</p>
+              <span v-for="ally in house.allies" :key="ally">+ {{ ally }}</span>
+            </div>
+            <div class="political-list rivals">
+              <p>Rivales</p>
+              <span v-for="rival in house.rivals" :key="rival">— {{ rival }}</span>
+            </div>
+          </section>
+        </SectionReveal>
 
         <!-- Chapter 06: Territorios -->
-        <section id="chapter-6" class="chapter territories">
-          <div>
-            <p class="label">06 / Territorios</p>
-            <h3>Dominio y frontera</h3>
-          </div>
-          <div class="contour" aria-label="Carta territorial estilizada">
-            <component :is="houseIcon" />
-            <span
-              v-for="(land, i) in house.lands"
-              :key="land"
-              :style="{ left: `${18 + i * 30}%`, top: `${65 - i * 18}%` }"
-            >
-              {{ land }}
-            </span>
-          </div>
-        </section>
+        <SectionReveal>
+          <section id="chapter-6" class="chapter territories">
+            <div>
+              <p class="label">06 / Territorios</p>
+              <h3>Dominio y frontera</h3>
+            </div>
+            <div class="contour" aria-label="Carta territorial estilizada">
+              <component :is="houseIcon" />
+              <span
+                v-for="(land, i) in house.lands"
+                :key="land"
+                :style="{ left: `${18 + i * 30}%`, top: `${65 - i * 18}%` }"
+              >
+                {{ land }}
+              </span>
+            </div>
+          </section>
+        </SectionReveal>
 
         <!-- Chapter 07: Acontecimientos -->
-        <section id="chapter-7" class="chapter events">
-          <div class="chapter-title">
-            <p class="label">07 / Acontecimientos</p>
-            <h3>Hechos que alteraron el linaje</h3>
-          </div>
-          <article v-for="(event, i) in house.events" :key="event">
-            <time>{{ 298 + i }} d.C.</time>
-            <h4>{{ event }}</h4>
-            <p>Registro cruzado en las crónicas del reino y testimonios de sus contemporáneos.</p>
-          </article>
-        </section>
+        <SectionReveal>
+          <section id="chapter-7" class="chapter events">
+            <div class="chapter-title">
+              <p class="label">07 / Acontecimientos</p>
+              <h3>Hechos que alteraron el linaje</h3>
+            </div>
+            <article v-for="(event, i) in house.events" :key="event">
+              <time>{{ 298 + i }} d.C.</time>
+              <h4>{{ event }}</h4>
+              <p>Registro cruzado en las crónicas del reino y testimonios de sus contemporáneos.</p>
+            </article>
+          </section>
+        </SectionReveal>
 
         <footer id="chapter-8" class="references">
           <p>08 / Referencias del archivo</p>
@@ -239,7 +278,7 @@ function goToChapter(id: string) {
 <style scoped>
 .chapter-content-layout {
   display: grid;
-  grid-template-columns: 1fr 320px;
+  grid-template-columns: 1fr 340px;
   gap: 0;
 }
 
@@ -249,11 +288,11 @@ function goToChapter(id: string) {
 
 .chapter-sidebar {
   border-left: 1px solid var(--border);
-  padding: 40px 0;
+  padding: 40px 30px;
   position: sticky;
-  top: 100px;
+  top: calc(var(--header-height) + 20px);
   align-self: start;
-  max-height: calc(100vh - 120px);
+  max-height: calc(100vh - var(--header-height) - 40px);
   overflow-y: auto;
 }
 
@@ -262,13 +301,15 @@ function goToChapter(id: string) {
   text-align: center;
   color: var(--house);
   text-decoration: none;
-  font-size: 8px;
+  font: 600 8px/1 var(--font-sans);
   text-transform: uppercase;
   letter-spacing: 0.14em;
   padding: 12px 0;
+  transition: opacity 0.2s ease;
 }
 
 .back-link:hover {
+  opacity: 0.7;
   text-decoration: underline;
 }
 
@@ -276,6 +317,7 @@ function goToChapter(id: string) {
   color: inherit;
   text-decoration: none;
   font: 27px var(--font-serif);
+  transition: color 0.25s ease;
 }
 
 .registry ol li a:hover {

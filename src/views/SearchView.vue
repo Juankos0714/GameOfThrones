@@ -18,9 +18,9 @@ watch(urlQuery, (v) => {
 
 const typeLabels: Record<string, { label: string; icon: any; color: string }> = {
   house: { label: 'Casa', icon: Shield, color: 'var(--house)' },
-  character: { label: 'Personaje', icon: Users, color: '#5a8a5e' },
-  place: { label: 'Lugar', icon: MapPin, color: '#5a7a8a' },
-  event: { label: 'Evento', icon: Calendar, color: '#8a5a5a' },
+  character: { label: 'Personaje', icon: Users, color: 'var(--color-success)' },
+  place: { label: 'Lugar', icon: MapPin, color: 'var(--color-info)' },
+  event: { label: 'Evento', icon: Calendar, color: 'var(--color-danger)' },
   book: { label: 'Libro', icon: BookOpen, color: '#8a5a8a' },
 }
 
@@ -125,7 +125,7 @@ function handleSearch(e: Event) {
   border: 2px solid #918876;
   margin-bottom: 40px;
   background: rgba(255,255,255,0.04);
-  transition: border-color 0.2s;
+  transition: border-color 0.25s ease;
 }
 
 .search-input-wrapper:focus-within {
@@ -156,11 +156,11 @@ function handleSearch(e: Event) {
   background: none;
   color: #625d52;
   padding: 6px 12px;
-  font-size: 8px;
+  font: 500 8px/1 var(--font-sans);
   text-transform: uppercase;
   letter-spacing: 0.12em;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.2s ease;
 }
 
 .clear-btn:hover {
@@ -169,7 +169,7 @@ function handleSearch(e: Event) {
 }
 
 .results-count {
-  font-size: 10px;
+  font: 500 9px/1 var(--font-sans);
   color: #625d52;
   margin-bottom: 24px;
   text-transform: uppercase;
@@ -178,7 +178,7 @@ function handleSearch(e: Event) {
 
 .results-list {
   display: grid;
-  gap: 2px;
+  gap: 8px;
 }
 
 .result-card {
@@ -187,11 +187,12 @@ function handleSearch(e: Event) {
   border: 1px solid var(--border);
   text-decoration: none;
   color: inherit;
-  transition: background 0.2s;
+  transition: background 0.25s ease, border-color 0.25s ease;
 }
 
 .result-card:hover {
-  background: color-mix(in srgb, var(--house) 10%, var(--color-paper));
+  background: var(--house-surface);
+  border-color: var(--house-border);
 }
 
 .result-type {
@@ -202,7 +203,7 @@ function handleSearch(e: Event) {
 }
 
 .result-type span {
-  font-size: 8px;
+  font: 500 8px/1 var(--font-sans);
   text-transform: uppercase;
   letter-spacing: 0.12em;
 }

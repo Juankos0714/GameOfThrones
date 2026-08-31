@@ -9,7 +9,7 @@ const HOUSES_DATA: House[] = [
     material: 'Hielo · piedra · memoria',
     summary: 'Una estirpe antigua que gobernó el Norte como Reyes del Invierno antes de inclinarse ante el dragón.',
     history: 'Su autoridad nace de una continuidad casi geológica: criptas, arcianos y juramentos conservan una memoria que precede a los Siete Reinos.',
-    palette: { primary: '#9eb5c0', deep: '#111b20' },
+    palette: { primary: '#9eb5c0', deep: '#111b20', secondary: '#7a96a8', accent: '#c5d4df', glow: 'rgba(158, 181, 192, 0.15)' },
     members: [
       { name: 'Eddard Stark', title: 'Cabeza de casa', status: 'deceased' },
       { name: 'Catelyn Stark', title: 'Señora de Invernalia', status: 'deceased' },
@@ -28,7 +28,7 @@ const HOUSES_DATA: House[] = [
     material: 'Oro · pergamino · deuda',
     summary: 'Una dinastía cuya riqueza mineral sostiene una maquinaria de alianzas, préstamos y silencios calculados.',
     history: 'De Lann el Astuto a Tywin, la casa convirtió la reputación en moneda y el matrimonio en una extensión de la guerra.',
-    palette: { primary: '#b79b5e', deep: '#24140d' },
+    palette: { primary: '#b79b5e', deep: '#24140d', secondary: '#8a7340', accent: '#d4c08a', glow: 'rgba(183, 155, 94, 0.15)' },
     members: [
       { name: 'Tywin Lannister', title: 'Cabeza de casa', status: 'deceased' },
       { name: 'Cersei Lannister', title: 'Reina', status: 'deceased' },
@@ -46,7 +46,7 @@ const HOUSES_DATA: House[] = [
     material: 'Obsidiana · ceniza · sangre',
     summary: 'La última gran sangre de Valyria unificó seis reinos mediante dragones y dejó una corona marcada por profecía y ruina.',
     history: 'La Conquista alteró el calendario político de Poniente; la Danza y la Rebelión mostraron el precio de una soberanía ligada al fuego.',
-    palette: { primary: '#a84a40', deep: '#230d0b' },
+    palette: { primary: '#a84a40', deep: '#230d0b', secondary: '#7a3028', accent: '#d47060', glow: 'rgba(168, 74, 64, 0.15)' },
     members: [
       { name: 'Daenerys Targaryen', title: 'Madre de Dragones', status: 'deceased' },
       { name: 'Viserys Targaryen', title: 'Rey mendicante', status: 'deceased' },
@@ -64,7 +64,7 @@ const HOUSES_DATA: House[] = [
     material: 'Hierro · lluvia · trueno',
     summary: 'Forjada entre la tormenta y la conquista, su línea convirtió una rebelión victoriosa en una dinastía fracturada.',
     history: 'Orys Baratheon fundó la casa sobre la herencia Durrandon. Siglos después, Robert tomó el Trono de Hierro y sus hermanos disputaron sus restos.',
-    palette: { primary: '#b29a55', deep: '#15191b' },
+    palette: { primary: '#b29a55', deep: '#15191b', secondary: '#8a7a3a', accent: '#d4c080', glow: 'rgba(178, 154, 85, 0.15)' },
     members: [
       { name: 'Robert Baratheon', title: 'Rey de los Siete Reinos', status: 'deceased' },
       { name: 'Stannis Baratheon', title: 'Rey de Poniente', status: 'deceased' },
@@ -81,7 +81,7 @@ const HOUSES_DATA: House[] = [
     material: 'Vitela · espino · perfume',
     summary: 'Administradores elevados a grandes señores, transformaron cosechas, cortesía y belleza en instrumentos de poder.',
     history: 'Su ascenso tras la caída de los Gardener alimentó una política flexible: alimentar al reino significaba poder cerrarle el granero.',
-    palette: { primary: '#859b6b', deep: '#11190f' },
+    palette: { primary: '#859b6b', deep: '#11190f', secondary: '#5e7a4a', accent: '#a8c08a', glow: 'rgba(133, 155, 107, 0.15)' },
     members: [
       { name: 'Olenna Tyrell', title: 'Viuda Roja', status: 'deceased' },
       { name: 'Mace Tyrell', title: 'Cabeza de casa', status: 'deceased' },
@@ -98,7 +98,7 @@ const HOUSES_DATA: House[] = [
     material: 'Arenisca · cobre · sol',
     summary: 'Dorne resistió la conquista por dragón y entró en los Siete Reinos mediante matrimonio, no rendición.',
     history: 'La unión de Nymeria y Mors Martell creó una cultura política singular, donde hereda el primogénito sin distinción de sexo.',
-    palette: { primary: '#b9794f', deep: '#25150d' },
+    palette: { primary: '#b9794f', deep: '#25150d', secondary: '#8a5a35', accent: '#d4a070', glow: 'rgba(185, 121, 79, 0.15)' },
     members: [
       { name: 'Doran Martell', title: 'Príncipe de Dorne', status: 'deceased' },
       { name: 'Oberyn Martell', title: 'La Víbora Roja', status: 'deceased' },
@@ -115,7 +115,7 @@ const HOUSES_DATA: House[] = [
     material: 'Sal · hierro · carta náutica',
     summary: 'Señores de un archipiélago severo cuya antigua costumbre mide la riqueza por aquello que puede tomarse.',
     history: 'Elegidos tras la caída de Harren, los Greyjoy preservaron la memoria de reyes de sal y roca en repetidas rebeliones.',
-    palette: { primary: '#76959e', deep: '#0e191c' },
+    palette: { primary: '#76959e', deep: '#0e191c', secondary: '#4a7078', accent: '#a0bec5', glow: 'rgba(118, 149, 158, 0.15)' },
     members: [
       { name: 'Balon Greyjoy', title: 'Rey de las Islas del Hierro', status: 'deceased' },
       { name: 'Asha Greyjoy', title: 'Princesa', status: 'alive' },
@@ -133,7 +133,7 @@ const HOUSES_DATA: House[] = [
     material: 'Mármol · viento · altitud',
     summary: 'Una línea ándala protegida por pasos de montaña y una fortaleza que convierte el aislamiento en doctrina.',
     history: 'Los Arryn reinaron en Montaña y Valle antes de la Conquista. Jon Arryn hizo del pupilaje una alianza que derribó una dinastía.',
-    palette: { primary: '#a9bbc3', deep: '#121a1e' },
+    palette: { primary: '#a9bbc3', deep: '#121a1e', secondary: '#7a98a3', accent: '#d0e0e8', glow: 'rgba(169, 187, 195, 0.15)' },
     members: [
       { name: 'Jon Arryn', title: 'Señor del Nido de Águilas', status: 'deceased' },
       { name: 'Lysa Arryn', title: 'Señora del Valle', status: 'deceased' },
@@ -150,7 +150,7 @@ const HOUSES_DATA: House[] = [
     material: 'Tinta · agua · frontera',
     summary: 'Una casa central en una región sin defensas naturales, obligada a convertir parentesco y deber en murallas.',
     history: 'Elevados por Aegon tras rebelarse contra Harren, los Tully quedaron unidos a Stark y Arryn por la alianza matrimonial de Robert.',
-    palette: { primary: '#7794a5', deep: '#111a20' },
+    palette: { primary: '#7794a5', deep: '#111a20', secondary: '#4a6a7a', accent: '#a0c0d0', glow: 'rgba(119, 148, 165, 0.15)' },
     members: [
       { name: 'Hoster Tully', title: 'Cabeza de casa', status: 'deceased' },
       { name: 'Catelyn Stark', title: 'Señora de Invernalia', status: 'deceased' },

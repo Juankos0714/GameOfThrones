@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
-import { authClient } from '@/services/auth-client'
+import { signInEmail, signUpEmail } from '@/services/auth-client'
 import { Shield, Mail, Lock } from 'lucide-vue-next'
 
 const router = useRouter()
@@ -20,10 +20,7 @@ async function handleLogin() {
   error.value = ''
 
   try {
-    const { error: authError } = await authClient.signIn.email({
-      email: email.value,
-      password: password.value,
-    })
+    const { error: authError } = await signInEmail(email.value, password.value)
 
     if (authError) {
       error.value = authError.message || 'Error al iniciar sesión.'
@@ -48,11 +45,7 @@ async function handleSignUp() {
   error.value = ''
 
   try {
-    const { error: authError } = await authClient.signUp.email({
-      email: email.value,
-      password: password.value,
-      name: email.value.split('@')[0],
-    })
+    const { error: authError } = await signUpEmail(email.value, password.value, email.value.split('@')[0])
 
     if (authError) {
       error.value = authError.message || 'Error al registrarse.'

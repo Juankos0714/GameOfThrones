@@ -24,6 +24,12 @@ export interface House {
 export interface HousePalette {
   primary: string
   deep: string
+  /** Secondary color for accents */
+  secondary?: string
+  /** Accent color for highlights */
+  accent?: string
+  /** Glow color for atmospheric effects */
+  glow?: string
 }
 
 export interface HouseMember {

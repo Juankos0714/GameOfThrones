@@ -4,6 +4,17 @@
  * Particles use golden angle distribution (no random).
  * Animation seekable via animation-play-state.
  * Respects prefers-reduced-motion.
+ *
+ * Each house has a unique atmospheric personality:
+ * - STARK: cold, snow, slow drift, isolation
+ * - LANNISTER: warm, dust in light, elegance
+ * - TARGARYEN: fire, embers, controlled glow
+ * - BARATHEON: storm, rain, electricity
+ * - TYRELL: garden, petals, organic drift
+ * - MARTELL: desert, heat haze, slow dust
+ * - GREYJOY: sea, mist, horizontal movement
+ * - ARRYN: mountain, wind, vertical motion
+ * - TULLY: river, mist, fluid movement
  */
 import { computed, ref, watch, onMounted, onUnmounted } from 'vue'
 import { useUiStore } from '@/stores/ui'
@@ -32,15 +43,15 @@ onMounted(() => {
 
 // Config: type + intensity (0–1). Intensity controls overall opacity via CSS var.
 const atmosphereConfig: Record<string, { type: string; intensity: number }> = {
-  stark:     { type: 'winter',  intensity: 0.6 },
-  lannister: { type: 'gold',    intensity: 0.45 },
-  targaryen: { type: 'fire',    intensity: 0.5 },
-  baratheon: { type: 'storm',   intensity: 0.45 },
-  tyrell:    { type: 'garden',  intensity: 0.35 },
-  martell:   { type: 'desert',  intensity: 0.35 },
-  greyjoy:   { type: 'sea',     intensity: 0.45 },
-  arryn:     { type: 'mountain', intensity: 0.35 },
-  tully:     { type: 'river',   intensity: 0.35 },
+  stark:     { type: 'winter',   intensity: 0.55 },
+  lannister: { type: 'gold',     intensity: 0.40 },
+  targaryen: { type: 'fire',     intensity: 0.45 },
+  baratheon: { type: 'storm',    intensity: 0.40 },
+  tyrell:    { type: 'garden',   intensity: 0.30 },
+  martell:   { type: 'desert',   intensity: 0.30 },
+  greyjoy:   { type: 'sea',      intensity: 0.40 },
+  arryn:     { type: 'mountain', intensity: 0.30 },
+  tully:     { type: 'river',    intensity: 0.30 },
 }
 
 function getConfig(house: string) {
@@ -54,15 +65,15 @@ const previousAtmosphere = computed(() =>
 
 // Particle counts: deliberately sparse
 const particleCount: Record<string, number> = {
-  winter: 12,   // escasa, irregular
-  gold: 6,      // apenas visible — polvo en luz rasante
-  fire: 8,      // brasas contadas
-  storm: 14,    // lluvia fina
-  garden: 6,    // pétalos ocasionales
-  desert: 5,    // polvo mínimo
-  sea: 6,       // niebla en capas
-  mountain: 5,  // nubes distantes
-  river: 5,     // niebla suave
+  winter: 14,   // escasa, irregular
+  gold: 7,      // apenas visible — polvo en luz rasante
+  fire: 10,     // brasas contadas
+  storm: 16,    // lluvia fina
+  garden: 8,    // pétalos ocasionales
+  desert: 6,    // polvo mínimo
+  sea: 7,       // niebla en capas
+  mountain: 6,  // nubes distantes
+  river: 6,     // niebla suave
 }
 
 const particles = computed(() => {
@@ -73,11 +84,10 @@ const particles = computed(() => {
       id: i,
       x: ((n * 137.508) % 100).toFixed(1),
       y: ((n * 61.803) % 100).toFixed(1),
-      // Slower delays, longer durations
       delay: (n * 1.2 % 12).toFixed(2),
       duration: (10 + (n * 0.7 % 8)).toFixed(2),
       size: (1 + (n % 3)).toFixed(1),
-      opacity: (0.08 + (n % 4) * 0.04).toFixed(2),
+      opacity: (0.06 + (n % 4) * 0.03).toFixed(2),
     }
   })
 })
@@ -165,7 +175,7 @@ const particles = computed(() => {
 }
 
 .atmo-vignette {
-  background: radial-gradient(ellipse at 50% 50%, transparent 30%, rgba(0,0,0,0.35) 100%);
+  background: radial-gradient(ellipse at 50% 50%, transparent 30%, rgba(0,0,0,0.3) 100%);
 }
 
 /* ========================================
@@ -190,13 +200,13 @@ const particles = computed(() => {
    Algunas borrosas (profundidad).
    ======================================== */
 .atmo-winter .atmo-bg {
-  background: linear-gradient(180deg, rgba(12,20,30,0.12) 0%, transparent 55%);
+  background: linear-gradient(180deg, rgba(12,20,30,0.1) 0%, transparent 55%);
 }
 
 .atmo-winter .atmo-fog {
   background:
-    radial-gradient(ellipse at 20% 80%, rgba(158,181,192,0.05) 0%, transparent 50%),
-    radial-gradient(ellipse at 80% 60%, rgba(158,181,192,0.03) 0%, transparent 40%);
+    radial-gradient(ellipse at 20% 80%, rgba(158,181,192,0.04) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 60%, rgba(158,181,192,0.025) 0%, transparent 40%);
   animation: fog-drift 28s ease-in-out infinite;
 }
 
@@ -205,20 +215,19 @@ const particles = computed(() => {
   animation: snow-fall var(--dur) linear var(--delay) infinite;
 }
 
-/* Profundidad: algunas borrosas */
 .atmo-winter .atmo-particle:nth-child(3n) { filter: blur(1.5px); }
 .atmo-winter .atmo-particle:nth-child(5n) { filter: blur(3px); }
 
 @keyframes snow-fall {
   0%   { transform: translateY(-10vh) translateX(0); opacity: 0; }
-  8%   { opacity: 0.8; }
-  92%  { opacity: 0.6; }
+  8%   { opacity: 0.7; }
+  92%  { opacity: 0.5; }
   100% { transform: translateY(105vh) translateX(25px); opacity: 0; }
 }
 
 @keyframes fog-drift {
   0%, 100% { transform: translateX(0); opacity: 0.5; }
-  50%      { transform: translateX(15px); opacity: 0.8; }
+  50%      { transform: translateX(15px); opacity: 0.7; }
 }
 
 /* ========================================
@@ -228,12 +237,12 @@ const particles = computed(() => {
    ======================================== */
 .atmo-gold .atmo-bg {
   background:
-    radial-gradient(ellipse at 65% 25%, rgba(183,155,94,0.06) 0%, transparent 50%),
-    linear-gradient(180deg, rgba(36,20,13,0.08) 0%, transparent 50%);
+    radial-gradient(ellipse at 65% 25%, rgba(183,155,94,0.05) 0%, transparent 50%),
+    linear-gradient(180deg, rgba(36,20,13,0.06) 0%, transparent 50%);
 }
 
 .atmo-gold .atmo-fog {
-  background: radial-gradient(ellipse at 60% 35%, rgba(183,155,94,0.03) 0%, transparent 35%);
+  background: radial-gradient(ellipse at 60% 35%, rgba(183,155,94,0.025) 0%, transparent 35%);
   animation: gold-light 16s ease-in-out infinite;
 }
 
@@ -245,13 +254,13 @@ const particles = computed(() => {
 
 @keyframes gold-light {
   0%, 100% { opacity: 0.3; transform: scale(1); }
-  50%      { opacity: 0.6; transform: scale(1.03); }
+  50%      { opacity: 0.55; transform: scale(1.02); }
 }
 
 @keyframes dust-float {
   0%   { transform: translateY(0) translateX(0); opacity: 0; }
-  25%  { opacity: 0.7; }
-  75%  { opacity: 0.5; }
+  25%  { opacity: 0.6; }
+  75%  { opacity: 0.4; }
   100% { transform: translateY(-6vh) translateX(10px); opacity: 0; }
 }
 
@@ -263,12 +272,12 @@ const particles = computed(() => {
    ======================================== */
 .atmo-fire .atmo-bg {
   background:
-    radial-gradient(ellipse at 50% 80%, rgba(168,74,64,0.07) 0%, transparent 50%),
-    linear-gradient(0deg, rgba(35,13,11,0.1) 0%, transparent 45%);
+    radial-gradient(ellipse at 50% 80%, rgba(168,74,64,0.06) 0%, transparent 50%),
+    linear-gradient(0deg, rgba(35,13,11,0.08) 0%, transparent 45%);
 }
 
 .atmo-fire .atmo-fog {
-  background: radial-gradient(ellipse at 50% 70%, rgba(168,74,64,0.04) 0%, transparent 35%);
+  background: radial-gradient(ellipse at 50% 70%, rgba(168,74,64,0.035) 0%, transparent 35%);
   animation: ember-glow 14s ease-in-out infinite;
 }
 
@@ -280,18 +289,18 @@ const particles = computed(() => {
 
 .atmo-fire .atmo-particle:nth-child(3n) {
   background: rgba(255,140,45, var(--popacity));
-  box-shadow: 0 0 3px rgba(255,100,30,0.2);
+  box-shadow: 0 0 3px rgba(255,100,30,0.15);
 }
 
 @keyframes ember-glow {
-  0%, 100% { opacity: 0.25; }
-  50%      { opacity: 0.5; }
+  0%, 100% { opacity: 0.2; }
+  50%      { opacity: 0.45; }
 }
 
 @keyframes ember-rise {
   0%   { transform: translateY(8vh) translateX(0) scale(1); opacity: 0; }
-  12%  { opacity: 0.7; }
-  88%  { opacity: 0.4; }
+  12%  { opacity: 0.65; }
+  88%  { opacity: 0.35; }
   100% { transform: translateY(-12vh) translateX(15px) scale(0.6); opacity: 0; }
 }
 
@@ -301,11 +310,11 @@ const particles = computed(() => {
    Movimiento principal: viento + nubes.
    ======================================== */
 .atmo-storm .atmo-bg {
-  background: linear-gradient(180deg, rgba(21,25,27,0.12) 0%, transparent 55%);
+  background: linear-gradient(180deg, rgba(21,25,27,0.1) 0%, transparent 55%);
 }
 
 .atmo-storm .atmo-fog {
-  background: radial-gradient(ellipse at 30% 20%, rgba(178,154,85,0.03) 0%, transparent 40%);
+  background: radial-gradient(ellipse at 30% 20%, rgba(178,154,85,0.025) 0%, transparent 40%);
   animation: storm-clouds 22s ease-in-out infinite;
 }
 
@@ -318,14 +327,14 @@ const particles = computed(() => {
 }
 
 @keyframes storm-clouds {
-  0%, 100% { transform: translateX(0); opacity: 0.25; }
-  50%      { transform: translateX(-25px); opacity: 0.45; }
+  0%, 100% { transform: translateX(0); opacity: 0.2; }
+  50%      { transform: translateX(-25px); opacity: 0.4; }
 }
 
 @keyframes rain-fall {
   0%   { transform: translateY(-10vh) translateX(0) rotate(12deg); opacity: 0; }
-  8%   { opacity: 0.5; }
-  92%  { opacity: 0.35; }
+  8%   { opacity: 0.45; }
+  92%  { opacity: 0.3; }
   100% { transform: translateY(105vh) translateX(-15px) rotate(12deg); opacity: 0; }
 }
 
@@ -335,11 +344,11 @@ const particles = computed(() => {
    No caen constantemente.
    ======================================== */
 .atmo-garden .atmo-bg {
-  background: linear-gradient(180deg, rgba(17,25,15,0.06) 0%, transparent 45%);
+  background: linear-gradient(180deg, rgba(17,25,15,0.05) 0%, transparent 45%);
 }
 
 .atmo-garden .atmo-fog {
-  background: radial-gradient(ellipse at 40% 60%, rgba(133,155,107,0.03) 0%, transparent 35%);
+  background: radial-gradient(ellipse at 40% 60%, rgba(133,155,107,0.025) 0%, transparent 35%);
   animation: garden-sway 24s ease-in-out infinite;
 }
 
@@ -358,8 +367,8 @@ const particles = computed(() => {
 
 @keyframes petal-drift {
   0%   { transform: translateY(0) translateX(0) rotate(0deg); opacity: 0; }
-  15%  { opacity: 0.6; }
-  85%  { opacity: 0.4; }
+  15%  { opacity: 0.5; }
+  85%  { opacity: 0.35; }
   100% { transform: translateY(70vh) translateX(30px) rotate(150deg); opacity: 0; }
 }
 
@@ -370,12 +379,12 @@ const particles = computed(() => {
    ======================================== */
 .atmo-desert .atmo-bg {
   background:
-    radial-gradient(ellipse at 50% 30%, rgba(185,121,79,0.06) 0%, transparent 50%),
-    linear-gradient(180deg, rgba(37,21,13,0.07) 0%, transparent 45%);
+    radial-gradient(ellipse at 50% 30%, rgba(185,121,79,0.05) 0%, transparent 50%),
+    linear-gradient(180deg, rgba(37,21,13,0.06) 0%, transparent 45%);
 }
 
 .atmo-desert .atmo-fog {
-  background: radial-gradient(ellipse at 50% 50%, rgba(185,121,79,0.025) 0%, transparent 35%);
+  background: radial-gradient(ellipse at 50% 50%, rgba(185,121,79,0.02) 0%, transparent 35%);
   animation: heat-shimmer 10s ease-in-out infinite;
 }
 
@@ -386,14 +395,14 @@ const particles = computed(() => {
 }
 
 @keyframes heat-shimmer {
-  0%, 100% { transform: scaleY(1); opacity: 0.2; }
-  50%      { transform: scaleY(1.015); opacity: 0.35; }
+  0%, 100% { transform: scaleY(1); opacity: 0.18; }
+  50%      { transform: scaleY(1.012); opacity: 0.3; }
 }
 
 @keyframes dust-drift {
   0%   { transform: translateX(-5vw) translateY(0); opacity: 0; }
-  20%  { opacity: 0.4; }
-  80%  { opacity: 0.25; }
+  20%  { opacity: 0.35; }
+  80%  { opacity: 0.2; }
   100% { transform: translateX(105vw) translateY(-3vh); opacity: 0; }
 }
 
@@ -404,14 +413,14 @@ const particles = computed(() => {
    ======================================== */
 .atmo-sea .atmo-bg {
   background:
-    radial-gradient(ellipse at 50% 85%, rgba(118,149,158,0.06) 0%, transparent 50%),
-    linear-gradient(0deg, rgba(14,25,28,0.1) 0%, transparent 45%);
+    radial-gradient(ellipse at 50% 85%, rgba(118,149,158,0.05) 0%, transparent 50%),
+    linear-gradient(0deg, rgba(14,25,28,0.08) 0%, transparent 45%);
 }
 
 .atmo-sea .atmo-fog {
   background:
-    radial-gradient(ellipse at 30% 70%, rgba(118,149,158,0.04) 0%, transparent 40%),
-    radial-gradient(ellipse at 70% 80%, rgba(118,149,158,0.03) 0%, transparent 35%);
+    radial-gradient(ellipse at 30% 70%, rgba(118,149,158,0.035) 0%, transparent 40%),
+    radial-gradient(ellipse at 70% 80%, rgba(118,149,158,0.025) 0%, transparent 35%);
   animation: sea-drift 30s ease-in-out infinite;
 }
 
@@ -423,14 +432,14 @@ const particles = computed(() => {
 }
 
 @keyframes sea-drift {
-  0%, 100% { transform: translateX(0); opacity: 0.3; }
-  50%      { transform: translateX(30px); opacity: 0.55; }
+  0%, 100% { transform: translateX(0); opacity: 0.25; }
+  50%      { transform: translateX(30px); opacity: 0.5; }
 }
 
 @keyframes wave-motion {
   0%   { transform: translateX(-10vw); opacity: 0; }
-  20%  { opacity: 0.35; }
-  80%  { opacity: 0.2; }
+  20%  { opacity: 0.3; }
+  80%  { opacity: 0.18; }
   100% { transform: translateX(110vw); opacity: 0; }
 }
 
@@ -439,11 +448,11 @@ const particles = computed(() => {
    Nubes distantes, viento, sensación de altura.
    ======================================== */
 .atmo-mountain .atmo-bg {
-  background: linear-gradient(180deg, rgba(18,26,30,0.08) 0%, transparent 45%);
+  background: linear-gradient(180deg, rgba(18,26,30,0.07) 0%, transparent 45%);
 }
 
 .atmo-mountain .atmo-fog {
-  background: radial-gradient(ellipse at 60% 30%, rgba(169,187,195,0.04) 0%, transparent 35%);
+  background: radial-gradient(ellipse at 60% 30%, rgba(169,187,195,0.035) 0%, transparent 35%);
   animation: mountain-wind 26s ease-in-out infinite;
 }
 
@@ -454,14 +463,14 @@ const particles = computed(() => {
 }
 
 @keyframes mountain-wind {
-  0%, 100% { transform: translateX(0) translateY(0); opacity: 0.25; }
-  50%      { transform: translateX(40px) translateY(-8px); opacity: 0.45; }
+  0%, 100% { transform: translateX(0) translateY(0); opacity: 0.2; }
+  50%      { transform: translateX(40px) translateY(-8px); opacity: 0.4; }
 }
 
 @keyframes wind-blow {
   0%   { transform: translateX(-10vw) translateY(0); opacity: 0; }
-  15%  { opacity: 0.3; }
-  85%  { opacity: 0.2; }
+  15%  { opacity: 0.25; }
+  85%  { opacity: 0.18; }
   100% { transform: translateX(110vw) translateY(-15px); opacity: 0; }
 }
 
@@ -470,11 +479,11 @@ const particles = computed(() => {
    Niebla suave, ondas, movimiento orgánico.
    ======================================== */
 .atmo-river .atmo-bg {
-  background: linear-gradient(180deg, rgba(17,26,32,0.06) 0%, transparent 45%);
+  background: linear-gradient(180deg, rgba(17,26,32,0.05) 0%, transparent 45%);
 }
 
 .atmo-river .atmo-fog {
-  background: radial-gradient(ellipse at 40% 70%, rgba(119,148,165,0.04) 0%, transparent 35%);
+  background: radial-gradient(ellipse at 40% 70%, rgba(119,148,165,0.035) 0%, transparent 35%);
   animation: river-mist 22s ease-in-out infinite;
 }
 
@@ -485,14 +494,14 @@ const particles = computed(() => {
 }
 
 @keyframes river-mist {
-  0%, 100% { transform: translateY(0); opacity: 0.25; }
-  50%      { transform: translateY(-10px); opacity: 0.4; }
+  0%, 100% { transform: translateY(0); opacity: 0.2; }
+  50%      { transform: translateY(-10px); opacity: 0.35; }
 }
 
 @keyframes ripple-float {
   0%   { transform: translateX(0) translateY(0) scale(1); opacity: 0; }
-  20%  { opacity: 0.35; transform: scale(1.1); }
-  80%  { opacity: 0.2; }
+  20%  { opacity: 0.3; transform: scale(1.1); }
+  80%  { opacity: 0.18; }
   100% { transform: translateX(20px) translateY(-4vh) scale(0.8); opacity: 0; }
 }
 

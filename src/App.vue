@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
-import { RouterLink, RouterView, useRoute, useRouter } from 'vue-router'
+import { RouterLink, useRoute, useRouter } from 'vue-router'
 import { useUiStore } from '@/stores/ui'
 import { useTimelineStore } from '@/stores/timeline'
-import { useHouses, useTimeline } from '@/composables'
+import { useHouses } from '@/composables'
 import { useTheme } from '@/composables'
 import { cn } from '@/utils'
 import HouseAtmosphere from '@/components/wiki/HouseAtmosphere.vue'
@@ -14,7 +14,15 @@ import {
   Shield,
   Menu,
   X,
+  MapPin,
+  Scroll,
+  Users,
+  BookOpen,
+  HelpCircle,
   Search,
+  Landmark,
+  Swords,
+  GitBranch,
 } from 'lucide-vue-next'
 
 const route = useRoute()
@@ -26,23 +34,17 @@ const menuOpen = useUiStore((s) => s.menuOpen)
 const toggleMenu = useUiStore((s) => s.toggleMenu)
 const closeMenu = useUiStore((s) => s.closeMenu)
 
-const searchQuery = ref('')
-const showSearch = ref(false)
-
 const navLinks = [
-  { label: 'casas', path: '/houses' },
-  { label: 'personajes', path: '/characters' },
-  { label: 'atlas', path: '/places' },
-  { label: 'cronología', path: '/timeline' },
-  { label: 'misterios', path: '/mysteries' },
-  { label: 'libros', path: '/books' },
-  { label: 'buscar', path: '/search' },
+  { label: 'Casas', path: '/houses', icon: Landmark },
+  { label: 'Personajes', path: '/characters', icon: Users },
+  { label: 'Atlas', path: '/places', icon: MapPin },
+  { label: 'Cronología', path: '/timeline', icon: Scroll },
+  { label: 'Genealogía', path: '/genealogy', icon: GitBranch },
+  { label: 'Batallas', path: '/battles', icon: Swords },
+  { label: 'Misterios', path: '/mysteries', icon: HelpCircle },
+  { label: 'Libros', path: '/books', icon: BookOpen },
+  { label: 'Buscar', path: '/search', icon: Search },
 ]
-
-function scrollToSection(id: string) {
-  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
-  closeMenu()
-}
 
 function navigateTo(path: string) {
   router.push(path)
@@ -51,7 +53,6 @@ function navigateTo(path: string) {
 
 onMounted(async () => {
   document.documentElement.setAttribute('data-house', selectedHouse.value.id)
-  // Fetch data from Supabase (falls back to hardcoded if not configured)
   await Promise.all([
     fetchHouses(),
     useTimelineStore.getState().fetchEvents(),
@@ -95,17 +96,17 @@ onMounted(async () => {
         :aria-expanded="menuOpen ? 'true' : 'false'"
         aria-label="Navegación"
       >
-        <X v-if="menuOpen" />
-        <Menu v-else />
+        <X v-if="menuOpen" :size="20" />
+        <Menu v-else :size="20" />
       </button>
     </header>
 
     <!-- Main content -->
     <main>
-      <RouterView v-slot="{ Component, route }">
+      <RouterView v-slot="{ Component, route: r }">
         <AnimatePresence mode="wait">
           <Motion
-            :key="route.path"
+            :key="r.path"
             :initial="{ opacity: 0, y: 12 }"
             :animate="{ opacity: 1, y: 0 }"
             :exit="{ opacity: 0, y: -8 }"
@@ -132,19 +133,32 @@ onMounted(async () => {
 <style scoped>
 .nav-main {
   display: flex;
-  gap: 30px;
+  gap: 28px;
 }
 
 .nav-main a {
   border: 0;
   background: none;
   color: var(--color-muted-foreground);
-  font-size: 8px;
-  letter-spacing: 0.17em;
+  font: 500 8px/1 var(--font-sans);
+  letter-spacing: 0.18em;
   text-transform: uppercase;
   cursor: pointer;
   text-decoration: none;
-  transition: color 0.2s;
+  padding: 6px 0;
+  position: relative;
+  transition: color 0.25s ease;
+}
+
+.nav-main a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--house);
+  transition: width 0.25s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .nav-main a:hover,
@@ -152,21 +166,46 @@ onMounted(async () => {
   color: var(--house);
 }
 
+.nav-main a:hover::after,
+.nav-main a.router-link-active::after {
+  width: 100%;
+}
+
 @media (max-width: 900px) {
   .nav-main {
     position: absolute;
-    top: 70px;
+    top: 64px;
     left: 0;
     right: 0;
-    background: #0b0c0c;
+    background: rgb(10 11 11 / 0.98);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     display: none;
     flex-direction: column;
-    padding: 25px;
+    padding: 20px 28px;
     z-index: 10;
+    border-bottom: 1px solid var(--border);
+    gap: 0;
   }
 
   .nav-main.open {
     display: flex;
+    animation: slideDown 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+  }
+
+  .nav-main a {
+    padding: 14px 0;
+    font-size: 9px;
+    border-bottom: 1px solid rgba(56, 55, 47, 0.3);
+  }
+
+  .nav-main a:last-child {
+    border-bottom: none;
+  }
+
+  @keyframes slideDown {
+    from { opacity: 0; transform: translateY(-8px); }
+    to { opacity: 1; transform: translateY(0); }
   }
 }
 </style>
